@@ -14,7 +14,7 @@ var svgload = function () {
             controlIconsEnabled: true
         });
         gta();
-        
+
     };
     embed.addEventListener('load', lastEventListener);
     console.log("done");
@@ -22,19 +22,19 @@ var svgload = function () {
 };
 
 var svg = function () {
-   var a =  document.getElementById('gta').contentDocument;
-   return a;
+    var a = document.getElementById('gta').contentDocument;
+    return a;
 };
 
 
-window.onload = function() {
+window.onload = function () {
     svgload();
 };
 
 
 
 var gta = function () {
-   
+
     svg().getElementById('Fam_Names').style.cursor = "pointer";
     var lbl = svg().getElementById('Fam_Names');
     for (let i = 0; i < lbl.children.length; i++) {
@@ -45,27 +45,27 @@ var gta = function () {
 
         var text = event.target.getAttribute('text');
         //alert(text);
-        document.getElementById("info").innerHTML = text ;
-/*
-        if (genesNfamily[i].genes === text) {
-                document.getElementById("info").innerHTML = text + "<div id='' style='overflow-x:scroll; width:900px;'><img src='images/" + genesNfamily[i].weblogo + "' height=80px></div>";
-                var brn = svg().getElementById('BRANCHES');
-                var allgenes = [];
-                for (let i = 0; i < brn.children.length; i++) {
-                    brn.children[i].setAttribute('fill', '#cccccc');
-                    allgenes.push(brn.children[i].id);
-                }
-                var circle = svg().getElementById('CIRCLES');
-                var allcircle = [];
-                for (let i = 0; i < circle.children.length; i++) {
-                    circle.children[i].setAttribute('fill', '#CECECE');
-                    circle.children[i].setAttribute('r', '4');
-                    allcircle.push(circle.children[i].id);
+        document.getElementById("info").innerHTML = text;
+        /*
+         if (genesNfamily[i].genes === text) {
+         document.getElementById("info").innerHTML = text + "<div id='' style='overflow-x:scroll; width:900px;'><img src='images/" + genesNfamily[i].weblogo + "' height=80px></div>";
+         var brn = svg().getElementById('BRANCHES');
+         var allgenes = [];
+         for (let i = 0; i < brn.children.length; i++) {
+         brn.children[i].setAttribute('fill', '#cccccc');
+         allgenes.push(brn.children[i].id);
+         }
+         var circle = svg().getElementById('CIRCLES');
+         var allcircle = [];
+         for (let i = 0; i < circle.children.length; i++) {
+         circle.children[i].setAttribute('fill', '#CECECE');
+         circle.children[i].setAttribute('r', '4');
+         allcircle.push(circle.children[i].id);
+         
+         }
+         }
+         */
 
-                }
-            }
-*/
-        
 
 
     };
