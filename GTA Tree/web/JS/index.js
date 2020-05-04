@@ -45,7 +45,10 @@ var gta = function () {
 
         var text = event.target.getAttribute('text');
         //alert(text);
-        document.getElementById("info").innerHTML = text;
+//        document.getElementById("info").innerHTML = text;
+        //document.getElementById("info").innerHTML = text+"<img src='./weblogos/"+text+".short.fa.png'/>";
+        document.getElementById("weblogo").innerHTML = text + "<div id='' style='overflow-x:scroll; width:900px;'><img src='weblogos/" +text+ ".short.fa.png' height=80px></div>";
+
         /*
          if (genesNfamily[i].genes === text) {
          document.getElementById("info").innerHTML = text + "<div id='' style='overflow-x:scroll; width:900px;'><img src='images/" + genesNfamily[i].weblogo + "' height=80px></div>";
