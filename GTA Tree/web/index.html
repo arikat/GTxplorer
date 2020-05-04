@@ -14,27 +14,7 @@ and open the template in the editor.
         <script src="JS/svg-pan-zoom.min.js"></script>
         <script src="JS/index.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
-        <style>
-            .card-columns {
-                counter-reset: cards;
-                .card {
-                    position: relative;
-                    counter-increment: cards;
-
-                    &:before {
-                        counter: cards;
-                        content: counter(cards);
-                        display: inline-block;
-                        padding: 5px 10px;
-                        background-color: #a20000;
-                        color: #fff;
-                        position: absolute;
-                        top: 0;
-                        right: 0;
-                    }
-                }
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="Style/styles.css" />
     </head>
     <body>
         <table>
@@ -48,26 +28,19 @@ and open the template in the editor.
                     <div id="weblogo">Informations</div> 
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <section class="mb-4">
-                        <div class="container">
-                            <div class="card-columns">
-                                <div class="card">
-                                    <img class="card-img-top" src="img.jpg" alt="Card image cap" height="100px">
-                                    <div class="card-body">
-                                        <p class="card-text">example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="#" class="card-link">Link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </td>
-            </tr>
+            
+<!-- 
+border-primary blue
+border-secondary 
+border-success green
+border-danger red
+border-warning orange
+border-info skyblue
+border-light lightgray
+border-dark black
+border-white white
+-->
+
         </table>
     </body>
 </html>
