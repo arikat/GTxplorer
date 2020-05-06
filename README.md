@@ -45,23 +45,28 @@ An example of how these information can be shown in the cards is provided in an 
 
 Json file has the following hierarchy:
 
-|-GT-Family<br>
-| |-Description<br>
-|		Note - This will be printed below the description section.<br>
-|		Mechanism - This will be a subsection within the Description section.<br>
-| |-Subfamilies<br>
-|		Each subfamily will be listed. Links to download the nr and uniprot domain sequence, full sequence and table files need to be provided alongside these files.<br>
-|		Total of 6 files available for download for each subfamily.<br>
-| |-Domain Organization<br>
-|		This information needs to be show in some form of graphical format. Refer to card.png for a tentative idea.<br>
-| |-Taxonomy<br>
-|		Information in this section needs to be shown as a table. card.png for a proposed visualization.<br>
-| |-Family Alignment<br>
-|		This will be a scrollable wide image file with weblogo.<br>
-| |-Downloads<br>
-		This section lists all the files available for download fo rhte family. The download links can be made available at different parts of the card.<br>
-		The extended domain annotation file can be downloaded from teh "Domain Organization" section.<br>
-		Other 6 files (nr and uniprot domain seq, full seq and tables) can be downloaded from some other part of the card. (Either the end or next to the title)<br>
+> GT-Family
+>> Description
+>>> Note - This will be printed below the description section.
+>>> Mechanism - This will be a subsection within the Description section.
+
+>> Subfamilies
+>>> Each subfamily will be listed. Links to download the nr and uniprot domain sequence, full sequence and table files need to be provided alongside these files.
+>>> Total of 6 files available for download for each subfamily.
+
+>> Domain Organization
+>>>This information needs to be show in some form of graphical format. Refer to card.png for a tentative idea.
+
+>> Taxonomy
+>>> Information in this section needs to be shown as a table. card.png for a proposed visualization.
+
+>> Family Alignment
+>>> This will be a scrollable wide image file with weblogo.
+
+>> Downloads
+>>> This section lists all the files available for download for the family. The download links can be made available at different parts of the card.
+>>> The extended domain annotation file can be downloaded from the "Domain Organization" section.
+>>> Other 6 files (nr and uniprot domain seq, full seq and tables) can be downloaded from some other part of the card. (Either the end or next to the title)
 
 #### Description/
 Includes description for each GTA family.
