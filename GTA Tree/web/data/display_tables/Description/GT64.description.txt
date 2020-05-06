@@ -1,0 +1,2 @@
+Note	heparan α-N-acetylhexosaminyltransferases
+Mechanism	Retaining

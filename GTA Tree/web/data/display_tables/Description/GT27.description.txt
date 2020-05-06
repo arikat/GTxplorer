@@ -1,0 +1,2 @@
+Note	polypeptide α-N-acetylgalactosaminyltransferases (ppGalNAcTs)
+Mechanism	Retaining

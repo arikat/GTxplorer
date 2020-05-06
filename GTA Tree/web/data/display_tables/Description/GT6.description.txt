@@ -1,0 +1,2 @@
+Note	Alpha 3 Galactosyltransferases (A3GALTs), GBGT1 GalNAc transferases, Blood ABO transferases and GLT6D1 related sequences
+Mechanism	Retaining
