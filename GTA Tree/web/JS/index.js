@@ -24,6 +24,7 @@ var svg = function () {
     var a = document.getElementById('gta').contentDocument;
     return a;
 };
+var tData = JSON.parse(data);//refers to data.json
 
 window.onload = function () {
     svgload();

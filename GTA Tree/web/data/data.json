@@ -1,33 +1,305 @@
-{
-  "family": "GT64",
-  "description": "heparan α-N-acetylhexosaminyltransferases",
+[{
+  "familyName": "GT6",
+  "description": "α-3-Galactosyltransferases (A3GALTs), GBGT1 GalNAc transferases, Blood ABO transferases and GLT6D1 related sequences",
   "mechanism": "Retaining",
-  "subfamilies": ["GT64-EXTLs","GT64-EXTs","GT64-Mix"],
+  "subfamilies": [
+        {
+            "name": "GT6-A3GALT",
+            "downloads":[
+                        {
+                            "name": "FastaGTADomain",
+                            "nr": "data/downloadables/Fasta/GT6-A3GALT_nr.fasta",
+                            "uniprot":"data/downloadables/Fasta/GT6-A3GALT_uniprot.fasta"
+                        },{
+                            "name": "FastaFullSequence",
+                            "nr": "data/downloadables/FastaFull/GT6-A3GALT_nr.full.fasta",
+                            "uniprot":"data/downloadables/FastaFull/GT6-A3GALT_uniprot.full.fasta"
+                        },{
+                            "name": "Tables",
+                            "nr": "data/downloadables/Tables/GT6-A3GALT_nr.tsv",
+                            "uniprot":"data/downloadables/Tables/GT6-A3GALT_uniprot.tsv"
+                        }
+                    ] 
+            
+        },{
+            "name": "GT6-ABO",
+            "downloads":[
+                        {
+                            "name": "FastaGTADomain",
+                            "nr": "data/downloadables/Fasta/GT6-ABO_nr.fasta",
+                            "uniprot":"data/downloadables/Fasta/GT6-ABO_uniprot.fasta"
+                        },{
+                            "name": "FastaFullSequence",
+                            "nr": "data/downloadables/FastaFull/GT6-ABO_nr.full.fasta",
+                            "uniprot":"data/downloadables/FastaFull/GT6-ABO_uniprot.full.fasta"
+                        },{
+                            "name": "Tables",
+                            "nr": "data/downloadables/Tables/GT6-ABO_nr.tsv",
+                            "uniprot":"data/downloadables/Tables/GT6-ABO_uniprot.tsv"
+                        }
+                    ] 
+        },{
+            "name": "GT6-GLT6D1",
+            "downloads":[
+                        {
+                            "name": "FastaGTADomain",
+                            "nr": "data/downloadables/Fasta/GT6-GLT6D1_nr.fasta",
+                            "uniprot":"data/downloadables/Fasta/GT6-GLT6D1_uniprot.fasta"
+                        },{
+                            "name": "FastaFullSequence",
+                            "nr": "data/downloadables/FastaFull/GT6-GLT6D1_nr.full.fasta",
+                            "uniprot":"data/downloadables/FastaFull/GT6-GLT6D1_uniprot.full.fasta"
+                        },{
+                            "name": "Tables",
+                            "nr": "data/downloadables/Tables/GT6-GLT6D1_nr.tsv",
+                            "uniprot":"data/downloadables/Tables/GT6-GLT6D1_uniprot.tsv"
+                        }
+                    ] 
+        },{
+            "name": "GT6-Mix",
+            "downloads":[
+                        {
+                            "name": "FastaGTADomain",
+                            "nr": "data/downloadables/Fasta/GT6-Mix_nr.fasta",
+                            "uniprot":"data/downloadables/Fasta/GT6-Mix_uniprot.fasta"
+                        },{
+                            "name": "FastaFullSequence",
+                            "nr": "data/downloadables/FastaFull/GT6-Mix_nr.full.fasta",
+                            "uniprot":"data/downloadables/FastaFull/GT6-Mix_uniprot.full.fasta"
+                        },{
+                            "name": "Tables",
+                            "nr": "data/downloadables/Tables/GT6-Mix_nr.tsv",
+                            "uniprot":"data/downloadables/Tables/GT6-Mix_uniprot.tsv"
+                        }
+                    ] 
+        }
+    ],
   
   "domainOrganization": [{
-    "domain": "GT-A",
-    "percent": 0.214,
-    "number": 261
+    "domains": ["GT-A"],
+    "percent": 68.4,
+    "count": 296
     },{
-    "domain": "Exotosin|GT-A",
-    "percent": 0.185,
-    "number": 225
+    "domains": ["TMhelix","GT-A"],
+    "percent": 29.6,
+    "count": 128
+  }],
+  "taxonomicDistribution": [
+    {
+      "subfamilyName": "GT6-A3GALT",
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 0,
+      "Metazoa": 703,
+      "Protista": 0,
+      "Unknown": 1,
+      "Viridiplantae": 0,
+      "viruses": 0
+    },{
+      "subfamilyName": "GT6-ABO",
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 0,
+      "Metazoa": 835,
+      "Protista": 0,
+      "Unknown": 4,
+      "Viridiplantae": 0,
+      "viruses": 0
+    },{
+      "subfamilyName": "GT6-GLT6D1",
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 0,
+      "Metazoa": 224,
+      "Protista": 0,
+      "Unknown": 2,
+      "Viridiplantae": 0,
+      "viruses": 0
+    },{
+      "subfamilyName": "GT6-Mix",
+      "Archaea": 1,
+      "Bacteria": 211,
+      "Fungi": 3,
+      "Metazoa": 1,
+      "Protista": 834,
+      "Unknown": 2,
+      "Viridiplantae": 2,
+      "viruses": 10
+    }
+  ],
+  "familyAlignment": "data/display_images/weblogoDomain/GT6.png",
+  "domainInformation": "data/downloadables//DomainExtended/GT6.domainExtended.txt",  
+  "downloads": [
+        {
+            "name": "FastaGTADomain",
+            "nr": "data/downloadables/Fasta/GT6_nr.fasta",
+            "uniprot":"data/downloadables/Fasta/GT6_uniprot.fasta"
+        },{
+            "name": "FastaFullSequence",
+            "nr": "data/downloadables/FastaFull/GT6_nr.full.fasta",
+            "uniprot":"data/downloadables/FastaFull/GT6_uniprot.full.fasta"
+        },{
+            "name": "Tables",
+            "nr": "data/downloadables/Tables/GT6_nr.tsv",
+            "uniprot":"data/downloadables/Tables/GT6_uniprot.tsv"
+        }
+    ] 
+},{
+  "familyName": "GT27",
+  "description": "polypeptide α-N-acetylgalactosaminyltransferases (ppGalNAcTs)",
+  "mechanism": "Retaining",
+  "subfamilies": [
+        {
+            "name": "GT27-1",
+            "downloads":[
+                        {
+                            "name": "FastaGTADomain",
+                            "nr": "data/downloadables/Fasta/GT27-1_nr.fasta",
+                            "uniprot":"data/downloadables/Fasta/GT27-1_uniprot.fasta"
+                        },{
+                            "name": "FastaFullSequence",
+                            "nr": "data/downloadables/FastaFull/GT27-1_nr.full.fasta",
+                            "uniprot":"data/downloadables/FastaFull/GT27-1_uniprot.full.fasta"
+                        },{
+                            "name": "Tables",
+                            "nr": "data/downloadables/Tables/GT27-1_nr.tsv",
+                            "uniprot":"data/downloadables/Tables/GT27-1_uniprot.tsv"
+                        }
+                    ] 
+        }
+    ],
+  
+  "domainOrganization": [{
+    "domains": ["TMhelix","GT-A","Lectin"],
+    "percent": 39.5,
+    "count": 1260
+    },{
+    "domains": ["GT-A","Lectin"],
+    "percent": 37.2,
+    "count": 1186
   },{
-    "domain": "TMhelix|Exotosin|GT-A",
-    "percent": 0.182,
-    "number": 222
+    "domains": ["GT-A"],
+    "percent": 11.4,
+    "count": 365
   },{
-    "domain": "TMhelix|GT-A",
-    "percent": 0.159,
-    "number": 194
+    "domains": ["TMhelix","GT-A"],
+    "percent": 3.4,
+    "count": 107
+  }],
+  "taxonomicDistribution": [
+    {
+      "subfamilyName": "GT27-1",
+      "Archaea": 2,
+      "Bacteria": 186,
+      "Fungi": 0,
+      "Metazoa": 10618,
+      "Protista": 193,
+      "Unknown": 47,
+      "Viridiplantae": 1,
+      "viruses": 0
+    }
+  ],
+  "familyAlignment": "data/display_images/weblogoDomain/GT27.png",
+  "domainInformation": "data/downloadables//DomainExtended/GT27.domainExtended.txt",  
+  "downloads": [
+        {
+            "name": "FastaGTADomain",
+            "nr": "data/downloadables/Fasta/GT27_nr.fasta",
+            "uniprot":"data/downloadables/Fasta/GT27_uniprot.fasta"
+        },{
+            "name": "FastaFullSequence",
+            "nr": "data/downloadables/FastaFull/GT27_nr.full.fasta",
+            "uniprot":"data/downloadables/FastaFull/GT27_uniprot.full.fasta"
+        },{
+            "name": "Tables",
+            "nr": "data/downloadables/Tables/GT27_nr.tsv",
+            "uniprot":"data/downloadables/Tables/GT27_uniprot.tsv"
+        }
+    ] 
+},{
+  "familyName": "GT64",
+  "description": "heparan α-N-acetylhexosaminyltransferases",
+  "mechanism": "Retaining",
+  "subfamilies": [
+        {
+            "name": "GT64-EXTLs",
+            "downloads":[
+                        {
+                            "name": "FastaGTADomain",
+                            "nr": "data/downloadables/Fasta/GT64-EXTs_nr.fasta",
+                            "uniprot":"data/downloadables/Fasta/GT64-EXTs_uniprot.fasta"
+                        },{
+                            "name": "FastaFullSequence",
+                            "nr": "data/downloadables/FastaFull/GT64-EXTs_nr.full.fasta",
+                            "uniprot":"data/downloadables/FastaFull/GT64-EXTs_uniprot.full.fasta"
+                        },{
+                            "name": "Tables",
+                            "nr": "data/downloadables/Tables/GT64-EXTs_nr.tsv",
+                            "uniprot":"data/downloadables/Tables/GT64-EXTs_uniprot.tsv"
+                        }
+                    ] 
+            
+        },{
+            "name": "GT64-EXTs",
+            "downloads":[
+                        {
+                            "name": "FastaGTADomain",
+                            "nr": "data/downloadables/Fasta/GT64-EXTs_nr.fasta",
+                            "uniprot":"data/downloadables/Fasta/GT64-EXTs_uniprot.fasta"
+                        },{
+                            "name": "FastaFullSequence",
+                            "nr": "data/downloadables/FastaFull/GT64-EXTs_nr.full.fasta",
+                            "uniprot":"data/downloadables/FastaFull/GT64-EXTs_uniprot.full.fasta"
+                        },{
+                            "name": "Tables",
+                            "nr": "data/downloadables/Tables/GT64-EXTs_nr.tsv",
+                            "uniprot":"data/downloadables/Tables/GT64-EXTs_uniprot.tsv"
+                        }
+                    ] 
+        },{
+            "name": "GT64-Mix",
+            "downloads":[
+                        {
+                            "name": "FastaGTADomain",
+                            "nr": "data/downloadables/Fasta/GT64-Mix_nr.fasta",
+                            "uniprot":"data/downloadables/Fasta/GT64-Mix_uniprot.fasta"
+                        },{
+                            "name": "FastaFullSequence",
+                            "nr": "data/downloadables/FastaFull/GT64-Mix_nr.full.fasta",
+                            "uniprot":"data/downloadables/FastaFull/GT64-Mix_uniprot.full.fasta"
+                        },{
+                            "name": "Tables",
+                            "nr": "data/downloadables/Tables/GT64-Mix_nr.tsv",
+                            "uniprot":"data/downloadables/Tables/GT64-Mix_uniprot.tsv"
+                        }
+                    ] 
+        }
+    ],
+  
+  "domainOrganization": [{
+    "domains": ["GT-A"],
+    "percent": 21.4,
+    "count": 261
+    },{
+    "domains": ["Exotosin","GT-A"],
+    "percent": 18.5,
+    "count": 225
   },{
-    "domain": "TMhelix|GH43_62_32_68_117_130|TMhelix|GT-A",
-    "percent": 0.053,
-    "number": 64
+    "domains": ["TMhelix","Exotosin","GT-A"],
+    "percent": 18.2,
+    "count": 222
   },{
-    "domain": "TMhelix|TPR_MLP1_2|Exotosin|GT-A",
-    "percent": 0.048,
-    "number": 58
+    "domains": ["TMhelix","GT-A"],
+    "percent": 15.9,
+    "count": 194
+  },{
+    "domains": ["TMhelix","GH43_62_32_68_117_130","TMhelix","GT-A"],
+    "percent": 5.3,
+    "count": 64
+  },{
+    "domains": ["TMhelix","TPR_MLP1_2","Exotosin","GT-A"],
+    "percent": 4.8,
+    "count": 58
   }],
   "taxonomicDistribution": [
     {
@@ -61,5 +333,24 @@
       "Viridiplantae": 575,
       "viruses": 0
     }
-  ]
+  ],
+  "familyAlignment": "data/display_images/weblogoDomain/GT64.png",
+  "domainInformation": "data/downloadables//DomainExtended/GT64.domainExtended.txt",  
+  "downloads": [
+        {
+            "name": "FastaGTADomain",
+            "nr": "data/downloadables/Fasta/GT64_nr.fasta",
+            "uniprot":"data/downloadables/Fasta/GT64_uniprot.fasta"
+        },{
+            "name": "FastaFullSequence",
+            "nr": "data/downloadables/FastaFull/GT64_nr.full.fasta",
+            "uniprot":"data/downloadables/FastaFull/GT64_uniprot.full.fasta"
+        },{
+            "name": "Tables",
+            "nr": "data/downloadables/Tables/GT64_nr.tsv",
+            "uniprot":"data/downloadables/Tables/GT64_uniprot.tsv"
+        }
+    ] 
 }
+
+]
