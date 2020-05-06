@@ -1,0 +1,65 @@
+{
+  "family": "GT64",
+  "description": "heparan α-N-acetylhexosaminyltransferases",
+  "mechanism": "Retaining",
+  "subfamilies": ["GT64-EXTLs","GT64-EXTs","GT64-Mix"],
+  
+  "domainOrganization": [{
+    "domain": "GT-A",
+    "percent": 0.214,
+    "number": 261
+    },{
+    "domain": "Exotosin|GT-A",
+    "percent": 0.185,
+    "number": 225
+  },{
+    "domain": "TMhelix|Exotosin|GT-A",
+    "percent": 0.182,
+    "number": 222
+  },{
+    "domain": "TMhelix|GT-A",
+    "percent": 0.159,
+    "number": 194
+  },{
+    "domain": "TMhelix|GH43_62_32_68_117_130|TMhelix|GT-A",
+    "percent": 0.053,
+    "number": 64
+  },{
+    "domain": "TMhelix|TPR_MLP1_2|Exotosin|GT-A",
+    "percent": 0.048,
+    "number": 58
+  }],
+  "taxonomicDistribution": [
+    {
+      "subfamilyName": "GT64-EXTLs",
+      "Archaea": 0,
+      "Bacteria": 2,
+      "Fungi": 239,
+      "Metazoa": 1042,
+      "Protista": 50,
+      "Unknown": 7,
+      "Viridiplantae": 162,
+      "viruses": 0
+    },{
+      "subfamilyName": "GT64-EXTs",
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 0,
+      "Metazoa": 1623,
+      "Protista": 0,
+      "Unknown": 14,
+      "Viridiplantae": 0,
+      "viruses": 0
+    },{
+      "subfamilyName": "GT64-Mix",
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 3,
+      "Metazoa": 1,
+      "Protista": 20,
+      "Unknown": 0,
+      "Viridiplantae": 575,
+      "viruses": 0
+    }
+  ]
+}
