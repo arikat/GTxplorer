@@ -5,7 +5,8 @@ var svgload = function () {
     embed.setAttribute('width', '900px');
     embed.setAttribute('height', '675px');
     embed.setAttribute('type', 'image/svg+xml');
-    embed.setAttribute('data', 'SVG/gta_tree.svg');
+//    embed.setAttribute('data', 'SVG/gta_tree.svg');
+    embed.setAttribute('data', 'SVG/gta_tree_v2_edited.svg');
     document.getElementById('container').appendChild(embed);
     lastEventListener = function () {
         svgPanZoom(embed, {
