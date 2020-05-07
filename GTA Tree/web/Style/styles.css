@@ -63,3 +63,47 @@
 
 .modal-dialog{marging:0}
 
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.center{
+    
+  text-align:center;
+  padding: 1px;
+
+}
+.left {
+  text-align: left;
+  padding: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+
+/* The scrollable part */
+
+.scrollable {
+  max-height: 100px;
+  overflow-y: auto;
+  display:block;
+  /*border-bottom: 1px solid #ddd;*/
+}
+
+th {
+  position: sticky;
+  background-color: white;
+  z-index: 2;
+  top: 0;
+}
+
+.scrollableDiv {
+  height: 437px;
+  overflow-y: hidden;//scroll//auto 
+  display:block;
+}
