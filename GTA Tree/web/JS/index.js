@@ -54,11 +54,13 @@ var gta = function () {
                 msg="failed"
             }
         });
-        var subfamily="";
+        var subfamily="<p class='card-text' style='font-size: 10px; color: #000;padding-left: 20px;'>";
+                                                                    
         $.each(jsondata[index].subfamilies, function(i, val) {          
             subfamily+=val.name+", ";
         });
         subfamily = subfamily.substring(0,subfamily.length-2);
+        subfamily+="</p>";
         
         var domainOrganization="<table class='scrollable'>"
                                     +"<tr style='font-size: 10px;'>"
@@ -113,22 +115,22 @@ var gta = function () {
                                                                 +"<div class='card-header bg-background content-cente' style='height:50px;'>"
                                                                     +"<h4 class='card-title'><b>"+jsondata[index].familyName+"</b></h4>"
                                                                 +"</div>"
-                                                                +"<div class='card-body scrollableDiv'>"
+                                                                +"<div class='card-body scrollableDiv' style='padding-top: 10px;'>"
                                                                     +"<h6 class='card-subtitle mb-2 text-dark'>Description: </h6>"
-                                                                    +"<p class='card-text' style='font-size: 10px; color: #000;'>"+jsondata[index].description+"</p>"
-                                                                    +"<p class='card-subtitle mb-2 text-dark' style='font-size: 10px; color: #000;'>Mechanism: "+jsondata[index].mechanism+"</p>"    
-                                                                    +"<hr>"                                                    
-                                                                    +"<h6 class='card-subtitle mb-2 text-dark'>Subfamilies </h6>"
-                                                                    +"<p class='card-text' style='font-size: 12px; color: #000;'>"+subfamily+"</p"
-                                                                    +"<hr>"                                                    
-                                                                    +"<h6 class='card-subtitle mb-2 text-dark'>Domain Organization </h6>"
+                                                                    +"<p class='card-text' style='font-size: 10px; color: #000;padding-left: 20px;'>"+jsondata[index].description+"</p>"
+                                                                    +"<p class='card-subtitle mb-2 text-dark' style='font-size: 10px; color: #000; padding-left: 20px;'>Mechanism: "+jsondata[index].mechanism+"</p>"    
+                                                                    +"</br>"                                                  
+                                                                    +"<h6 class='card-subtitle mb-2 text-dark' '>Subfamilies </h6>"
+                                                                    +"<p class='card-text' style='font-size: 12px; color: #000; padding-left: 20px;'>"+subfamily+"</p"
+                                                                    +"</br>"                                                    
+                                                                    +"<h6 class='card-subtitle mb-2 text-dark'  >Domain Organization </h6>"
                                                                     +domainOrganization
-                                                                    +"<br>"                                                    
+                                                                    +"</br>"                                                    
                                                                     +"<h6 class='card-subtitle mb-2 text-dark'>Taxonomic Distribution </h6>"
                                                                     +taxonomicDistribution
-                                                                     
-                                                                +"</div>"                                         
-                                                                    +"<h6 class='card-subtitle mb-2 text-dark' style='padding-left: 20px;'>Family Alignment: </h6>"
+                                                                +"</div>"     
+                                                                
+                                                                +"<h6 class='card-subtitle mb-2 text-dark' style='padding-left: 20px;'>Family Alignment</h6>"
                                                                 +"<div class='card-img-top' id='' style='overflow-x:scroll; width:397px;'><img src='"+jsondata[index].familyAlignment+"' height=80px></div>"
                                                                 +"<div class='card-footer bg-light border-info'>"
                                                                     +"<a href='#' class='card-link'>Link</a>"
