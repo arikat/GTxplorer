@@ -104,6 +104,6 @@ th {
 
 .scrollableDiv {
   height: 437px;
-  overflow-y: hidden;//scroll//auto 
+  overflow-y: hidden;/*scroll//auto */
   display:block;
 }

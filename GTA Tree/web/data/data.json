@@ -128,7 +128,7 @@
     }
   ],
   "familyAlignment": "data/display_images/weblogoDomain/GT6.png",
-  "domainInformation": "data/downloadables//DomainExtended/GT6.domainExtended.txt",  
+  "domainInformation": "data/downloadables//DomainExtended/GT6.domainsExtended.txt",  
   "downloads": [
         {
             "name": "FastaGTADomain",
@@ -200,7 +200,7 @@
     }
   ],
   "familyAlignment": "data/display_images/weblogoDomain/GT27.png",
-  "domainInformation": "data/downloadables//DomainExtended/GT27.domainExtended.txt",  
+  "domainInformation": "data/downloadables//DomainExtended/GT27.domainsExtended.txt",  
   "downloads": [
         {
             "name": "FastaGTADomain",
@@ -335,7 +335,7 @@
     }
   ],
   "familyAlignment": "data/display_images/weblogoDomain/GT64.png",
-  "domainInformation": "data/downloadables//DomainExtended/GT64.domainExtended.txt",  
+  "domainInformation": "data/downloadables//DomainExtended/GT64.domainsExtended.txt",  
   "downloads": [
         {
             "name": "FastaGTADomain",
