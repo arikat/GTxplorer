@@ -2,7 +2,7 @@
 This project includes the gtXplorer web database files.
 
 ---
-![Test Image](https://raw.githubusercontent.com/amitabhpriyadarshi/GTA-Tree/master/GTA-Tree/Screen.png)
+![Test Image](https://github.com/amitabhpriyadarshi/GTA-Tree/blob/master/GTA%20Tree/Screen.png)
 ---
 
 ## Description of files in the data directory:
