@@ -73,12 +73,12 @@
 .center{
     
   text-align:center;
-  padding: 1px;
+  padding: 0px;
 
 }
 .left {
   text-align: left;
-  padding: 1px;
+  padding: 0px;
 }
 
 tr:nth-child(even) {
@@ -89,7 +89,7 @@ tr:nth-child(even) {
 /* The scrollable part */
 
 .scrollable {
-  max-height: 100px;
+  max-height: 110px;
   overflow-y: auto;
   display:block;
   /*border-bottom: 1px solid #ddd;*/
@@ -103,7 +103,7 @@ th {
 }
 
 .scrollableDiv {
-  height: 437px;
-  overflow-y: hidden;/*scroll//auto */
+  height: 463px;
+  overflow-y: auto;/*hidden;/*scroll//auto */
   display:block;
 }
