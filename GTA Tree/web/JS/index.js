@@ -5,7 +5,6 @@ var svgload = function () {
     embed.setAttribute('width', '900px');
     embed.setAttribute('height', '675px');
     embed.setAttribute('type', 'image/svg+xml');
-//    embed.setAttribute('data', 'SVG/gta_tree.svg');
     embed.setAttribute('data', 'SVG/gta_tree_v2_edited.svg');
     document.getElementById('container').appendChild(embed);
     lastEventListener = function () {
@@ -27,8 +26,6 @@ var svg = function () {
 
 window.onload = function () {
     svgload();
-    
-
 };
 
 var gta = function () {
@@ -43,19 +40,24 @@ var gta = function () {
                       jsondata = data;
          });
     lbl.onclick = function (event) {
-        var text = event.target.getAttribute('text');
+        var gta_name = event.target.getAttribute('text');
+        card(gta_name, jsondata);
+    };
+};
+
+var card = function(GTAname, jsondata){
         var index=0;
         var msg="";
-        
         $.each(jsondata, function(i, val) {
-            if(val.familyName === text){
+            if(val.familyName === GTAname){
                 index=i;
                 msg="success";
+                return false;
             }else{
-                msg="failed"
+                msg="failed";
             }
         });
-
+        if(msg === "success"){
         var subfamily="<table class='scrollable'>"
                                 +"<tr style='font-size: 10px;'>"
                                     +"<th>Subfamily</th>"
@@ -84,7 +86,7 @@ var gta = function () {
                                     +"<td class='left'>"+val.domains+"</td>"
                                     +"<td class='center' style='color: #c00;'>"+val.percent+"</td>"
                                     +"<td class='center'>"+val.count+"</td>"
-                            +"</tr>";
+                                +"</tr>";
         });
         domainOrganization+="</table class='table'>"
 
@@ -131,7 +133,7 @@ var gta = function () {
                                                                 +"<div class='card-header bg-background content-cente' style='height:50px;'>"
                                                                     +"<h4 class='card-title'><i class='fas fa-dna'></i> <b>"+jsondata[index].familyName+"</b><div class='tooltip'>Hover over me<span class='tooltiptext'>Tooltip text</span></div> </h4>"
                                                                 +"</div>"
-                                                                +"<div class='card-body scrollableDiv' style='padding-top: 10px;margin-left: -10px;margin-right: -10px;max-height: 463px; min-height: 463px;'>"
+                                                                +"<div class='card-body scrollableDiv' style='padding-top: 10px;margin-left: -10px;margin-right: -10px;max-height: 460px; min-height: 460px;'>"
                                                                     +"<h6 class='card-subtitle mb-2 text-dark'>Description: </h6>"
                                                                     +"<p class='card-text' style='font-size: 10px; color: #000;margin-top: -10px;padding-left: 10px;'>"+jsondata[index].description+"</br><b>Mechanism: </b>"+jsondata[index].mechanism+"</p>"    
                                                                     +"<h6 class='card-subtitle mb-2 text-dark'>Subfamilies </h6>"
@@ -158,5 +160,11 @@ var gta = function () {
         span.onclick = function() {
             modal.style.display = "none";
         }
-    };
+    }
+    else{
+        alert("⚠ Data Unavailable!");
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+        
+    }
 };
