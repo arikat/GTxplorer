@@ -162,7 +162,7 @@ var card = function(GTAname, jsondata){
         }
     }
     else{
-        alert("⚠ Data Unavailable!");
+        alert("⚠ Data for "+GTAname+" is Unavailable in Database!");
         var modal = document.getElementById("myModal");
         modal.style.display = "none";
         
