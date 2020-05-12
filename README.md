@@ -4,7 +4,8 @@ This project includes the gtXplorer web database files.
 ---
 ![Test Image](https://github.com/amitabhpriyadarshi/GTA-Tree/blob/master/GTA%20Tree/Screen2.png)
 ---
-
+![Test Image](https://github.com/amitabhpriyadarshi/GTA-Tree/blob/master/GTA%20Tree/demo.gif)
+---
 ## Description of files in the data directory:
 
 A new version of the GTA tree is in <b>gta_tree_v2.svg</b>.
