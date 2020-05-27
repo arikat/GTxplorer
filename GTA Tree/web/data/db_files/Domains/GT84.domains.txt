@@ -1,0 +1,2 @@
+1267	0.845	TMhelix|GT-A|TMhelix
+46	0.031	TMhelix|GT-A|TMhelix|Glycoamylase|GH|Phosphorylase

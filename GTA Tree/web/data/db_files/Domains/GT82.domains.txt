@@ -1,0 +1,3 @@
+22	0.917	CgtA
+1	0.042	CgtA|TMhelix
+1	0.042	CgtA|GT-A

@@ -1,0 +1,6 @@
+2984	0.308	TMhelix|GT-A|TMhelix
+1612	0.166	TMhelix|GT-A|GT-A|TMhelix
+1212	0.125	GT-A|TMhelix
+864	0.089	GT-A
+302	0.031	TMhelix|GT|TMhelix
+239	0.025	GT-A|GT-A|TMhelix

@@ -6,7 +6,75 @@ This project includes the gtXplorer web database files.
 ---
 ![Test Image](https://github.com/amitabhpriyadarshi/GTA-Tree/blob/master/GTA%20Tree/demo.gif)
 ---
+------
+
 ## Description of files in the data directory:
+
+All the complete data for gtXplorer is in the **db_files** folder.
+
+The **db_files** folder is organized into the following
+
+#### 3 json files:
+
+1. ***GTA_Clade.json***
+
+   Includes details to display in the cards for the 9 major clades.
+
+2. ***GTA_Fam.json***
+
+   Includes details to display for the 53 major GTA families (in the labels of the GTA tree)
+
+3. ***GTA_SubFam.json***
+
+   Incudes details for the GTA subfamilies.
+
+#### Directories with downloadable data:
+
+1. ***Fasta***/
+
+   Includes individual files per GTA clade, family and subfamily with all the GTA domain sequences for that level.
+
+2. ***FastaFull***/
+
+   Includes individual files per GTA clade, family and subfamily with all the GTA full length sequences for that level.
+
+3. ***Tables***/
+
+   Contains tab delimited files with extensive information for all GTA sequences in a given level (clade,family or subfamily).
+
+#### Other directories with relevant data for gtXplorer:
+
+1. ***Domains***/
+
+   For each of the 53 GTA families, this directory contains tables with the domain organization information (one shortened easily readable version and an extended version with more detailed information).
+
+2. ***Tax***/
+
+   This directory includes files with taxonomic distribution information for all GTA clades, families and subfamilies.
+
+3. ***WeblogoDomain***/
+
+   Includes png images of the weblogs for the alignments of sequences from GTA clades, families and subfamilies.
+
+#### Other files:
+
+1. ***Hierarchy.tsv***
+
+   Tab delimited file defining the entire hierarchy of the GTA fold.
+
+2. ***GTA_Tree.csv***
+
+   A csv file for the generation of KinView style viewer.
+
+   
+
+------
+
+
+
+------
+
+## The following information is only for the test data.
 
 A new version of the GTA tree is in <b>gta_tree_v2.svg</b>.
 Currently, data folder includes information for 3 families: <b>GT27, GT64, GT6</b>
@@ -58,13 +126,16 @@ Json file has the following hierarchy:
 >>> Total of 6 files available for download for each subfamily.
 
 >> Domain Organization
->>>This information needs to be show in some form of graphical format. Refer to card.png for a tentative idea.
+>>
+>> >This information needs to be show in some form of graphical format. Refer to card.png for a tentative idea.
 
 >> Taxonomy
->>> Information in this section needs to be shown as a table. card.png for a proposed visualization.
+>>
+>> > Information in this section needs to be shown as a table. card.png for a proposed visualization.
 
 >> Family Alignment
->>> This will be a scrollable wide image file with weblogo.
+>>
+>> > This will be a scrollable wide image file with weblogo.
 
 >> Downloads
 >>> This section lists all the files available for download for the family. The download links can be made available at different parts of the card.

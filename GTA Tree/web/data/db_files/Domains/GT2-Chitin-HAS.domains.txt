@@ -1,0 +1,8 @@
+1394	0.261	TMhelix|GT-A|TMhelix
+844	0.158	Chitin_Synthase|GT-A|GT-A|TMhelix
+427	0.080	TMhelix|GT-A|GT-A|TMhelix
+357	0.067	GT-A|TMhelix
+254	0.048	Motor_Domain|TMhelix|Heme/Steroid_Binding|TMhelix|GT-A|TMhelix|DEK_C
+198	0.037	Motor_domain|TMhelix|Heme/Steroid_Binding|TMhelix|GT-A|TMhelix|DEK_C
+179	0.033	TMhelix|GT|TMhelix
+165	0.031	GT-A

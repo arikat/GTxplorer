@@ -1,0 +1,6 @@
+147	0.512	TMhelix|GT-A|TMhelix
+46	0.160	TMhelix|GT-A|GT-A|TMhelix
+16	0.056	GT-A|TMhelix
+14	0.049	TMhelix|Acyltransferase|TMhelix|GT-A|TMhelix
+11	0.038	TMhelix|GT|TMhelix
+8	0.028	TMhelix|GT-A

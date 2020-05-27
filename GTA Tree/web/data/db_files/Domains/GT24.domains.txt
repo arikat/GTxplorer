@@ -1,0 +1,3 @@
+772	0.898	GT-A|GT-A
+29	0.034	GT-A
+27	0.031	TMhelix|GT-A|GT-A

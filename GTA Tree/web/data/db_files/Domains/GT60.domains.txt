@@ -1,0 +1,4 @@
+134	0.451	GT
+57	0.192	TMhelix|GT
+54	0.182	GT|TMhelix
+17	0.057	Oxygenase|GT

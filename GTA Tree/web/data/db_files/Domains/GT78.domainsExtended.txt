@@ -1,0 +1,3 @@
+tr|A0A1Q9BZJ2|A0A1Q9BZJ2_SYMMI	TMhelix|TMhelix|TMhelix|TMhelix|MFS_1|TMhelix|TMhelix|TMhelix|GT-A	TMhelix(91-113)|TMhelix(128-150)|TMhelix(162-184)|TMhelix(204-226)|MFS_1(60-393)|TMhelix(284-306)|TMhelix(321-340)|TMhelix(352-374)|Glyco_tranf_GTA_type(481-664)
+tr|A0A117L5F1|A0A117L5F1_9BACT	GT-A	Glyco_tranf_GTA_type(52-177)
+tr|D0MI02|D0MI02_RHOM4	GT-A	Glyco_tranf_GTA_type(4-174)

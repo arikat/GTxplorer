@@ -1,0 +1,2 @@
+2	0.667	GT-A
+1	0.333	TMhelix|MFS_1|TMhelix|GT-A
