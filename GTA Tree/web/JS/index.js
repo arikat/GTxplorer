@@ -29,26 +29,52 @@ window.onload = function () {
 };
 
 var gta = function () {
+    //Family//
     svg().getElementById('Fam_Names').style.cursor = "pointer";
     var lbl = svg().getElementById('Fam_Names');
     for (let i = 0; i < lbl.children.length; i++) {
         var txt = lbl.children[i].textContent;
         lbl.children[i].setAttribute("text", txt);
     }
-    var jsondata;
-    $.getJSON('data/data.json', function (data) {
-                      jsondata = data;
+    var jsondata_Fam;
+    $.getJSON('data/db_files/GTA_Fam.json', function (data) {
+                      jsondata_Fam = data;
          });
     lbl.onclick = function (event) {
         var gta_name = event.target.getAttribute('text');
-        card(gta_name, jsondata);
+        card(gta_name, jsondata_Fam);
+    }; 
+    //Subfamily//
+    var jsondata_SubFam;
+    $.getJSON('data/db_files/GTA_SubFam.json', function (data) {
+                      jsondata_SubFam = data;
+         });
+    //Clade//
+    var jsondata_Clade;
+    svg().getElementById('flowmask').style.cursor = "pointer";
+    var lbl_clade = svg().getElementById('flowmask');
+    for (let i = 0; i < lbl_clade.children.length; i++) {
+        var txt = lbl_clade.children[i].textContent;
+        if(txt!=""){
+            console.log(txt);
+            lbl_clade.children[i].setAttribute("text", txt);
+        }
+    }
+    $.getJSON('data/db_files/GTA_Clade.json', function (data) {
+                      jsondata_Clade = data;
+         });  
+    lbl_clade.onclick = function (event) {
+        var gta_name = event.target.getAttribute('text');
+        card(gta_name, jsondata_Clade);
     };
+//    $.getJSON('data/data.json', function (data) { 
 };
 
 var card = function(GTAname, jsondata){
         var index=0;
         var msg="";
         $.each(jsondata, function(i, val) {
+            console.log(val+" --  "+GTAname);
             if(val.familyName === GTAname){
                 index=i;
                 msg="success";

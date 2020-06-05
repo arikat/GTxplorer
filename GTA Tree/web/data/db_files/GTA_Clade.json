@@ -1,6 +1,6 @@
 [
   {
-    "familyName": "Clade6",
+    "familyName": "Clade 6",
     "description": " Clade includes all inverting families, majority are involved in the same N-glycan maturation pathway (GT13, GT16 and GT54). GT25 is interestingly placed alongside these families in the same clade.",
     "mechanism": " Inverting",
     "subfamilies": [
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "familyName": "Clade7",
+    "familyName": "Clade 7",
     "description": " This clade places 3 inverting families (GT14, GT17 and GT82) together. Interestingly, none of these 3 families conserve the catalytic base Aspartate of the xED motif.",
     "mechanism": " Inverting",
     "subfamilies": [
@@ -214,7 +214,7 @@
     ]
   },
   {
-    "familyName": "Clade8",
+    "familyName": "Clade 8",
     "description": " This clade groups the inverting GT31 and GT67 families with the retaining GT15 families",
     "mechanism": " Mixed",
     "subfamilies": [
@@ -391,7 +391,7 @@
     ]
   },
   {
-    "familyName": "Clade4",
+    "familyName": "Clade 4",
     "description": " Includes large and diverse GT2 families, most have not been characterized yet. Includes a family of β-1,3-N-acetylglucosaminyltransferase-like sequences as well.",
     "mechanism": " Inverting",
     "subfamilies": [
@@ -468,7 +468,7 @@
     ]
   },
   {
-    "familyName": "Clade1",
+    "familyName": "Clade 1",
     "description": " Includes GTA families involved in either polysaccharide or glycosphingolipid biosynthesis. Conserve a [QR]XXRW motif in the C-terminal HV3. Residues in this motif coordinate with the donor and acceptor and could play a critical role in functional specialization of clade 1 GT-As.",
     "mechanism": " Inverting",
     "subfamilies": [
@@ -625,7 +625,7 @@
     ]
   },
   {
-    "familyName": "Clade5",
+    "familyName": "Clade 5",
     "description": " This clade places the inverting GT7 and GT2-CHS with the retaining GT27 and GT60 families. A close common ancestor for some of these families have also been suggested by previous literature (https://doi.org/10.1016/j.sbi.2010.07.004, https://doi.org/10.1093/glycob/cwp068)",
     "mechanism": " Mixed",
     "subfamilies": [
@@ -742,7 +742,7 @@
     ]
   },
   {
-    "familyName": "Clade2",
+    "familyName": "Clade 2",
     "description": " Includes one inverting GT-A family that transfer sugars to phosphate acceptors (GT2-DPs) and three retaining GT-A families that also have phosphate-linked acceptors (GT55, GT78 and GT81). All families seem to statistically conserve structurally equivalent positions in the HV2 region that coordinate the phosphate group of the acceptor.",
     "mechanism": " Mixed",
     "subfamilies": [
@@ -859,7 +859,7 @@
     ]
   },
   {
-    "familyName": "Clade3",
+    "familyName": "Clade 3",
     "description": " Includes a GT2 family involved in lipopolysaccharide biosynthesis in bacteria and a retaining GT62 family mostly found in fungi.",
     "mechanism": " Mixed",
     "subfamilies": [
@@ -936,7 +936,7 @@
     ]
   },
   {
-    "familyName": "Clade9",
+    "familyName": "Clade 9",
     "description": " This is the only clade where all families have a retaining mechanism. Most families seem to conserve a KPW motif (mostly the Lys residue) in the C-terminal HV3 region that coordinates with the phosphate group of the donor.",
     "mechanism": " Retaining",
     "subfamilies": [
