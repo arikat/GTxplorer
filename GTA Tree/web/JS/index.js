@@ -31,16 +31,16 @@ window.onload = function () {
 var gta = function () {
     //Family//
     svg().getElementById('Fam_Names').style.cursor = "pointer";
-    var lbl = svg().getElementById('Fam_Names');
-    for (let i = 0; i < lbl.children.length; i++) {
-        var txt = lbl.children[i].textContent;
-        lbl.children[i].setAttribute("text", txt);
+    var lbl_family = svg().getElementById('Fam_Names');
+    for (let i = 0; i < lbl_family.children.length; i++) {
+        var txt = lbl_family.children[i].textContent;
+        lbl_family.children[i].setAttribute("text", txt);
     }
     var jsondata_Fam;
     $.getJSON('data/db_files/GTA_Fam.json', function (data) {
                       jsondata_Fam = data;
          });
-    lbl.onclick = function (event) {
+    lbl_family.onclick = function (event) {
         var gta_name = event.target.getAttribute('text');
         card(gta_name, jsondata_Fam);
     }; 
