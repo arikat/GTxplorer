@@ -149,7 +149,7 @@ function App() {
   // },false);
 
   window.addEventListener('message',function(e) {
-    if(e.origin !== 'http://127.0.0.1:5500') return;
+    if(e.origin !== 'https://uga-gta-kinview.netlify.app') return;
     let familyName = e.data.familyName;
     if (familyName && explorerValue!==familyName)
         // setExplorerValue(familyName); 
