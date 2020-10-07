@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d72a4443-c0c1-45c6-84c5-38e71d5be520/deploy-status)](https://app.netlify.com/sites/uga-gta-kinview/deploys)
+
 # GTA-Tree
 This project includes the gtXplorer web database files.
 
