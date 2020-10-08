@@ -77,7 +77,7 @@ function StyledTreeItem(props) {
     <TreeItem
       label={
         <div className={classes.labelRoot}>
-          {/* {
+          {
             nodeType == 'protein' && isDark?
             <img alt="Select Dark Kinase" src="img/kinase_dark.svg" width="22px" />
             :''
@@ -87,7 +87,7 @@ function StyledTreeItem(props) {
             // <WellknownIcon className={classes.labelIcon} />
             <img alt="Well-known Kinase" src="img/kinase_wellknown.svg" width="22px" />
             :''
-          } */}
+          }
           <Typography variant="body2" className={classes.labelText}>
             {labelText}
           </Typography>
@@ -156,9 +156,8 @@ function KinTreeView(props) {
   const appname= process.env.REACT_APP_NAME;
   const settings = require(`../${appname}.settings.js`).settings;
   let tree = require(`../${appname}/data/classification.json`);
+  if (appname === "kinase") tree = tree[0].concat(tree[1]);
   const rootid = tree[0]["id"]; //const rootid = appname === "kinase" ? "id@PK":"id@GTA";
-  if (appname === "kinase")
-    tree = tree[0].concat(tree[1]);
   const originalNodes = tree.map((n)=>{n.checked=false;return n;});
   const nodesCopy = JSON.parse(JSON.stringify(originalNodes));
   
@@ -171,12 +170,12 @@ function KinTreeView(props) {
 
   const filterInput = useRef(null);
 
-// // To select the first node (root node) by default
-//   useEffect(() => {
-//     let node = originalNodes.filter(x=> x.id === rootid)[0];
-//     node.checked=true;    
-//     handleNodeClick(node,true);
-//   },[nodes]);
+  //selecting root as default selected item
+  useEffect(() => {
+    let node = originalNodes.filter(x=> x.id === rootid)[0];
+    node.checked=true;    
+    handleNodeClick(node,true);
+  },[nodes]);
 
   function handleNodeClick(node,checked) {
     props.onCheckBoxesChanged(node, checked);
@@ -236,7 +235,7 @@ if (nodes)    return nodes.map((node, index) => {
   }
 
   let showOnlyDark='';
-  if (settings.controls && settings.controls.includes('treeview_only_dark'))
+  if (settings.options.some(x=>x.id === "treeview_only_dark"))
       showOnlyDark = <FormControlLabel style={{width:'max-content'}} label="Only Dark Kinase" control={<Switch checked={switchOnlyDark} onChange={handleOnlyDark} />} />
   
   let autoComplete='';
@@ -245,7 +244,7 @@ if (nodes)    return nodes.map((node, index) => {
             size="small"
             //ref={filterInput}
             id="input-with-icon-grid" 
-            options={switchOnlyDark?darkKinase:undefined}
+            options={switchOnlyDark?darkKinase:originalNodes}
             getOptionLabel={option => option.value}
             onInputChange={handleFilterChange}
             { ...( !switchOnlyDark && { freeSolo: true } ) } 

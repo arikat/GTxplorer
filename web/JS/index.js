@@ -1,3 +1,4 @@
+const SERVER_ADDRESS= "http://localhost:3000/"
 var lastEventListener = null;
 var svgload = function () {
     var embed = document.createElement('object');
@@ -91,7 +92,7 @@ var card = function(GTAname, jsondata){
     if (msg === "success") {
         let familyName = jsondata[index].familyName;
         let react_frame = document.getElementById('react_frame').contentWindow;
-        react_frame.postMessage({"familyName":familyName},"https://uga-gta2.netlify.app");
+        react_frame.postMessage({"familyName":familyName},SERVER_ADDRESS);
         ///////Family////////
         var subfamily = "";
         if (jsondata[index].subfamilies === null || jsondata[index].subfamilies === undefined || jsondata[index].subfamilies === '' || jsondata[index].subfamilies.length === 0) {

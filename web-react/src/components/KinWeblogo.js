@@ -187,43 +187,45 @@ function KinWeblogo(props) {
   const [selectedNumberingValue, setNumberingValue] = React.useState('');
   const [propChanged, setPropChanged] = React.useState(false);
   const [isExpanded, setIsExpanded] = React.useState(true);
-  const [checkboxes, setCheckboxes] = React.useState([]);
   const [dropdowns, setDropdowns] = React.useState([]);
 
-  
+
   const appname= process.env.REACT_APP_NAME;
   let settings = require(`../${appname}.settings.js`).settings;
-  if (checkboxes.length === 0)
-    setCheckboxes(settings.content.elements.filter(x=>x.type==="checkbox"));
-  if (dropdowns.length === 0)
-    setDropdowns(settings.content.elements.filter(x=>x.type==="dropdown"));
+  
+  const [checkboxes, setCheckboxes] = React.useState(props.checkboxes && props.checkboxes.length>0?props.checkboxes :settings.elements.filter(x=>x.type==="checkbox"));
+  useEffect(() => {
+      //setCheckboxes(settings.elements.filter(x=>x.type==="checkbox"));
+      // setCheckboxes(props.checkboxes);
+      setDropdowns(settings.elements.filter(x=>x.type==="dropdown"));
+  }, [settings.elements]);
+
 
   // const [residueChecked, setResidueChecked] = React.useState(props.residueChecked);
   // const [constraintChecked, setConstraintChecked] = React.useState(true);
   // const [positiveChecked, setPositiveChecked] = React.useState(true);
   // const [negativeChecked, setNegativeChecked] = React.useState(false);
-  const [swiches, setSwitches] = React.useState([]);
+
   //if (swiches.length === 0)
 
 
-  const [mutationWeblogosChecked, setMutationWeblogosChecked] = React.useState(props.mutationWeblogosChecked);
-  const [mutationBarchartChecked, setMutationBarchartChecked] = React.useState(props.mutationBarchartChecked);
-  // const [ptmWeblogosChecked, setPtmWeblogosChecked] = React.useState(props.ptmWeblogosChecked);
-  const [ptmBarchartChecked, setPtmBarchartChecked] = React.useState(props.ptmBarchartChecked);
+  // const [mutationWeblogosChecked, setMutationWeblogosChecked] = React.useState(props.mutationWeblogosChecked);
+  // const [mutationBarchartChecked, setMutationBarchartChecked] = React.useState(props.mutationBarchartChecked);
+  // // const [ptmWeblogosChecked, setPtmWeblogosChecked] = React.useState(props.ptmWeblogosChecked);
+  // const [ptmBarchartChecked, setPtmBarchartChecked] = React.useState(props.ptmBarchartChecked);
   const DragHandle = sortableHandle(() => <ReorderIcon />);
   const numberingclass = classNames({
     "numberingdiv": true,
-    //"hidden": !(residueChecked || mutationWeblogosChecked || mutationBarchartChecked || ptmBarchartChecked) // || ptmWeblogosChecked
     "hidden": !checkboxes.some(x => x.checked)
   });
 
-  function toggleVisibility(event,name)
-  {
-    var item = checkboxes.find(x => x.name === name);
-    if (item) 
-      item.checked = !item.checked;
-    setCheckboxes(checkboxes);
-  }
+  // function toggleVisibility(event,name)
+  // {
+  //   var item = checkboxes.find(x => x.name === name);
+  //   if (item) 
+  //     item.checked = !item.checked;
+  //   setCheckboxes(checkboxes);
+  // }
 
   // function toggleResidue(event) {
   //   setResidueChecked(prev => !prev);
@@ -243,39 +245,34 @@ function KinWeblogo(props) {
   //   props.onChange(event);
   // };
   function toggleCheckbox(event)
-  {    
+  { 
     let id =event.target.value;
-    let element = checkboxes.filter(el => el.id === id)[0];
+    let element = checkboxes.find(el => el.id === id);
     element.checked = !element.checked;
     //setResidueChecked(prev => !prev);
     props.onChange(event);
   }
-  function toggleMutationBarchart(event) {
-    setMutationBarchartChecked(prev => !prev);
-    props.onChange(event);
-  };
-  function toggleMutationWeblogos(event) {
-    setMutationWeblogosChecked(prev => !prev);
-    props.onChange(event);
-  };
+  // function toggleMutationBarchart(event) {
+  //   setMutationBarchartChecked(prev => !prev);
+  //   props.onChange(event);
+  // };
+  // function toggleMutationWeblogos(event) {
+  //   setMutationWeblogosChecked(prev => !prev);
+  //   props.onChange(event);
+  // };
   // function togglePtmWeblogos(event) {
   //   setPtmWeblogosChecked(prev => !prev);
   //   props.onChange(event);
   // };
-  function togglePtmBarchart(event) {
-    setPtmBarchartChecked(prev => !prev);
-    props.onChange(event);
-  }; 
+  // function togglePtmBarchart(event) {
+  //   setPtmBarchartChecked(prev => !prev);
+  //   props.onChange(event);
+  // }; 
   //componentDidMount
 
   function toggleExpanded(event) {
     setIsExpanded(!isExpanded);
   };
-  useEffect(() => {
-    //alert(selectedNumbering);
-    //numberingChanged('init',props.numbers);
-    // setNumberingValue('AKT1');
-  }, []);
 
 
   
@@ -313,7 +310,7 @@ function KinWeblogo(props) {
     let items = [];
     options.forEach(option =>
       {
-        items.push({text:option.name, value: `${baseUrl}${option.dir}/${val}.${option.ext}`});
+        items.push({text:option.name, value: `${baseUrl}/${option.dir}/${val}.${option.ext}`});
       }
       );
     return items;
@@ -440,7 +437,7 @@ dropdowns.forEach((element,index) =>
               }}
             >
               {/* {renderOptions(props.numbers)} */}
-              {props.numbers ? props.numbers.map((item, i) => { return (<option key={`option-${i}`} value={item.name}>{item.name}</option>) }) : ""}
+              {props.numbers ? props.numbers.map((item, i) => { return (<option key={i} value={item.name}>{item.name}</option>) }) : ""}
             </NativeSelect>
               {/* {aligend_seq_dropdown} 
               {ortholog_seq_dropdown} */}
@@ -451,7 +448,7 @@ dropdowns.forEach((element,index) =>
         
         <ExpansionPanelDetails className={classes.details}>
           {checkboxes.map(element => 
-             <div key={`weblogo-${props.value.id}`}>
+             <div>
                <Box>
                   <img
                     alt={element.name}
@@ -460,7 +457,8 @@ dropdowns.forEach((element,index) =>
                     className={ element.checked? classes.visible : classes.hidden}
                     src={`${appname}/${element.dirpath}/${props.value.path}.${element.extention}`}
                     height={props.height || "188"}
-                    width={props.width || "4840"}></img>
+                    width={props.width || "4840"}
+                    ></img>
                 </Box>
               </div>
             )}
@@ -479,8 +477,10 @@ dropdowns.forEach((element,index) =>
             <img id={`ptm-${props.value.id}`} src={`ptm/weblogos/png/${props.value.path}.png`} height={props.height ? props.height : "188"} width={props.width ? props.width : "4840"} />
           </Box> */}
    
-          <div className={numberingclass}>
-            {selectedNumbering ? selectedNumbering.value.map((n, index) => n === null ? <span key={`p${index}`} className="v">-</span> : <span key={`p${index}`} onClick={highlightColumn} className="v">{n}</span>) : ""}
+          <div className={numberingclass} style={{marginLeft: settings.ui.numberingMarginLeft, marginTop: settings.ui.numberingMarginTop}}>
+            {selectedNumbering ? selectedNumbering.value.map(
+              (n, index) => 
+               <span key={`p${index}`} onClick={highlightColumn} style={{minWidth:`${settings.ui.numberingMinWidth}`, writingMode:"vertical-lr"}}>{n === null ? "-" : n}</span>) : ""}
           </div>
 
 

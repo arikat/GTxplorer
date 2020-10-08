@@ -24,7 +24,7 @@ and open the template in the editor.
              
     </head>
     <body>
-        <div class="container" style="margin-left: 0;">
+        <!-- <div class="container" style="margin-left: 0;">
             <div id="parentrow" class="row">
                 <div class="col-md-9" id="gttree"></div>
                 <div class="col-md-3" id="weblogo"></div>
@@ -32,25 +32,29 @@ and open the template in the editor.
             <div class="row">
                 <div class="col-xs-12"></div>
             </div>
-        </div>
+            <iframe id="react_frame" src="http://localhost:3000/" width="550" height="550" frameborder="0" scrolling="yes" style="width: 100%"> 
+            </iframe>
+        </div> -->
 
-        <!-- <div class="container" style="margin-left: 0;">
+        <div class="container" style="max-width: unset;">
             <div class="row">
-                <div class="col col-sm-8">
-                    <div id="gttree"></div>
-
-                </div>
-                <div class="col col-sm-4">
-                    <div id="weblogo">Informations</div>
+                <div class="col-9 card-header bg-background content-center">header</div>
+                <div class="col-3"></div>
+              </div>
+              <div id="parentrow" class="row">
+                <div id="gttree" class="col-9"></div>
+                <div id="weblogo" class="col-3"></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                    <iframe id="react_frame" src="http://localhost:3000/" width="550" height="550" frameborder="0" scrolling="yes" style="width: 100%"> 
+                    </iframe>            
                 </div>
               </div>
+              <div class="row">
+                <div class="col-12">footer</div>
+              </div>
+        </div>
 
-            
-            
-          </div> -->
-        <iframe id="react_frame" src="https://uga-gta2.netlify.app" width="550" height="550" frameborder="0" scrolling="yes" style="width: 100%"> 
-
-        
-        </iframe>
     </body>
 </html>

@@ -36,8 +36,6 @@
   color:#282c34;
   display:flex;
   float:left;
-  margin-left: 49px;
-  margin-top: -4px;
   font-family: 'Lucida Console', Monaco, monospace;
   font-size: 10px;
   line-height: 0;
@@ -46,7 +44,8 @@
 .numberingdiv .v
 {
   writing-mode: vertical-lr;
-  min-width: 20.75px;
+  /* // min-width: 20px; kinase */
+  /* // min-width: 18.55px; trosinekinase  */
 }
 .hidden
 {
