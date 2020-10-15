@@ -515,21 +515,20 @@ function App() {
           <Box className={settings.show_legend && (isEnabled("domain") || isEnabled("motif")) ? "" : classes.hidden}>
           <fieldset>
           <legend>Legend</legend>
-            <Box display="flex" alignItems="flex-start">
+            <Box display="flex" alignItems="flex-start" className="LegendText">
               <Box component="span" 
                 className={isEnabled("motif") ? "legend-motif" : classes.hidden}>
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>Lysine</Typography>} control={<img alt="betasheet" src="img/legend/lysine.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>Glutamic acid</Typography>} control={<img alt="betasheet" src="img/legend/glutamic.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>C-spine</Typography>} control={<img alt="betasheet" src="img/legend/cspine.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>R-spine</Typography>} control={<img alt="betasheet" src="img/legend/rspine.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>RD pocket</Typography>} control={<img alt="betasheet" src="img/legend/rdpocket.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>Shell</Typography>} control={<img alt="betasheet" src="img/legend/shell.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>Gatekeeper</Typography>} control={<img alt="betasheet" src="img/legend/gatekeeper.png" />} />
+                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>DXDmotif</Typography>} control={<img alt="betasheet" src="img/legend/dxdmotif.png" />} />
+                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>G-loop</Typography>} control={<img alt="betasheet" src="img/legend/gloop.png" />} />
+                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>XEDmotif</Typography>} control={<img alt="betasheet" src="img/legend/xedmotif.png" />} />
+                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>C-his</Typography>} control={<img alt="betasheet" src="img/legend/chis.png" />} />
+                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>hydrophobic residues</Typography>} control={<img alt="betasheet" src="img/legend/hydrophobicresidues.png" />} />
 
               </Box>
               <Box component="span" className={isEnabled("domain") ? "legend-domain" : classes.hidden}>
                 <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>&alpha;-helix</Typography>} control={<img alt="betasheet" src="img/legend/alphahelix.png" />} />
                 <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>&beta;-sheet</Typography>} control={<img alt="betasheet" src="img/legend/betasheet.png" />} />
+                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>hypervariable region</Typography>} control={<img alt="betasheet" src="img/legend/hypervariableregion.png" />} />
               </Box>
             </Box>
           
@@ -538,12 +537,12 @@ function App() {
         </Box>
         </div>
 
-          <img src={`${appname}/img/motif.png`} alt="Motif" style={{width:4840,marginLeft:43}} className={selectedNode && isEnabled("motif") ? classes.motif : classes.hidden} />
+          <img src={`${appname}/img/motif.png`} alt="Motif" style={{width:4840,marginLeft:16}} className={selectedNode && isEnabled("motif") ? classes.motif : classes.hidden} />
           <img src={`${appname}/img/structure.png`} alt="Domain Structure" 
                 style={
                       {
                         width: isEnabled("domain") && options.filter(x => x.id === "domain")[0].width ? options.filter(x => x.id === "domain")[0].width:4840,
-                        marginLeft: isEnabled("domain") && options.filter(x => x.id === "domain")[0].marginLeft ? options.filter(x => x.id === "domain")[0].marginLeft:43}}  
+                        marginLeft: isEnabled("domain") && options.filter(x => x.id === "domain")[0].marginLeft ? options.filter(x => x.id === "domain")[0].marginLeft:16}}  
                         className={selectedNode && isEnabled("domain") ? classes.structure : classes.hidden} />
               {
                 <SortableList items={selectedNodes} onSortEnd={onSortEnd} useDragHandle />
