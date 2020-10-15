@@ -2,9 +2,9 @@ export const settings = {
     title:"GTExplorer",
     show_legend: true,
     ui: {
-        numberingMarginLeft: "48px",
-        numberingMarginTop: "-12px",
-        numberingMinWidth: "20.76px"
+        numberingMarginLeft: "12px",
+        numberingMarginTop: "0px",
+        numberingMinWidth: "20.95px"
     },
     options: [
         {
