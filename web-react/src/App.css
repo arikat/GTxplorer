@@ -31,6 +31,11 @@
     transform: rotate(360deg);
   }
 }
+
+.LegendText
+{
+  text-indent: 3px;
+}
 .numberingdiv
 {
   color:#282c34;
