@@ -14,13 +14,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT13_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT13_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT13_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT13_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT13_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT13_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT13_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT13_uniprot.tsv"
           }
         ]
       },
@@ -34,13 +34,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT16_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT16_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT16_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT16_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT16_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT16_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT16_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT16_uniprot.tsv"
           }
         ]
       },
@@ -54,13 +54,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT25_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT25_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT25_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT25_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT25_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT25_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT25_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT25_uniprot.tsv"
           }
         ]
       },
@@ -74,13 +74,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT54_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT54_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT54_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT54_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT54_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT54_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT54_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT54_uniprot.tsv"
           }
         ]
       }
@@ -106,13 +106,13 @@
       },
       {
         "name": "FastaFullSequence",
-        "nr": "data/db_files/FastaFull/Clade6_nr.fasta",
-        "uniprot": "data/db_files/FastaFull/Clade6_uniprot.fasta"
+        "nr": "data/db_files/FastaFull/Clade6_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/Clade6_uniprot.full.fasta"
       },
       {
         "name": "Tables",
-        "nr": "data/db_files/Tables/Clade6_nr.fasta",
-        "uniprot": "data/db_files/Tables/Clade6_uniprot.fasta"
+        "nr": "data/db_files/Tables/Clade6_nr.tsv",
+        "uniprot": "data/db_files/Tables/Clade6_uniprot.tsv"
       }
     ]
   },
@@ -131,13 +131,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT14_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT14_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT14_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT14_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT14_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT14_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT14_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT14_uniprot.tsv"
           }
         ]
       },
@@ -151,13 +151,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT17_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT17_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT17_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT17_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT17_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT17_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT17_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT17_uniprot.tsv"
           }
         ]
       },
@@ -171,13 +171,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT82_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT82_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT82_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT82_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT82_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT82_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT82_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT82_uniprot.tsv"
           }
         ]
       }
@@ -203,13 +203,13 @@
       },
       {
         "name": "FastaFullSequence",
-        "nr": "data/db_files/FastaFull/Clade7_nr.fasta",
-        "uniprot": "data/db_files/FastaFull/Clade7_uniprot.fasta"
+        "nr": "data/db_files/FastaFull/Clade7_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/Clade7_uniprot.full.fasta"
       },
       {
         "name": "Tables",
-        "nr": "data/db_files/Tables/Clade7_nr.fasta",
-        "uniprot": "data/db_files/Tables/Clade7_uniprot.fasta"
+        "nr": "data/db_files/Tables/Clade7_nr.tsv",
+        "uniprot": "data/db_files/Tables/Clade7_uniprot.tsv"
       }
     ]
   },
@@ -228,13 +228,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT15_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT15_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT15_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT15_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT15_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT15_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT15_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT15_uniprot.tsv"
           }
         ]
       },
@@ -248,13 +248,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT31-Chsy_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT31-Chsy_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT31-Chsy_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Chsy_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT31-Chsy_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT31-Chsy_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT31-Chsy_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Chsy_uniprot.tsv"
           }
         ]
       },
@@ -268,13 +268,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT31-Euk_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT31-Euk_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT31-Euk_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Euk_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT31-Euk_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT31-Euk_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT31-Euk_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Euk_uniprot.tsv"
           }
         ]
       },
@@ -288,13 +288,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT31-Fringe_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT31-Fringe_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT31-Fringe_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Fringe_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT31-Fringe_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT31-Fringe_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT31-Fringe_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Fringe_uniprot.tsv"
           }
         ]
       },
@@ -308,13 +308,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT31-Galt-Gnt_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT31-Galt-Gnt_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT31-Galt-Gnt_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Galt-Gnt_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT31-Galt-Gnt_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT31-Galt-Gnt_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT31-Galt-Gnt_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Galt-Gnt_uniprot.tsv"
           }
         ]
       },
@@ -328,13 +328,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT31-Glt_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT31-Glt_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT31-Glt_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Glt_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT31-Glt_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT31-Glt_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT31-Glt_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Glt_uniprot.tsv"
           }
         ]
       },
@@ -348,13 +348,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT67_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT67_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT67_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT67_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT67_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT67_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT67_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT67_uniprot.tsv"
           }
         ]
       }
@@ -380,13 +380,13 @@
       },
       {
         "name": "FastaFullSequence",
-        "nr": "data/db_files/FastaFull/Clade8_nr.fasta",
-        "uniprot": "data/db_files/FastaFull/Clade8_uniprot.fasta"
+        "nr": "data/db_files/FastaFull/Clade8_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/Clade8_uniprot.full.fasta"
       },
       {
         "name": "Tables",
-        "nr": "data/db_files/Tables/Clade8_nr.fasta",
-        "uniprot": "data/db_files/Tables/Clade8_uniprot.fasta"
+        "nr": "data/db_files/Tables/Clade8_nr.tsv",
+        "uniprot": "data/db_files/Tables/Clade8_uniprot.tsv"
       }
     ]
   },
@@ -405,13 +405,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT2-B3GntL_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT2-B3GntL_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT2-B3GntL_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-B3GntL_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT2-B3GntL_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT2-B3GntL_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT2-B3GntL_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-B3GntL_uniprot.tsv"
           }
         ]
       },
@@ -425,13 +425,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT2-Class1_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT2-Class1_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT2-Class1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-Class1_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT2-Class1_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT2-Class1_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT2-Class1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-Class1_uniprot.tsv"
           }
         ]
       }
@@ -457,13 +457,13 @@
       },
       {
         "name": "FastaFullSequence",
-        "nr": "data/db_files/FastaFull/Clade4_nr.fasta",
-        "uniprot": "data/db_files/FastaFull/Clade4_uniprot.fasta"
+        "nr": "data/db_files/FastaFull/Clade4_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/Clade4_uniprot.full.fasta"
       },
       {
         "name": "Tables",
-        "nr": "data/db_files/Tables/Clade4_nr.fasta",
-        "uniprot": "data/db_files/Tables/Clade4_uniprot.fasta"
+        "nr": "data/db_files/Tables/Clade4_nr.tsv",
+        "uniprot": "data/db_files/Tables/Clade4_uniprot.tsv"
       }
     ]
   },
@@ -482,13 +482,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT2-Bre3_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT2-Bre3_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT2-Bre3_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-Bre3_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT2-Bre3_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT2-Bre3_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT2-Bre3_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-Bre3_uniprot.tsv"
           }
         ]
       },
@@ -502,13 +502,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT2-CWR_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT2-CWR_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT2-CWR_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-CWR_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT2-CWR_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT2-CWR_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT2-CWR_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-CWR_uniprot.tsv"
           }
         ]
       },
@@ -522,13 +522,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT2-CeS_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT2-CeS_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT2-CeS_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-CeS_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT2-CeS_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT2-CeS_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT2-CeS_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-CeS_uniprot.tsv"
           }
         ]
       },
@@ -542,13 +542,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT2-Chitin-HAS_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT2-Chitin-HAS_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT2-Chitin-HAS_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-Chitin-HAS_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT2-Chitin-HAS_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT2-Chitin-HAS_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT2-Chitin-HAS_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-Chitin-HAS_uniprot.tsv"
           }
         ]
       },
@@ -562,13 +562,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT21_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT21_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT21_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT21_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT21_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT21_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT21_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT21_uniprot.tsv"
           }
         ]
       },
@@ -582,13 +582,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT84_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT84_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT84_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT84_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT84_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT84_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT84_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT84_uniprot.tsv"
           }
         ]
       }
@@ -614,13 +614,13 @@
       },
       {
         "name": "FastaFullSequence",
-        "nr": "data/db_files/FastaFull/Clade1_nr.fasta",
-        "uniprot": "data/db_files/FastaFull/Clade1_uniprot.fasta"
+        "nr": "data/db_files/FastaFull/Clade1_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/Clade1_uniprot.full.fasta"
       },
       {
         "name": "Tables",
-        "nr": "data/db_files/Tables/Clade1_nr.fasta",
-        "uniprot": "data/db_files/Tables/Clade1_uniprot.fasta"
+        "nr": "data/db_files/Tables/Clade1_nr.tsv",
+        "uniprot": "data/db_files/Tables/Clade1_uniprot.tsv"
       }
     ]
   },
@@ -639,13 +639,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT2-CHS_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT2-CHS_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT2-CHS_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-CHS_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT2-CHS_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT2-CHS_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT2-CHS_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-CHS_uniprot.tsv"
           }
         ]
       },
@@ -659,13 +659,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT27_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT27_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT27_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT27_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT27_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT27_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT27_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT27_uniprot.tsv"
           }
         ]
       },
@@ -679,13 +679,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT60_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT60_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT60_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT60_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT60_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT60_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT60_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT60_uniprot.tsv"
           }
         ]
       },
@@ -699,13 +699,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT7_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT7_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT7_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT7_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT7_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT7_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT7_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT7_uniprot.tsv"
           }
         ]
       }
@@ -731,13 +731,13 @@
       },
       {
         "name": "FastaFullSequence",
-        "nr": "data/db_files/FastaFull/Clade5_nr.fasta",
-        "uniprot": "data/db_files/FastaFull/Clade5_uniprot.fasta"
+        "nr": "data/db_files/FastaFull/Clade5_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/Clade5_uniprot.full.fasta"
       },
       {
         "name": "Tables",
-        "nr": "data/db_files/Tables/Clade5_nr.fasta",
-        "uniprot": "data/db_files/Tables/Clade5_uniprot.fasta"
+        "nr": "data/db_files/Tables/Clade5_nr.tsv",
+        "uniprot": "data/db_files/Tables/Clade5_uniprot.tsv"
       }
     ]
   },
@@ -756,13 +756,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT2-DPs_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT2-DPs_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT2-DPs_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-DPs_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT2-DPs_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT2-DPs_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT2-DPs_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-DPs_uniprot.tsv"
           }
         ]
       },
@@ -776,13 +776,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT55_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT55_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT55_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT55_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT55_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT55_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT55_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT55_uniprot.tsv"
           }
         ]
       },
@@ -796,13 +796,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT78_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT78_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT78_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT78_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT78_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT78_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT78_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT78_uniprot.tsv"
           }
         ]
       },
@@ -816,13 +816,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT81_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT81_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT81_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT81_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT81_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT81_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT81_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT81_uniprot.tsv"
           }
         ]
       }
@@ -848,13 +848,13 @@
       },
       {
         "name": "FastaFullSequence",
-        "nr": "data/db_files/FastaFull/Clade2_nr.fasta",
-        "uniprot": "data/db_files/FastaFull/Clade2_uniprot.fasta"
+        "nr": "data/db_files/FastaFull/Clade2_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/Clade2_uniprot.full.fasta"
       },
       {
         "name": "Tables",
-        "nr": "data/db_files/Tables/Clade2_nr.fasta",
-        "uniprot": "data/db_files/Tables/Clade2_uniprot.fasta"
+        "nr": "data/db_files/Tables/Clade2_nr.tsv",
+        "uniprot": "data/db_files/Tables/Clade2_uniprot.tsv"
       }
     ]
   },
@@ -873,13 +873,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT2-LpsRelated_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT2-LpsRelated_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT2-LpsRelated_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-LpsRelated_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT2-LpsRelated_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT2-LpsRelated_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT2-LpsRelated_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-LpsRelated_uniprot.tsv"
           }
         ]
       },
@@ -893,13 +893,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT62_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT62_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT62_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT62_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT62_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT62_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT62_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT62_uniprot.tsv"
           }
         ]
       }
@@ -925,13 +925,13 @@
       },
       {
         "name": "FastaFullSequence",
-        "nr": "data/db_files/FastaFull/Clade3_nr.fasta",
-        "uniprot": "data/db_files/FastaFull/Clade3_uniprot.fasta"
+        "nr": "data/db_files/FastaFull/Clade3_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/Clade3_uniprot.full.fasta"
       },
       {
         "name": "Tables",
-        "nr": "data/db_files/Tables/Clade3_nr.fasta",
-        "uniprot": "data/db_files/Tables/Clade3_uniprot.fasta"
+        "nr": "data/db_files/Tables/Clade3_nr.tsv",
+        "uniprot": "data/db_files/Tables/Clade3_uniprot.tsv"
       }
     ]
   },
@@ -950,13 +950,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT24_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT24_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT24_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT24_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT24_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT24_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT24_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT24_uniprot.tsv"
           }
         ]
       },
@@ -970,13 +970,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT77_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT77_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT77_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT77_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT77_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT77_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT77_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT77_uniprot.tsv"
           }
         ]
       },
@@ -990,13 +990,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT8-Fun_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT8-Fun_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT8-Fun_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-Fun_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT8-Fun_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT8-Fun_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT8-Fun_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-Fun_uniprot.tsv"
           }
         ]
       },
@@ -1010,13 +1010,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT8-GATL_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT8-GATL_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT8-GATL_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-GATL_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT8-GATL_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT8-GATL_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT8-GATL_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-GATL_uniprot.tsv"
           }
         ]
       },
@@ -1030,13 +1030,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT8-GAUT_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT8-GAUT_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT8-GAUT_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-GAUT_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT8-GAUT_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT8-GAUT_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT8-GAUT_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-GAUT_uniprot.tsv"
           }
         ]
       },
@@ -1050,13 +1050,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT8-Glycogenin_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT8-Glycogenin_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT8-Glycogenin_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-Glycogenin_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT8-Glycogenin_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT8-Glycogenin_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT8-Glycogenin_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-Glycogenin_uniprot.tsv"
           }
         ]
       },
@@ -1070,13 +1070,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT8-LpsGlt_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT8-LpsGlt_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT8-LpsGlt_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-LpsGlt_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT8-LpsGlt_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT8-LpsGlt_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT8-LpsGlt_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-LpsGlt_uniprot.tsv"
           }
         ]
       },
@@ -1090,13 +1090,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT8-Lrg_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT8-Lrg_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT8-Lrg_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-Lrg_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT8-Lrg_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT8-Lrg_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT8-Lrg_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-Lrg_uniprot.tsv"
           }
         ]
       },
@@ -1110,13 +1110,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT8-XylT_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT8-XylT_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT8-XylT_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-XylT_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT8-XylT_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT8-XylT_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT8-XylT_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-XylT_uniprot.tsv"
           }
         ]
       },
@@ -1130,13 +1130,13 @@
           },
           {
             "name": "FastaFullSequence",
-            "nr": "data/db_files/FastaFull/GT88_nr.fasta",
-            "uniprot": "data/db_files/FastaFull/GT88_uniprot.fasta"
+            "nr": "data/db_files/FastaFull/GT88_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT88_uniprot.full.fasta"
           },
           {
             "name": "Tables",
-            "nr": "data/db_files/Tables/GT88_nr.fasta",
-            "uniprot": "data/db_files/Tables/GT88_uniprot.fasta"
+            "nr": "data/db_files/Tables/GT88_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT88_uniprot.tsv"
           }
         ]
       }
@@ -1162,13 +1162,13 @@
       },
       {
         "name": "FastaFullSequence",
-        "nr": "data/db_files/FastaFull/Clade9_nr.fasta",
-        "uniprot": "data/db_files/FastaFull/Clade9_uniprot.fasta"
+        "nr": "data/db_files/FastaFull/Clade9_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/Clade9_uniprot.full.fasta"
       },
       {
         "name": "Tables",
-        "nr": "data/db_files/Tables/Clade9_nr.fasta",
-        "uniprot": "data/db_files/Tables/Clade9_uniprot.fasta"
+        "nr": "data/db_files/Tables/Clade9_nr.tsv",
+        "uniprot": "data/db_files/Tables/Clade9_uniprot.tsv"
       }
     ]
   }
