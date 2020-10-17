@@ -1,8 +1,16 @@
 var lastEventListener = null;
 var svgload = function () {
-    var embed = document.createElement('object');
+    var wid = $(window).width() - 430;
+    if(wid < 330){
+        wid = 330;
+    }
+    if(wid > 1000){
+        wid = 1000;
+    }
+    embed = document.createElement('object');
     embed.setAttribute('id', 'gta');
-    embed.setAttribute('width', '900px');
+    //embed.setAttribute('width', '900px');
+    embed.setAttribute('width', wid);
     embed.setAttribute('height', '675px');
     embed.setAttribute('type', 'image/svg+xml');
     embed.setAttribute('data', 'SVG/gta_tree_v2_edited.svg');
@@ -27,6 +35,15 @@ var svg = function () {
 window.onload = function () {
     svgload();
 };
+$(window).resize(function(){
+  console.log("reloading svg...");
+  
+  document.getElementById('container').removeChild(embed);
+  svgload();
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none";
+        
+});
 
 var gta = function () {
     //Family//
@@ -158,7 +175,14 @@ var card = function(GTAname, jsondata){
             downloads += val.name + ":  <a href='" + val.nr + "' title='NR' download><i class='fas fa-file-download' style='color: #ff5200;font-size: 17px;'></i></a>&nbsp;<a href='" + val.uniprot + "' title='Uniprot' download><i class='fas fa-file-download' style='color: #084177;font-size: 17px;'></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
         });
         downloads = downloads.substring(0, downloads.length - 6);
-        var cardData="<div id='myModal' class='modal custom-modal'>"
+        var wid = $(window).width() -430;
+        if(wid < 330){
+            wid = 330;
+        }
+        if(wid > 1000){
+            wid = 1000;
+        }
+        var cardData="<div id='myModal' class='modal custom-modal' style ='left: "+ wid +"px;'>"
                                                 +"<section class='mb-4'>"
                                                     +" <div class='container'>"
                                                         +"<div class='card-columns'>"
