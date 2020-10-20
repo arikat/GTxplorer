@@ -1,0 +1,5269 @@
+[
+  {
+    "familyName": "GT12",
+    "description": " β-1,4 N-acetylgalactosaminyltransferases. In humans, B4GALNT1 is involved in the transfer of GalNAc from UDP-GalNAc into either G(M3) or G(D3) to form G(M2) and G(D2), respectively. It could also synthesize asialo-GM2 (GA2). ",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT12-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT12-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT12-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT12-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT12-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT12-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT12-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 63.3,
+        "count": 138
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 20.2,
+        "count": 44
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 7.8,
+        "count": 17
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 18,
+      "Bacteria": 87,
+      "Fungi": 2,
+      "Metazoa": 956,
+      "Protista": 12,
+      "Unknown": 2,
+      "Viridiplantae": 0,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT12.png",
+    "domainInformation": "data/db_files/Domains/GT12.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT12_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT12_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT12_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT12_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT12_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT12_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT13",
+    "description": " Beta-1,2-N-acetylglucosaminyltransferases. In humans, POMGNT1 catalyzes the addition of N-acetylglucosamine to an O-linked mannose for O-mannosyl glycosylation. Another GT13 enzyme in humans, MGAT1 caalyzes the transfer of GlcNAc from UDP-GlcNAc to the terminal α1,3-linked Man in the N-glycan initiating the synthesis of hybrid and complex N-linked glycans in multicellular organisms.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT13-POMGNT1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT13-POMGNT1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT13-POMGNT1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT13-POMGNT1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT13-POMGNT1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT13-POMGNT1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT13-POMGNT1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT13-MGAT1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT13-MGAT1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT13-MGAT1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT13-MGAT1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT13-MGAT1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT13-MGAT1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT13-MGAT1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 42.0,
+        "count": 258
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 26.2,
+        "count": 161
+      },
+      {
+        "domains": [
+          "GT",
+          "GT-A"
+        ],
+        "percent": 13.0,
+        "count": 80
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT",
+          "GT-A"
+        ],
+        "percent": 6.0,
+        "count": 37
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 225,
+      "Fungi": 3,
+      "Metazoa": 1383,
+      "Protista": 88,
+      "Unknown": 7,
+      "Viridiplantae": 295,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT13.png",
+    "domainInformation": "data/db_files/Domains/GT13.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT13_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT13_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT13_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT13_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT13_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT13_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT14",
+    "description": " Includes multiple members involved in various functions. Most are β-1,6-N-acetylglucosaminyltransferases. Also have protein O-β-xylosyltransferase and UDP-GlcA:arabinogalactan β-glucuronosyltransferase roles.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT14-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT14-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT14-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT14-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT14-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT14-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT14-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 65.8,
+        "count": 2177
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 23.0,
+        "count": 762
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 5.2,
+        "count": 171
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 2,
+      "Bacteria": 3170,
+      "Fungi": 12,
+      "Metazoa": 3280,
+      "Protista": 84,
+      "Unknown": 29,
+      "Viridiplantae": 2410,
+      "Viruses": 17
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT14.png",
+    "domainInformation": "data/db_files/Domains/GT14.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT14_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT14_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT14_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT14_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT14_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT14_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT15",
+    "description": " α-1,2-mannosyltransferases. Not present in metazoans and plants. Mostly present in fungal species. ",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT15-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT15-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT15-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT15-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT15-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT15-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT15-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 53.1,
+        "count": 937
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 42.1,
+        "count": 743
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 12,
+      "Fungi": 3500,
+      "Metazoa": 16,
+      "Protista": 27,
+      "Unknown": 0,
+      "Viridiplantae": 23,
+      "Viruses": 1
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT15.png",
+    "domainInformation": "data/db_files/Domains/GT15.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT15_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT15_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT15_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT15_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT15_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT15_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT16",
+    "description": " β-1,2-N-acetylglucosaminyltransferases. In humans, MGAT2 catalyzes the transfer of GlcNAc to the terminal mannose in the N-glycan chain, giving rise to the second branch in complex glycans.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT16-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT16-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT16-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT16-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT16-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT16-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT16-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT16-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT16-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT16-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT16-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT16-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT16-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT16-2_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 53.7,
+        "count": 176
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 39.3,
+        "count": 129
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 0,
+      "Metazoa": 920,
+      "Protista": 14,
+      "Unknown": 3,
+      "Viridiplantae": 210,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT16.png",
+    "domainInformation": "data/db_files/Domains/GT16.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT16_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT16_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT16_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT16_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT16_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT16_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT17",
+    "description": " β-1,4-N-acetylglucosaminyltransferases. In humans, MGAT3 catalyzes the transfer of GlcNAc to the core β-mannose residue of N-glycans to add a bisecting GlcNAc that halts expansion of the complex or hybrid N-glycan.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT17-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT17-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT17-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT17-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT17-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT17-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT17-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 50.3,
+        "count": 459
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 44.2,
+        "count": 404
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 5,
+      "Bacteria": 751,
+      "Fungi": 507,
+      "Metazoa": 550,
+      "Protista": 42,
+      "Unknown": 4,
+      "Viridiplantae": 824,
+      "Viruses": 9
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT17.png",
+    "domainInformation": "data/db_files/Domains/GT17.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT17_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT17_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT17_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT17_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT17_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT17_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-B3GntL",
+    "description": " β-1,3-N-acetylglucosaminyltransferase-like sequences from the GT2 family",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT2-B3GntL-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-B3GntL-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-B3GntL-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-B3GntL-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-B3GntL-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-B3GntL-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-B3GntL-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 93.5,
+        "count": 130
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 4,
+      "Fungi": 0,
+      "Metazoa": 621,
+      "Protista": 51,
+      "Unknown": 4,
+      "Viridiplantae": 7,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-B3GntL.png",
+    "domainInformation": "data/db_files/Domains/GT2-B3GntL.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-B3GntL_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-B3GntL_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-B3GntL_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-B3GntL_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-B3GntL_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-B3GntL_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-Bre3",
+    "description": " Close homologs of C. elegans bre3 and Drosophila egh GT2 sequences",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT2-Bre3-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-Bre3-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-Bre3-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-Bre3-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-Bre3-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-Bre3-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-Bre3-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 51.2,
+        "count": 147
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 16.0,
+        "count": 46
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 5.6,
+        "count": 16
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "Acyltransferase",
+          "TMhelix",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 4.9,
+        "count": 14
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT",
+          "TMhelix"
+        ],
+        "percent": 3.8,
+        "count": 11
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 2.8,
+        "count": 8
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 184,
+      "Bacteria": 106,
+      "Fungi": 125,
+      "Metazoa": 264,
+      "Protista": 11,
+      "Unknown": 5,
+      "Viridiplantae": 4,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-Bre3.png",
+    "domainInformation": "data/db_files/Domains/GT2-Bre3.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-Bre3_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-Bre3_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-Bre3_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-Bre3_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-Bre3_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-Bre3_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-CWR",
+    "description": " GT2 family sequences most closely homologous to the ones involved inn archaeal and bacterial cell wall biosynthesis",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT2-CWR_Csl-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-CWR_Csl-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-CWR_Csl-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-CWR_Csl-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-CWR_Csl-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-CWR_Csl-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-CWR_Csl-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT2-CWR_Csl-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-CWR_Csl-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-CWR_Csl-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-CWR_Csl-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-CWR_Csl-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-CWR_Csl-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-CWR_Csl-2_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 30.8,
+        "count": 2984
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 16.6,
+        "count": 1612
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 12.5,
+        "count": 1212
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 8.9,
+        "count": 864
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT",
+          "TMhelix"
+        ],
+        "percent": 3.1,
+        "count": 302
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 2.5,
+        "count": 239
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 799,
+      "Bacteria": 36717,
+      "Fungi": 45,
+      "Metazoa": 2,
+      "Protista": 3,
+      "Unknown": 84,
+      "Viridiplantae": 2,
+      "Viruses": 2
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-CWR.png",
+    "domainInformation": "data/db_files/Domains/GT2-CWR.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-CWR_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-CWR_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-CWR_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-CWR_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-CWR_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-CWR_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-CeS",
+    "description": " GT2 cellulose synthases and cellulose synthase like sequences and their close homologs",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT2-CeS-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-CeS-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-CeS-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-CeS-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-CeS-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-CeS-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-CeS-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT2-CeS_putative",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-CeS_putative_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-CeS_putative_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-CeS_putative_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-CeS_putative_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-CeS_putative_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-CeS_putative_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 35.6,
+        "count": 2768
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT",
+          "TMhelix"
+        ],
+        "percent": 20.1,
+        "count": 1561
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 10.4,
+        "count": 807
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT",
+          "TMhelix"
+        ],
+        "percent": 7.2,
+        "count": 556
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 5.8,
+        "count": 454
+      },
+      {
+        "domains": [
+          "GT",
+          "TMhelix"
+        ],
+        "percent": 4.6,
+        "count": 354
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 518,
+      "Bacteria": 24460,
+      "Fungi": 763,
+      "Metazoa": 29,
+      "Protista": 210,
+      "Unknown": 40,
+      "Viridiplantae": 7548,
+      "Viruses": 73
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-CeS.png",
+    "domainInformation": "data/db_files/Domains/GT2-CeS.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-CeS_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-CeS_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-CeS_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-CeS_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-CeS_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-CeS_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-Chitin-HAS",
+    "description": " Chitin and hyaluronan synthases of the GT2 family",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT2-Chitin-HAS-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-Chitin-HAS-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-Chitin-HAS-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-Chitin-HAS-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-Chitin-HAS-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-Chitin-HAS-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-Chitin-HAS-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 26.1,
+        "count": 1394
+      },
+      {
+        "domains": [
+          "Chitin_Synthase",
+          "GT-A",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 15.8,
+        "count": 844
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 8.0,
+        "count": 427
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 6.7,
+        "count": 357
+      },
+      {
+        "domains": [
+          "Motor_Domain",
+          "TMhelix",
+          "Heme/Steroid_Binding",
+          "TMhelix",
+          "GT-A",
+          "TMhelix",
+          "DEK_C"
+        ],
+        "percent": 4.8,
+        "count": 254
+      },
+      {
+        "domains": [
+          "Motor_domain",
+          "TMhelix",
+          "Heme/Steroid_Binding",
+          "TMhelix",
+          "GT-A",
+          "TMhelix",
+          "DEK_C"
+        ],
+        "percent": 3.7,
+        "count": 198
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT",
+          "TMhelix"
+        ],
+        "percent": 3.3,
+        "count": 179
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 3.1,
+        "count": 165
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 105,
+      "Bacteria": 5062,
+      "Fungi": 8409,
+      "Metazoa": 2007,
+      "Protista": 237,
+      "Unknown": 18,
+      "Viridiplantae": 38,
+      "Viruses": 42
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-Chitin-HAS.png",
+    "domainInformation": "data/db_files/Domains/GT2-Chitin-HAS.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-Chitin-HAS_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-Chitin-HAS_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-Chitin-HAS_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-Chitin-HAS_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-Chitin-HAS_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-Chitin-HAS_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-CHS",
+    "description": " β−1,4-N-acetylgalactosaminyltransferase domains of mostly bacterial and protist chondroitin polymerases that are involved in the elongation of glycosaminoglycan chondroitin.",
+    "mechanism": " Inverting",
+    "subfamilies": [],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 76.6,
+        "count": 1580
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 13.2,
+        "count": 272
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 2.5,
+        "count": 52
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 28,
+      "Bacteria": 7509,
+      "Fungi": 1,
+      "Metazoa": 30,
+      "Protista": 8,
+      "Unknown": 11,
+      "Viridiplantae": 5,
+      "Viruses": 49
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-CHS.png",
+    "domainInformation": "data/db_files/Domains/GT2-CHS.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-CHS_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-CHS_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-CHS_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-CHS_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-CHS_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-CHS_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-Class1",
+    "description": " Large subgroup of GT2 sequences most with unknown functions",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT2-Class1-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-Class1-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-Class1-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-Class1-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-Class1-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-Class1-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-Class1-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT2-Class1-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-Class1-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-Class1-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-Class1-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-Class1-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-Class1-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-Class1-2_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 56.8,
+        "count": 22762
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 13.6,
+        "count": 5462
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 10.7,
+        "count": 4295
+      },
+      {
+        "domains": [
+          "GT"
+        ],
+        "percent": 3.5,
+        "count": 1385
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 3188,
+      "Bacteria": 186412,
+      "Fungi": 111,
+      "Metazoa": 320,
+      "Protista": 103,
+      "Unknown": 402,
+      "Viridiplantae": 23,
+      "Viruses": 22
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-Class1.png",
+    "domainInformation": "data/db_files/Domains/GT2-Class1.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-Class1_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-Class1_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-Class1_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-Class1_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-Class1_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-Class1_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-DPs",
+    "description": " GT2 sequences that transfer sugars (usually glucose or mannose) to Dolichol Phosphate acceptors (DPG/DPM)",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT2-DPs_Bact",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-DPs_Bact_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-DPs_Bact_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-DPs_Bact_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-DPs_Bact_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-DPs_Bact_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-DPs_Bact_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT2-DPs_Mix",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-DPs_Mix_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-DPs_Mix_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-DPs_Mix_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-DPs_Mix_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-DPs_Mix_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-DPs_Mix_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 47.3,
+        "count": 13596
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 34.7,
+        "count": 9983
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix",
+          "GtrA",
+          "TMhelix"
+        ],
+        "percent": 6.4,
+        "count": 1841
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 3985,
+      "Bacteria": 94218,
+      "Fungi": 1535,
+      "Metazoa": 1388,
+      "Protista": 308,
+      "Unknown": 243,
+      "Viridiplantae": 485,
+      "Viruses": 8
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-DPs.png",
+    "domainInformation": "data/db_files/Domains/GT2-DPs.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-DPs_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-DPs_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-DPs_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-DPs_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-DPs_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-DPs_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-LpsRelated",
+    "description": " Prokaryotic GT2 sequences predicted to be involved in cell wall biosynthesis",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT2-LpsRelated-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT2-LpsRelated-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT2-LpsRelated-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT2-LpsRelated-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT2-LpsRelated-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT2-LpsRelated-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT2-LpsRelated-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 66.3,
+        "count": 7073
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 12.8,
+        "count": 1362
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 4.6,
+        "count": 496
+      },
+      {
+        "domains": [
+          "GT-A",
+          "PEP_TPR_lipo"
+        ],
+        "percent": 2.8,
+        "count": 299
+      },
+      {
+        "domains": [
+          "GT-A",
+          "Protein_Binding"
+        ],
+        "percent": 2.4,
+        "count": 259
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 359,
+      "Bacteria": 39880,
+      "Fungi": 8,
+      "Metazoa": 27,
+      "Protista": 16,
+      "Unknown": 56,
+      "Viridiplantae": 35,
+      "Viruses": 33
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-LpsRelated.png",
+    "domainInformation": "data/db_files/Domains/GT2-LpsRelated.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-LpsRelated_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-LpsRelated_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-LpsRelated_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-LpsRelated_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-LpsRelated_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-LpsRelated_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT2-Rham-GlfT",
+    "description": " rhamnosyl and galactofuranosyl transferases from the GT2 family",
+    "mechanism": " Inverting",
+    "subfamilies": [],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 74.8,
+        "count": 7970
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 14.9,
+        "count": 1587
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 604,
+      "Bacteria": 40318,
+      "Fungi": 7,
+      "Metazoa": 5,
+      "Protista": 4,
+      "Unknown": 50,
+      "Viridiplantae": 5,
+      "Viruses": 24
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT2-Rham-GlfT.png",
+    "domainInformation": "data/db_files/Domains/GT2-Rham-GlfT.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT2-Rham-GlfT_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT2-Rham-GlfT_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT2-Rham-GlfT_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT2-Rham-GlfT_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT2-Rham-GlfT_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT2-Rham-GlfT_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT21",
+    "description": " ceramide β-glucosyltransferases. Generally add a Glc to ceramide forming a glucosyl-ceramide(GlcCer) which is a key precursor for the synthesis of over 400 GSLs with different sugar chain structures.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT21-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT21-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT21-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT21-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT21-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT21-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT21-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT21-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT21-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT21-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT21-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT21-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT21-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT21-2_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT21-3",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT21-3_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT21-3_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT21-3_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT21-3_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT21-3_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT21-3_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT21-4",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT21-4_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT21-4_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT21-4_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT21-4_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT21-4_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT21-4_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 51.6,
+        "count": 688
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 16.1,
+        "count": 214
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 9.0,
+        "count": 120
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 8.5,
+        "count": 113
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 7.0,
+        "count": 93
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 2.3,
+        "count": 31
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 2.3,
+        "count": 30
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 75,
+      "Bacteria": 3507,
+      "Fungi": 779,
+      "Metazoa": 590,
+      "Protista": 5,
+      "Unknown": 7,
+      "Viridiplantae": 38,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT21.png",
+    "domainInformation": "data/db_files/Domains/GT21.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT21_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT21_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT21_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT21_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT21_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT21_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT24",
+    "description": " α-glucosyltransferases. 2 sequences in humans: UGGT1 and 2. They are part of the cellular machinery to detect proper folding of proteins in the secretory pathway. These enzymes reglucosylate N-glycans near the misfolded part of the protein, thus providing quality control for protein folding in the endoplasmic reticulum.",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT24-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT24-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT24-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT24-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT24-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT24-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT24-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 89.8,
+        "count": 772
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 3.4,
+        "count": 29
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 3.1,
+        "count": 27
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 947,
+      "Metazoa": 1397,
+      "Protista": 140,
+      "Unknown": 6,
+      "Viridiplantae": 279,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT24.png",
+    "domainInformation": "data/db_files/Domains/GT24.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT24_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT24_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT24_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT24_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT24_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT24_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT25",
+    "description": " β-galactosyltransferase, β-glucosyltransferase, β-xylosyltransferase activities. Mosly invovled in lipopolysaccharide biosynthesis in prokaryotes. In humans, COLGALT1 and 2 are involved in the biosynthesis of collagen subtypes by the transfer of Gal to hydroxylysine residues of collagen.",
+    "mechanism": " Inverting",
+    "subfamilies": [],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 74.1,
+        "count": 1209
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 15.0,
+        "count": 244
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 3.1,
+        "count": 50
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 10428,
+      "Fungi": 198,
+      "Metazoa": 1450,
+      "Protista": 94,
+      "Unknown": 12,
+      "Viridiplantae": 21,
+      "Viruses": 98
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT25.png",
+    "domainInformation": "data/db_files/Domains/GT25.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT25_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT25_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT25_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT25_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT25_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT25_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT27",
+    "description": " polypeptide α-N-acetylgalactosaminyltransferases (ppGalNAcTs)",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT27-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT27-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT27-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT27-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT27-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT27-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT27-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "Lectin"
+        ],
+        "percent": 39.5,
+        "count": 1260
+      },
+      {
+        "domains": [
+          "GT-A",
+          "Lectin"
+        ],
+        "percent": 37.2,
+        "count": 1186
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 11.4,
+        "count": 365
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 3.4,
+        "count": 107
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 4,
+      "Bacteria": 871,
+      "Fungi": 0,
+      "Metazoa": 10619,
+      "Protista": 194,
+      "Unknown": 47,
+      "Viridiplantae": 1,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT27.png",
+    "domainInformation": "data/db_files/Domains/GT27.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT27_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT27_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT27_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT27_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT27_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT27_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT31-Chsy",
+    "description": " GT31 sequenes most closely related to CHSY1, CSS3 and metazoan CHPF involved in chondroitin biosynthesis.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT31-Chsy-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT31-Chsy-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT31-Chsy-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT31-Chsy-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Chsy-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT31-Chsy-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Chsy-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT31-Chsy-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT31-Chsy-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT31-Chsy-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT31-Chsy-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Chsy-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT31-Chsy-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Chsy-2_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 52.6,
+        "count": 283
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 15.8,
+        "count": 85
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 14.7,
+        "count": 79
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 10.0,
+        "count": 54
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 3,
+      "Fungi": 19,
+      "Metazoa": 1770,
+      "Protista": 19,
+      "Unknown": 6,
+      "Viridiplantae": 3,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT31-Chsy.png",
+    "domainInformation": "data/db_files/Domains/GT31-Chsy.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT31-Chsy_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT31-Chsy_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT31-Chsy_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT31-Chsy_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT31-Chsy_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT31-Chsy_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT31-Euk",
+    "description": " Closely related eukaryotic GT31 family sequences",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT31-Euk-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT31-Euk-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT31-Euk-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT31-Euk-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Euk-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT31-Euk-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Euk-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT31-Euk-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT31-Euk-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT31-Euk-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT31-Euk-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Euk-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT31-Euk-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Euk-2_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT"
+        ],
+        "percent": 35.7,
+        "count": 367
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT"
+        ],
+        "percent": 32.0,
+        "count": 329
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 7.9,
+        "count": 81
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "Uncharacterized",
+          "GT"
+        ],
+        "percent": 7.7,
+        "count": 79
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 6.0,
+        "count": 62
+      },
+      {
+        "domains": [
+          "Uncharacterized",
+          "GT"
+        ],
+        "percent": 4.6,
+        "count": 47
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 0,
+      "Metazoa": 346,
+      "Protista": 16,
+      "Unknown": 0,
+      "Viridiplantae": 2706,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT31-Euk.png",
+    "domainInformation": "data/db_files/Domains/GT31-Euk.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT31-Euk_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT31-Euk_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT31-Euk_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT31-Euk_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT31-Euk_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT31-Euk_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT31-Fringe",
+    "description": " GT31 sequences most closely related to the fringe sequences that are essential for modulating Notch signaling.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT31-Fringe-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT31-Fringe-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT31-Fringe-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT31-Fringe-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Fringe-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT31-Fringe-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Fringe-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 84.0,
+        "count": 278
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 11.2,
+        "count": 37
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 1,
+      "Metazoa": 1411,
+      "Protista": 1,
+      "Unknown": 7,
+      "Viridiplantae": 0,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT31-Fringe.png",
+    "domainInformation": "data/db_files/Domains/GT31-Fringe.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT31-Fringe_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT31-Fringe_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT31-Fringe_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT31-Fringe_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT31-Fringe_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT31-Fringe_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT31-Galt-Gnt",
+    "description": " 3-β-galactosyltransferases and  β-1,3-N-acetylglucosaminyltransferases.",
+    "mechanism": " Inverting",
+    "subfamilies": [],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 45.7,
+        "count": 1318
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 30.2,
+        "count": 871
+      },
+      {
+        "domains": [
+          "GT"
+        ],
+        "percent": 10.6,
+        "count": 306
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT"
+        ],
+        "percent": 8.0,
+        "count": 231
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 4,
+      "Fungi": 39,
+      "Metazoa": 7862,
+      "Protista": 127,
+      "Unknown": 31,
+      "Viridiplantae": 1183,
+      "Viruses": 2
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT31-Galt-Gnt.png",
+    "domainInformation": "data/db_files/Domains/GT31-Galt-Gnt.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT31-Galt-Gnt_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT31-Galt-Gnt_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT31-Galt-Gnt_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT31-Galt-Gnt_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT31-Galt-Gnt_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT31-Galt-Gnt_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT31-Glt",
+    "description": " β-1,3-glucosyltransferases and β-galactosyltransferases.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT31-Glt_B3GLCT",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT31-Glt_B3GLCT_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT31-Glt_B3GLCT_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT31-Glt_B3GLCT_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Glt_B3GLCT_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT31-Glt_B3GLCT_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Glt_B3GLCT_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT31-Glt_C1GALT",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT31-Glt_C1GALT_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT31-Glt_C1GALT_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT31-Glt_C1GALT_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT31-Glt_C1GALT_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT31-Glt_C1GALT_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT31-Glt_C1GALT_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 42.5,
+        "count": 453
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 34.5,
+        "count": 367
+      },
+      {
+        "domains": [
+          "TMhelix"
+        ],
+        "percent": 6.9,
+        "count": 73
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 3.6,
+        "count": 38
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 2.9,
+        "count": 31
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 54,
+      "Fungi": 50,
+      "Metazoa": 2676,
+      "Protista": 180,
+      "Unknown": 13,
+      "Viridiplantae": 229,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT31-Glt.png",
+    "domainInformation": "data/db_files/Domains/GT31-Glt.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT31-Glt_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT31-Glt_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT31-Glt_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT31-Glt_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT31-Glt_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT31-Glt_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT32",
+    "description": " Includse GTs with multiple activities. In humans, A4GNTvcatalyzes the transfer of N-acetylglucosamine (GlcNAc) to core 2 branched O-glycans which is an essential step for the biosynthesis of type III mucin. Another GT32 sequence inn humans, A4GALT transfers Gal to lactosylceramide and plays roles in synthesis of Gb3Cer.",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT32-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT32-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT32-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT32-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT32-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT32-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT32-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT32-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT32-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT32-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT32-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT32-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT32-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT32-2_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT32-3",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT32-3_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT32-3_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT32-3_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT32-3_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT32-3_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT32-3_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT32-4",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT32-4_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT32-4_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT32-4_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT32-4_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT32-4_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT32-4_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT32-5",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT32-5_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT32-5_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT32-5_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT32-5_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT32-5_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT32-5_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 39.2,
+        "count": 1286
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 12.6,
+        "count": 412
+      },
+      {
+        "domains": [
+          "GT",
+          "GT-A"
+        ],
+        "percent": 12.2,
+        "count": 399
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 9.3,
+        "count": 306
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT",
+          "GT-A"
+        ],
+        "percent": 8.7,
+        "count": 286
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 4.0,
+        "count": 130
+      },
+      {
+        "domains": [
+          "GT"
+        ],
+        "percent": 2.7,
+        "count": 90
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 1,
+      "Bacteria": 4100,
+      "Fungi": 3232,
+      "Metazoa": 1278,
+      "Protista": 145,
+      "Unknown": 12,
+      "Viridiplantae": 790,
+      "Viruses": 59
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT32.png",
+    "domainInformation": "data/db_files/Domains/GT32.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT32_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT32_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT32_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT32_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT32_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT32_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT34",
+    "description": " α-1,6-galactosyltransferases, α-1,2-galactosyltransferases and α-1,6-xylosyltransferases. ",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT34-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT34-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT34-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT34-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT34-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT34-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT34-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 49.3,
+        "count": 292
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 48.3,
+        "count": 286
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 1,
+      "Fungi": 86,
+      "Metazoa": 3,
+      "Protista": 5,
+      "Unknown": 0,
+      "Viridiplantae": 1106,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT34.png",
+    "domainInformation": "data/db_files/Domains/GT34.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT34_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT34_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT34_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT34_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT34_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT34_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT40",
+    "description": " β-1,3-galactofuranosyltransferases that are only present in protists.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT40-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT40-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT40-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT40-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT40-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT40-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT40-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 66.3,
+        "count": 57
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 22.1,
+        "count": 19
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-B"
+        ],
+        "percent": 4.7,
+        "count": 4
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 2.3,
+        "count": 2
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 18,
+      "Fungi": 0,
+      "Metazoa": 0,
+      "Protista": 168,
+      "Unknown": 0,
+      "Viridiplantae": 0,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT40.png",
+    "domainInformation": "data/db_files/Domains/GT40.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT40_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT40_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT40_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT40_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT40_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT40_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT43",
+    "description": " β-glucuronyltransferases in metazoans and β-1,4-xylosyltransferases in plants.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT43-B3GAT3",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT43-B3GAT3_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT43-B3GAT3_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT43-B3GAT3_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT43-B3GAT3_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT43-B3GAT3_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT43-B3GAT3_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT43-Mix-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT43-Mix-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT43-Mix-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT43-Mix-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT43-Mix-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT43-Mix-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT43-Mix-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT43-B3GAT2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT43-B3GAT2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT43-B3GAT2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT43-B3GAT2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT43-B3GAT2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT43-B3GAT2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT43-B3GAT2_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT43-Mix-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT43-Mix-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT43-Mix-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT43-Mix-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT43-Mix-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT43-Mix-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT43-Mix-2_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT43-B3GAT1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT43-B3GAT1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT43-B3GAT1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT43-B3GAT1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT43-B3GAT1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT43-B3GAT1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT43-B3GAT1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT43-Nematode",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT43-Nematode_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT43-Nematode_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT43-Nematode_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT43-Nematode_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT43-Nematode_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT43-Nematode_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 56.4,
+        "count": 622
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 38.9,
+        "count": 429
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 30,
+      "Metazoa": 1924,
+      "Protista": 20,
+      "Unknown": 6,
+      "Viridiplantae": 993,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT43.png",
+    "domainInformation": "data/db_files/Domains/GT43.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT43_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT43_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT43_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT43_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT43_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT43_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT45",
+    "description": " α-N-acteylglucosaminyltransferases mostly present only in prokaryotes.",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT45-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT45-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT45-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT45-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT45-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT45-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT45-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 59.3,
+        "count": 35
+      },
+      {
+        "domains": [
+          "TMhelix"
+        ],
+        "percent": 6.8,
+        "count": 4
+      },
+      {
+        "domains": [
+          "MT"
+        ],
+        "percent": 5.1,
+        "count": 3
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 5.1,
+        "count": 3
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 3.4,
+        "count": 2
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 10,
+      "Bacteria": 430,
+      "Fungi": 1,
+      "Metazoa": 0,
+      "Protista": 13,
+      "Unknown": 2,
+      "Viridiplantae": 1,
+      "Viruses": 1
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT45.png",
+    "domainInformation": "data/db_files/Domains/GT45.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT45_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT45_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT45_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT45_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT45_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT45_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT49",
+    "description": " β-1,3-N-acetylglucosaminyltransferases. Includes the C-terminal GT domain of the LARGE glycosyltransferases involved in biosynthesis of the phosphorylated O-mannosyl trisaccharide.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT49-B4GAT1like",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT49-B4GAT1like_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT49-B4GAT1like_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT49-B4GAT1like_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT49-B4GAT1like_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT49-B4GAT1like_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT49-B4GAT1like_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT49-Fungi",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT49-Fungi_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT49-Fungi_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT49-Fungi_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT49-Fungi_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT49-Fungi_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT49-Fungi_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT49-LARGE",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT49-LARGE_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT49-LARGE_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT49-LARGE_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT49-LARGE_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT49-LARGE_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT49-LARGE_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 45.7,
+        "count": 480
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 25.3,
+        "count": 266
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 14.2,
+        "count": 149
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 7.1,
+        "count": 75
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 359,
+      "Metazoa": 2183,
+      "Protista": 189,
+      "Unknown": 15,
+      "Viridiplantae": 71,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT49.png",
+    "domainInformation": "data/db_files/Domains/GT49.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT49_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT49_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT49_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT49_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT49_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT49_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT54",
+    "description": " β-1,4-N-acetylglucosaminyltransferases. In humans, MGAT4 transfers a GlcNAc to N-glycans to form multiantennary complex and hybrid N-glycans.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT54-MGAT4C",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT54-MGAT4C_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT54-MGAT4C_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT54-MGAT4C_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT54-MGAT4C_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT54-MGAT4C_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT54-MGAT4C_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT54-MGAT4AB",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT54-MGAT4AB_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT54-MGAT4AB_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT54-MGAT4AB_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT54-MGAT4AB_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT54-MGAT4AB_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT54-MGAT4AB_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT54-Chordate",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT54-Chordate_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT54-Chordate_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT54-Chordate_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT54-Chordate_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT54-Chordate_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT54-Chordate_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 63.3,
+        "count": 366
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 31.0,
+        "count": 179
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 13,
+      "Metazoa": 2769,
+      "Protista": 17,
+      "Unknown": 8,
+      "Viridiplantae": 5,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT54.png",
+    "domainInformation": "data/db_files/Domains/GT54.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT54_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT54_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT54_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT54_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT54_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT54_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT55",
+    "description": " mannosyl-3-phosphoglycerate synthases. ",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT55-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT55-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT55-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT55-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT55-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT55-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT55-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 90.5,
+        "count": 67
+      },
+      {
+        "domains": [
+          "PRK14502"
+        ],
+        "percent": 8.1,
+        "count": 6
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 72,
+      "Bacteria": 66,
+      "Fungi": 39,
+      "Metazoa": 0,
+      "Protista": 0,
+      "Unknown": 2,
+      "Viridiplantae": 0,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT55.png",
+    "domainInformation": "data/db_files/Domains/GT55.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT55_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT55_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT55_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT55_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT55_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT55_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT6",
+    "description": " α-3-Galactosyltransferases (A3GALTs), GBGT1 GalNAc transferases, Blood ABO transferases and GLT6D1 related sequences",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT6-Mix",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT6-Mix_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT6-Mix_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT6-Mix_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT6-Mix_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT6-Mix_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT6-Mix_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT6-A3GALT",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT6-A3GALT_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT6-A3GALT_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT6-A3GALT_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT6-A3GALT_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT6-A3GALT_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT6-A3GALT_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT6-ABO",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT6-ABO_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT6-ABO_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT6-ABO_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT6-ABO_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT6-ABO_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT6-ABO_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT6-GLT6D1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT6-GLT6D1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT6-GLT6D1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT6-GLT6D1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT6-GLT6D1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT6-GLT6D1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT6-GLT6D1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 68.4,
+        "count": 296
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 29.6,
+        "count": 128
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 1,
+      "Bacteria": 211,
+      "Fungi": 3,
+      "Metazoa": 2602,
+      "Protista": 4,
+      "Unknown": 9,
+      "Viridiplantae": 2,
+      "Viruses": 10
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT6.png",
+    "domainInformation": "data/db_files/Domains/GT6.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT6_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT6_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT6_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT6_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT6_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT6_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT60",
+    "description": " polypeptide α-N-acetylglucosaminyltransferases.",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT60-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT60-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT60-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT60-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT60-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT60-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT60-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT"
+        ],
+        "percent": 45.1,
+        "count": 134
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT"
+        ],
+        "percent": 19.2,
+        "count": 57
+      },
+      {
+        "domains": [
+          "GT",
+          "TMhelix"
+        ],
+        "percent": 18.2,
+        "count": 54
+      },
+      {
+        "domains": [
+          "Oxygenase",
+          "GT"
+        ],
+        "percent": 5.7,
+        "count": 17
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 616,
+      "Fungi": 3,
+      "Metazoa": 0,
+      "Protista": 472,
+      "Unknown": 0,
+      "Viridiplantae": 26,
+      "Viruses": 11
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT60.png",
+    "domainInformation": "data/db_files/Domains/GT60.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT60_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT60_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT60_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT60_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT60_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT60_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT62",
+    "description": " α-1,2-mannosyltransferases and α-1,6-mannosyltransferases. Most abundant in fungi.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT62-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT62-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT62-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT62-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT62-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT62-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT62-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT62-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT62-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT62-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT62-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT62-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT62-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT62-2_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT62-3",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT62-3_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT62-3_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT62-3_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT62-3_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT62-3_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT62-3_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 43.2,
+        "count": 466
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 42.4,
+        "count": 458
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 1,
+      "Bacteria": 215,
+      "Fungi": 1900,
+      "Metazoa": 20,
+      "Protista": 57,
+      "Unknown": 1,
+      "Viridiplantae": 19,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT62.png",
+    "domainInformation": "data/db_files/Domains/GT62.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT62_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT62_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT62_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT62_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT62_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT62_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT64",
+    "description": " heparan α-N-acetylhexosaminyltransferases",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT64-EXTLs",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT64-EXTLs_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT64-EXTLs_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT64-EXTLs_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT64-EXTLs_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT64-EXTLs_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT64-EXTLs_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT64-EXTs",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT64-EXTs_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT64-EXTs_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT64-EXTs_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT64-EXTs_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT64-EXTs_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT64-EXTs_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT64-Mix",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT64-Mix_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT64-Mix_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT64-Mix_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT64-Mix_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT64-Mix_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT64-Mix_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 21.4,
+        "count": 261
+      },
+      {
+        "domains": [
+          "Exotosin",
+          "GT-A"
+        ],
+        "percent": 18.5,
+        "count": 225
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "Exotosin",
+          "GT-A"
+        ],
+        "percent": 18.2,
+        "count": 222
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 15.9,
+        "count": 194
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GH43_62_32_68_117_130",
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 5.3,
+        "count": 64
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "TPR_MLP1_2",
+          "Exotosin",
+          "GT-A"
+        ],
+        "percent": 4.8,
+        "count": 58
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 2,
+      "Fungi": 242,
+      "Metazoa": 2692,
+      "Protista": 71,
+      "Unknown": 21,
+      "Viridiplantae": 737,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT64.png",
+    "domainInformation": "data/db_files/Domains/GT64.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT64_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT64_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT64_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT64_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT64_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT64_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT67",
+    "description": " β-1,3-galactosyltransferases and β-1,2-N-acetylglucosaminyltransferases. Present only in protists.",
+    "mechanism": " Inverting",
+    "subfamilies": [],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 64.0,
+        "count": 142
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 34.2,
+        "count": 76
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 7,
+      "Metazoa": 0,
+      "Protista": 495,
+      "Unknown": 0,
+      "Viridiplantae": 6,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT67.png",
+    "domainInformation": "data/db_files/Domains/GT67.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT67_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT67_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT67_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT67_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT67_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT67_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT7",
+    "description": " Includes GTs with diverse functions. Most are β-4-galactosyltransferases. But also have β-1,4-N-acetylglucosaminyltransferase and β-1,4-N-acetylgalactosaminyltransferase activities.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT7-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT7-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT7-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT7-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT7-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT7-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT7-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 52.5,
+        "count": 627
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 37.9,
+        "count": 453
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 2,
+      "Bacteria": 83,
+      "Fungi": 1,
+      "Metazoa": 4229,
+      "Protista": 38,
+      "Unknown": 17,
+      "Viridiplantae": 7,
+      "Viruses": 4
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT7.png",
+    "domainInformation": "data/db_files/Domains/GT7.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT7_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT7_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT7_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT7_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT7_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT7_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT75",
+    "description": " self-glucosylating β-glucosyltransferase and UDP-L-arabinopyranose mutase",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT75-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT75-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT75-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT75-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT75-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT75-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT75-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT75-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT75-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT75-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT75-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT75-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT75-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT75-2_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT75-3",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT75-3_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT75-3_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT75-3_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT75-3_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT75-3_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT75-3_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 67.5,
+        "count": 536
+      },
+      {
+        "domains": [
+          "GT"
+        ],
+        "percent": 18.0,
+        "count": 143
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT"
+        ],
+        "percent": 11.0,
+        "count": 87
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 237,
+      "Bacteria": 235,
+      "Fungi": 10,
+      "Metazoa": 111,
+      "Protista": 22,
+      "Unknown": 3,
+      "Viridiplantae": 1136,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT75.png",
+    "domainInformation": "data/db_files/Domains/GT75.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT75_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT75_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT75_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT75_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT75_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT75_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT77",
+    "description": " α-xylosyltransferases, α-1,3-galactosyltransferases and arabinosyltransferases.",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT77-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT77-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT77-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT77-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT77-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT77-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT77-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT77-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT77-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT77-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT77-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT77-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT77-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT77-2_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 42.2,
+        "count": 634
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 41.4,
+        "count": 622
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 1,
+      "Bacteria": 28,
+      "Fungi": 151,
+      "Metazoa": 165,
+      "Protista": 255,
+      "Unknown": 0,
+      "Viridiplantae": 2772,
+      "Viruses": 2
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT77.png",
+    "domainInformation": "data/db_files/Domains/GT77.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT77_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT77_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT77_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT77_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT77_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT77_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT78",
+    "description": " α-mannosyltransferases",
+    "mechanism": " Retaining",
+    "subfamilies": [],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 66.7,
+        "count": 2
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "MFS_1",
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 33.3,
+        "count": 1
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 2,
+      "Bacteria": 9,
+      "Fungi": 0,
+      "Metazoa": 0,
+      "Protista": 5,
+      "Unknown": 0,
+      "Viridiplantae": 6,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT78.png",
+    "domainInformation": "data/db_files/Domains/GT78.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT78_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT78_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT78_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT78_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT78_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT78_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT8-Fun",
+    "description": " Mostly fungal and some bacterial GT8 sequences",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT8-Fun-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-Fun-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-Fun-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-Fun-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-Fun-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-Fun-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-Fun-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 51.0,
+        "count": 175
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 44.6,
+        "count": 153
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 702,
+      "Metazoa": 0,
+      "Protista": 11,
+      "Unknown": 0,
+      "Viridiplantae": 9,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT8-Fun.png",
+    "domainInformation": "data/db_files/Domains/GT8-Fun.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT8-Fun_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT8-Fun_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT8-Fun_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT8-Fun_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT8-Fun_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT8-Fun_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT8-GATL",
+    "description": " α-galacturonosyltransferase like sequences",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT8-GATL-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-GATL-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-GATL-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-GATL-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-GATL-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-GATL-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-GATL-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 89.7,
+        "count": 742
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 4.8,
+        "count": 40
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 5,
+      "Bacteria": 4157,
+      "Fungi": 11,
+      "Metazoa": 9,
+      "Protista": 25,
+      "Unknown": 1,
+      "Viridiplantae": 1449,
+      "Viruses": 73
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT8-GATL.png",
+    "domainInformation": "data/db_files/Domains/GT8-GATL.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT8-GATL_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT8-GATL_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT8-GATL_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT8-GATL_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT8-GATL_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT8-GATL_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT8-GAUT",
+    "description": " α-galacturonosyltransferases.",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT8-GAUT-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-GAUT-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-GAUT-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-GAUT-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-GAUT-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-GAUT-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-GAUT-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT8-GAUT-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-GAUT-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-GAUT-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-GAUT-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-GAUT-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-GAUT-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-GAUT-2_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT8-GAUT-3",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-GAUT-3_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-GAUT-3_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-GAUT-3_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-GAUT-3_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-GAUT-3_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-GAUT-3_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT8-GAUT-4",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-GAUT-4_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-GAUT-4_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-GAUT-4_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-GAUT-4_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-GAUT-4_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-GAUT-4_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT"
+        ],
+        "percent": 24.4,
+        "count": 377
+      },
+      {
+        "domains": [
+          "GT"
+        ],
+        "percent": 17.9,
+        "count": 276
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 13.7,
+        "count": 212
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 10.7,
+        "count": 166
+      },
+      {
+        "domains": [
+          "PLN02910"
+        ],
+        "percent": 8.1,
+        "count": 125
+      },
+      {
+        "domains": [
+          "PLN02718"
+        ],
+        "percent": 5.6,
+        "count": 86
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "PLN02910"
+        ],
+        "percent": 5.4,
+        "count": 84
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "PLN02659"
+        ],
+        "percent": 5.2,
+        "count": 81
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "PLN02867"
+        ],
+        "percent": 3.5,
+        "count": 54
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 0,
+      "Metazoa": 792,
+      "Protista": 15,
+      "Unknown": 0,
+      "Viridiplantae": 3830,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT8-GAUT.png",
+    "domainInformation": "data/db_files/Domains/GT8-GAUT.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT8-GAUT_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT8-GAUT_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT8-GAUT_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT8-GAUT_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT8-GAUT_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT8-GAUT_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT8-Glycogenin",
+    "description": " Glycogenin related sequences",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT8-Glycogenin-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-Glycogenin-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-Glycogenin-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-Glycogenin-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-Glycogenin-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-Glycogenin-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-Glycogenin-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT8-Glycogenin-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-Glycogenin-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-Glycogenin-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-Glycogenin-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-Glycogenin-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-Glycogenin-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-Glycogenin-2_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 64.3,
+        "count": 1848
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 12.6,
+        "count": 361
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 9.0,
+        "count": 259
+      },
+      {
+        "domains": [
+          "GT-A",
+          "PHA03247"
+        ],
+        "percent": 2.3,
+        "count": 67
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 1,
+      "Bacteria": 982,
+      "Fungi": 2542,
+      "Metazoa": 1831,
+      "Protista": 317,
+      "Unknown": 16,
+      "Viridiplantae": 2658,
+      "Viruses": 17
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT8-Glycogenin.png",
+    "domainInformation": "data/db_files/Domains/GT8-Glycogenin.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT8-Glycogenin_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT8-Glycogenin_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT8-Glycogenin_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT8-Glycogenin_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT8-Glycogenin_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT8-Glycogenin_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT8-LpsGlt",
+    "description": " GT8 sequences similar to ones involved in lipopolysaccharide biosynthesis in bacteria.",
+    "mechanism": " Retaining",
+    "subfamilies": [],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 75.1,
+        "count": 1422
+      },
+      {
+        "domains": [
+          "PRK15171"
+        ],
+        "percent": 4.3,
+        "count": 81
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 3.9,
+        "count": 73
+      },
+      {
+        "domains": [
+          "Uncharacterized",
+          "GT-A"
+        ],
+        "percent": 3.3,
+        "count": 62
+      },
+      {
+        "domains": [
+          "GT-A",
+          "GT-B"
+        ],
+        "percent": 2.3,
+        "count": 43
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 2.2,
+        "count": 41
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 23,
+      "Bacteria": 16094,
+      "Fungi": 67,
+      "Metazoa": 125,
+      "Protista": 34,
+      "Unknown": 19,
+      "Viridiplantae": 5,
+      "Viruses": 3
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT8-LpsGlt.png",
+    "domainInformation": "data/db_files/Domains/GT8-LpsGlt.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT8-LpsGlt_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT8-LpsGlt_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT8-LpsGlt_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT8-LpsGlt_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT8-LpsGlt_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT8-LpsGlt_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT8-Lrg",
+    "description": " α-1,3-xylosyltransferases.  Includes the N-terminal GT domain of the LARGE glycosyltransferases involved in biosynthesis of the phosphorylated O-mannosyl trisaccharide.",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT8-Lrg-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-Lrg-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-Lrg-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-Lrg-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-Lrg-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-Lrg-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-Lrg-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 38.0,
+        "count": 136
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 20.1,
+        "count": 72
+      },
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 20.1,
+        "count": 72
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 15.6,
+        "count": 56
+      },
+      {
+        "domains": [
+          "bZIP",
+          "GT-A",
+          "GT-A"
+        ],
+        "percent": 2.5,
+        "count": 9
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 20,
+      "Metazoa": 1407,
+      "Protista": 14,
+      "Unknown": 16,
+      "Viridiplantae": 1,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT8-Lrg.png",
+    "domainInformation": "data/db_files/Domains/GT8-Lrg.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT8-Lrg_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT8-Lrg_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT8-Lrg_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT8-Lrg_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT8-Lrg_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT8-Lrg_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT8-XylT",
+    "description": " Eukaryotic GT8 xylosyltransferases",
+    "mechanism": " Retaining",
+    "subfamilies": [
+      {
+        "name": "GT8-XylT-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT8-XylT-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT8-XylT-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT8-XylT-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT8-XylT-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT8-XylT-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT8-XylT-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 85.5,
+        "count": 242
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A"
+        ],
+        "percent": 11.0,
+        "count": 31
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 0,
+      "Fungi": 16,
+      "Metazoa": 1212,
+      "Protista": 4,
+      "Unknown": 5,
+      "Viridiplantae": 3,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT8-XylT.png",
+    "domainInformation": "data/db_files/Domains/GT8-XylT.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT8-XylT_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT8-XylT_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT8-XylT_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT8-XylT_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT8-XylT_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT8-XylT_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT81",
+    "description": " glucosyl-3-phosphoglycerate synthases/mannosyl-3-phosphoglycerate synthases.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT81-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT81-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT81-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT81-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT81-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT81-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT81-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT81-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT81-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT81-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT81-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT81-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT81-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT81-2_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT81-3",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT81-3_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT81-3_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT81-3_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT81-3_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT81-3_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT81-3_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 94.0,
+        "count": 1804
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 394,
+      "Bacteria": 5459,
+      "Fungi": 1,
+      "Metazoa": 0,
+      "Protista": 0,
+      "Unknown": 17,
+      "Viridiplantae": 0,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT81.png",
+    "domainInformation": "data/db_files/Domains/GT81.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT81_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT81_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT81_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT81_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT81_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT81_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT82",
+    "description": " β-1,4-N-acetylgalactosaminyltransferases.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT82-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT82-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT82-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT82-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT82-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT82-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT82-1_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "CgtA"
+        ],
+        "percent": 91.7,
+        "count": 22
+      },
+      {
+        "domains": [
+          "CgtA",
+          "TMhelix"
+        ],
+        "percent": 4.2,
+        "count": 1
+      },
+      {
+        "domains": [
+          "CgtA",
+          "GT-A"
+        ],
+        "percent": 4.2,
+        "count": 1
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 795,
+      "Fungi": 0,
+      "Metazoa": 0,
+      "Protista": 3,
+      "Unknown": 0,
+      "Viridiplantae": 0,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT82.png",
+    "domainInformation": "data/db_files/Domains/GT82.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT82_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT82_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT82_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT82_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT82_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT82_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT84",
+    "description": " cyclic β-1,2-glucan synthases.",
+    "mechanism": " Inverting",
+    "subfamilies": [
+      {
+        "name": "GT84-1",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT84-1_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT84-1_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT84-1_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT84-1_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT84-1_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT84-1_uniprot.tsv"
+          }
+        ]
+      },
+      {
+        "name": "GT84-2",
+        "downloads": [
+          {
+            "name": "FastaGTADomain",
+            "nr": "data/db_files/Fasta/GT84-2_nr.fasta",
+            "uniprot": "data/db_files/Fasta/GT84-2_uniprot.fasta"
+          },
+          {
+            "name": "FastaFullSequence",
+            "nr": "data/db_files/FastaFull/GT84-2_nr.full.fasta",
+            "uniprot": "data/db_files/FastaFull/GT84-2_uniprot.full.fasta"
+          },
+          {
+            "name": "Tables",
+            "nr": "data/db_files/Tables/GT84-2_nr.tsv",
+            "uniprot": "data/db_files/Tables/GT84-2_uniprot.tsv"
+          }
+        ]
+      }
+    ],
+    "domainOrganization": [
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 84.5,
+        "count": 1267
+      },
+      {
+        "domains": [
+          "TMhelix",
+          "GT-A",
+          "TMhelix",
+          "Glycoamylase",
+          "GH",
+          "Phosphorylase"
+        ],
+        "percent": 3.1,
+        "count": 46
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 1,
+      "Bacteria": 8663,
+      "Fungi": 231,
+      "Metazoa": 8,
+      "Protista": 1,
+      "Unknown": 7,
+      "Viridiplantae": 4,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT84.png",
+    "domainInformation": "data/db_files/Domains/GT84.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT84_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT84_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT84_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT84_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT84_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT84_uniprot.tsv"
+      }
+    ]
+  },
+  {
+    "familyName": "GT88",
+    "description": " α-glucosyltransferases.",
+    "mechanism": " Retaining",
+    "subfamilies": [],
+    "domainOrganization": [
+      {
+        "domains": [
+          "GT-A"
+        ],
+        "percent": 87.5,
+        "count": 14
+      },
+      {
+        "domains": [
+          "GT-A",
+          "Unknown"
+        ],
+        "percent": 6.3,
+        "count": 1
+      },
+      {
+        "domains": [
+          "GT-A",
+          "TMhelix"
+        ],
+        "percent": 6.3,
+        "count": 1
+      }
+    ],
+    "taxonomicDistribution": {
+      "Archaea": 0,
+      "Bacteria": 186,
+      "Fungi": 0,
+      "Metazoa": 0,
+      "Protista": 0,
+      "Unknown": 0,
+      "Viridiplantae": 0,
+      "Viruses": 0
+    },
+    "familyAlignment": "data/db_files/WeblogoDomain/GT88.png",
+    "domainInformation": "data/db_files/Domains/GT88.domainsExtended.txt",
+    "downloads": [
+      {
+        "name": "FastaGTADomain",
+        "nr": "data/db_files/Fasta/GT88_nr.fasta",
+        "uniprot": "data/db_files/Fasta/GT88_uniprot.fasta"
+      },
+      {
+        "name": "FastaFullSequence",
+        "nr": "data/db_files/FastaFull/GT88_nr.full.fasta",
+        "uniprot": "data/db_files/FastaFull/GT88_uniprot.full.fasta"
+      },
+      {
+        "name": "Tables",
+        "nr": "data/db_files/Tables/GT88_nr.tsv",
+        "uniprot": "data/db_files/Tables/GT88_uniprot.tsv"
+      }
+    ]
+  }
+]
