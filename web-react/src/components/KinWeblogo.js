@@ -186,8 +186,8 @@ function highlightColumn(e) {
 
 }
 function KinWeblogo(props) {
-  const [selectedNumbering, setNumbering] = React.useState(props && props.numbers ? props.numbers[0] : '');
-  const [selectedNumberingValue, setNumberingValue] = React.useState('');
+  const [numbering, setNumbering] = React.useState(props && props.numbers ? props.numbers[0] : '');
+  const [selectedNumberingValue, setSelectedNumberingValue] = React.useState('');
   const [propChanged, setPropChanged] = React.useState(false);
   const [isExpanded, setIsExpanded] = React.useState(true);
   const [dropdowns, setDropdowns] = React.useState([]);
@@ -292,7 +292,7 @@ function KinWeblogo(props) {
       //showNumbers()
       setNumbering({ "value": numbering });
       setPropChanged(true);
-      setNumberingValue(event.target.value);
+      setSelectedNumberingValue(event.target.value);
     }
   };
 
@@ -481,7 +481,7 @@ dropdowns.forEach((element,index) =>
           </Box> */}
    
           <div className={numberingclass} style={{marginLeft: settings.ui.numberingMarginLeft, marginTop: settings.ui.numberingMarginTop}}>
-            {selectedNumbering ? selectedNumbering.value.map(
+            {numbering ? numbering.value.map(
               (n, index) => 
                <span key={`p${index}`} onClick={highlightColumn} style={{minWidth:`${settings.ui.numberingMinWidth}`, writingMode:"vertical-lr"}}>{n === null ? "-" : n}</span>) : ""}
           </div>

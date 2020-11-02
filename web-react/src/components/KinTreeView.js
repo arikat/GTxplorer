@@ -37,7 +37,9 @@ const useTreeItemStyles = makeStyles(theme => ({
       // paddingLeft: theme.spacing(2),
     },
   },
-  expanded: {},
+  expanded: {
+  
+  },
   label: {
     fontWeight: 'inherit',
     color: 'inherit',
@@ -55,6 +57,18 @@ const useTreeItemStyles = makeStyles(theme => ({
     fontWeight: 'inherit',
     flexGrow: 1,
   },
+  iconContainer:
+  {
+    width:'15px',
+    flexShrink: 'unset',
+    marginRight:4
+  },
+  iconContainerLeaf:
+  {
+    width:0,
+    flexShrink: 'unset',
+    marginRight:2
+  }
 }));
 
 
@@ -71,28 +85,17 @@ const useStyles = makeStyles(theme => ({
 
 function StyledTreeItem(props) {
   const classes = useTreeItemStyles();
-  const { isDark, nodeType, labelText, labelIcon: LabelIcon, labelIconColor, labelInfo, color, bgColor, ...other } = props;
+  const { isDark, nodeType, labelText, labelIcon: LabelIcon, labelIconColor, labelInfo, color, bgColor,hasChildren, ...other } = props;
 
   return (
     <TreeItem
       label={
         <div className={classes.labelRoot}>
-          {
-            nodeType == 'protein' && isDark?
-            <img alt="Select Dark Kinase" src="img/kinase_dark.svg" width="22px" />
-            :''
-          }
-          {
-            nodeType == 'protein' && !isDark?
-            // <WellknownIcon className={classes.labelIcon} />
-            <img alt="Well-known Kinase" src="img/kinase_wellknown.svg" width="22px" />
-            :''
-          }
-          <Typography variant="body2" className={classes.labelText}>
+          <Typography variant="body2">
             {labelText}
           </Typography>
           <Typography variant="caption" color="inherit">
-            {labelInfo}
+            {labelInfo} 
           </Typography>
         </div>
       }
@@ -106,6 +109,7 @@ function StyledTreeItem(props) {
         expanded: classes.expanded,
         group: classes.group,
         label: classes.label,
+        iconContainer: hasChildren? classes.iconContainer:classes.iconContainerLeaf
       }}
       {...other}
     />
@@ -220,14 +224,14 @@ function KinTreeView(props) {
     }
 
 if (nodes)    return nodes.map((node, index) => {
-      return <div key={`node-${index}`} style={{ display: 'flex', alignItems: 'baseline' }}>
+      return <div key={`node-${index}`} style={{ display: 'flex', alignItems: node.nodes.length>0? 'baseline':'center' }}>
         <Checkbox
           id={`checkbox-${node.id}`}
           size='small'
           color="primary"
           checked={checkInSelectedNodes(node)}
           onChange={(e) => handleNodeClick(node,e.target.checked)}/>
-          <StyledTreeItem nodeId={node.id} labelText={node.value} isDark={node.isDark} nodeType={node.type} >
+          <StyledTreeItem nodeId={node.id} labelText={node.value} isDark={node.isDark} nodeType={node.type} hasChildren={node.nodes.length>0} >
             {children(node.nodes)}
           </StyledTreeItem>
       </div>

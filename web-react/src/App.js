@@ -23,7 +23,7 @@ import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import Box from '@material-ui/core/Box';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 // const rowWidth = 30, rowHeight = 120;
 const useStyles = makeStyles(theme => ({
@@ -53,7 +53,11 @@ const useStyles = makeStyles(theme => ({
   treeVisible:
   {
     display: 'inline-block',
-    marginRight: 40
+    marginRight: 40,
+    left: 0,
+    position:'sticky',
+    zIndex:2,
+    backgroundColor:'#fff'
   },
   treeInvisible:
   {
@@ -136,29 +140,28 @@ function App() {
   const [items, setItems] = useState([]);
   const [height, setHeight] = React.useState(100);
 
-  const appname= process.env.REACT_APP_NAME;
+  const appname = process.env.REACT_APP_NAME;
   let numberingjson = require(`./${appname}/data/numbering.json`);
   const settings = require(`./${appname}.settings.js`).settings;
   let tree = require(`./${appname}/data/classification.json`);
 
-  window.addEventListener('message',function(e) {
+  window.addEventListener('message', function (e) {
     // if(e.origin !== 'https://uga-gta-kinview.netlify.app') return;
     let familyName = e.data.familyName;
-    if (familyName && explorerValue!==familyName)
-        // setExplorerValue(familyName); 
-        setExplorerValue(familyName.split(" ").join("")); //remove spaces from familyName
-        
+    if (familyName && explorerValue !== familyName)
+      // setExplorerValue(familyName); 
+      setExplorerValue(familyName.split(" ").join("")); //remove spaces from familyName
+
     // e.source.postMessage('holla back youngin!',e.origin);
-  },false);
+  }, false);
   if (elements.length === 0)
     setElements(settings.elements);
 
-  useEffect(()=>
-  {
-    setCheckboxes(settings.elements.filter(x=>x.type==="checkbox"));
-    setOptions(settings.options.filter(x=>x.type==="checkbox"));
+  useEffect(() => {
+    setCheckboxes(settings.elements.filter(x => x.type === "checkbox"));
+    setOptions(settings.options.filter(x => x.type === "checkbox"));
   }
-  ,[settings,settings.elements,settings.options]);
+    , [settings, settings.elements, settings.options]);
   useEffect(() => {
     let filtered;
     if (explorerValue) {
@@ -167,18 +170,18 @@ function App() {
         return n;
       });
       const nodesCopy = JSON.parse(JSON.stringify(originalNodes));
-      function customFilter(data){
-        if(data.hasOwnProperty('value') && data["value"] == explorerValue)
-            return data;
-    
-        for(var i=0; i<Object.keys(data).length; i++){
-            if(typeof data[Object.keys(data)[i]] == "object"){
-                var o = customFilter(data[Object.keys(data)[i]]);
-                if(o != null)
-                    return o;
-            }
+      function customFilter(data) {
+        if (data.hasOwnProperty('value') && data["value"] == explorerValue)
+          return data;
+
+        for (var i = 0; i < Object.keys(data).length; i++) {
+          if (typeof data[Object.keys(data)[i]] == "object") {
+            var o = customFilter(data[Object.keys(data)[i]]);
+            if (o != null)
+              return o;
+          }
         }
-    
+
         return null;
       }
       filtered = customFilter(nodesCopy);
@@ -189,29 +192,25 @@ function App() {
         treeCheckboxChanged(filtered, true);
     }
   }, [explorerValue]);
-    
 
-  const weblogoRemove= node => e =>
-  {
+
+  const weblogoRemove = node => e => {
     handleDelete(node);
   }
 
 
-  const weblogoCheckboxChanged = e =>
-  {
+  const weblogoCheckboxChanged = e => {
 
     const el = e.target.id; //for example: negative-checkbox-id11@Axl
-    const id = el.substring(el.lastIndexOf("-")+1); //for example: id11@Axl
+    const id = el.substring(el.lastIndexOf("-") + 1); //for example: id11@Axl
     //const checkbox = el.substring(0,el.indexOf("-")); //for example: negative
     //let node = selectedNodes.find(k => k.id === el.substring(id));
-    
-    const modifiedNodes = selectedNodes.map((node,j)=>
-    {
-      if (node.id === id)
-      {
+
+    const modifiedNodes = selectedNodes.map((node, j) => {
+      if (node.id === id) {
         //if (node.checkboxes.length === 0) //not initialized
-        node.checkboxes = node.checkboxes.length>0? JSON.parse(JSON.stringify(node.checkboxes)):settings.elements.filter(x=>x.type==="checkbox"); //a deep copy of checkboxes
-        node.checkboxes.find( x=> x.id === e.target.defaultValue)["checked"] = e.target.checked;
+        node.checkboxes = node.checkboxes.length > 0 ? JSON.parse(JSON.stringify(node.checkboxes)) : settings.elements.filter(x => x.type === "checkbox"); //a deep copy of checkboxes
+        node.checkboxes.find(x => x.id === e.target.defaultValue)["checked"] = e.target.checked;
       }
       return node;
     });
@@ -228,29 +227,29 @@ function App() {
     //   //   item.ptmWeblogosChecked = e.target.checked;
     //   if (e.target.id === "ptmb-checkbox-" + item.id )
     //     item.ptmBarchartChecked = e.target.checked;
-      
-      
+
+
     //   return item;
     // });
-    
+
     setSelectedNodes(modifiedNodes);
   }
   const SortableItem = SortableElement((item) =>
     <div>
-      <KinWeblogo 
-          value={item.value}
-          highres={switchHighResChecked} 
-          numbers={getCandidateNumbers(item.value)} 
-          height={height} 
-          onRemove={weblogoRemove(item.value)}
-          onChange={weblogoCheckboxChanged}
-          checkboxes = {item.value.checkboxes}
-          // residueChecked={item.value.residueChecked} 
-          // mutationWeblogosChecked={item.value.mutationWeblogosChecked}
-          // mutationBarchartChecked={item.value.mutationBarchartChecked}
-          //ptmBarchartChecked={item.value.ptmBarchartChecked}
-          viewMode = {viewMode}
-           />
+      <KinWeblogo
+        value={item.value}
+        highres={switchHighResChecked}
+        numbers={getCandidateNumbers(item.value)}
+        height={height}
+        onRemove={weblogoRemove(item.value)}
+        onChange={weblogoCheckboxChanged}
+        checkboxes={item.value.checkboxes}
+        // residueChecked={item.value.residueChecked} 
+        // mutationWeblogosChecked={item.value.mutationWeblogosChecked}
+        // mutationBarchartChecked={item.value.mutationBarchartChecked}
+        //ptmBarchartChecked={item.value.ptmBarchartChecked}
+        viewMode={viewMode}
+      />
     </div>
   );
   const SortableList = SortableContainer(({ items }) => {
@@ -270,8 +269,8 @@ function App() {
 
   //weblogo options (e.g., weblogo checkboxes) initialize here, when a node is selected
   function treeCheckboxChanged(node, checked) {
-    let alreadyAdded =selectedNodes.some(item => item.id === node.id);
-    
+    let alreadyAdded = selectedNodes.some(item => item.id === node.id);
+
     if (checked && !alreadyAdded) { //add the selection to selectedNodes
       setSelectedNode(node);
       let switches = elements.reduce(function (res, item) {
@@ -285,10 +284,10 @@ function App() {
         }
         return res;
       }, []);
-      node.swiches = switches;   
+      node.swiches = switches;
       setSelectedNodes(selectedNodes => [...selectedNodes, node]);
     }
-    else if(!checked) //remvoe the Selection
+    else if (!checked) //remvoe the Selection
     {
       //setSelectedNode('');
       handleDelete(node);
@@ -335,8 +334,8 @@ function App() {
   const handleViewModechange = () => {
     setViewMode(prev => !prev);
   };
-  
-  
+
+
   // const handleDomainSwitchChange = () => {
   //   setSwitchDomainChecked(prev => !prev);
   // };
@@ -400,16 +399,14 @@ function App() {
   const handleCloseNo = () => {
     setOpenResetDialog(false);
   };
-  const heightChanged = (event,value) => {
+  const heightChanged = (event, value) => {
     setHeight(value);
   };
-  function toggleOptions(event)
-  {    
-    let id =event.target.value;
+  function toggleOptions(event) {
+    let id = event.target.value;
     let element = settings.options.find(x => x.id === id);
     element.checked = !element.checked;
-    const modifiedOptions = options.map((item,j)=>
-    {
+    const modifiedOptions = options.map((item, j) => {
       if (id === item.id)
         item.checked = event.target.checked;
       return item;
@@ -419,18 +416,16 @@ function App() {
   const classes = useStyles();
 
   let rendered_options = [];
-  options.forEach((element,index) =>
-  {
-    if (element.visible) 
-    {
+  options.forEach((element, index) => {
+    if (element.visible) {
       let checkbox = <FormControlLabel control={
-        <Switch 
-          id={`${element.id}-checkbox`} 
+        <Switch
+          id={`${element.id}-checkbox`}
           //checked={checkboxes[x=>x.id === ""].visible} 
-          checked={element.checked} 
-          value={element.id} 
+          checked={element.checked}
+          value={element.id}
           onChange={toggleOptions} />} label={element.name} />
-        
+
       rendered_options.push(checkbox);
     }
   });
@@ -439,7 +434,7 @@ function App() {
     <div className={classes.root}>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{settings.title?settings.title:"AppGen"}</title>
+        <title>{settings.title ? settings.title : "AppGen"}</title>
         {/* <link rel="canonical" href="http://mysite.com/example" /> */}
       </Helmet>
       <Grid item>
@@ -473,80 +468,80 @@ function App() {
       <Grid item xs={12}>
         <Grid container justify="flex-start" spacing={1} className={classes.nowrap}>
           <Grid key="leftTree" className={isEnabled("hierarchy") ? classes.treeVisible : classes.treeInvisible} item>
-            <KinTreeView selectedNodes={selectedNodes} 
-            onCheckBoxesChanged={treeCheckboxChanged} />
+            <KinTreeView selectedNodes={selectedNodes}
+              onCheckBoxesChanged={treeCheckboxChanged} />
           </Grid>
           <Grid key="rightContents" item>
             <div className={selectedNodes.length > 0 ? classes.mainBoxVisible : classes.mainBoxInvisible}>
 
-              <Paper id="mainPaper" className={selectedNode ? classes.paper : classes.hidden} elevation={0}>
-              <div className="settings">
-        
-        <Box  display="flex" alignItems="flex-start" p={0.1} m={0.1}>
-          <Box>
-          <fieldset>
-                <legend>Settings</legend>
+              <Paper id="mainPaper" className={selectedNode ? classes.paper : classes.hidden} style={{display:'flex',flexGrow:1,flexFlow:'wrap'}} elevation={0}>
+                <div className="settings" style={{position:'sticky',display:'flex',left:182}}>
+                  <Box display="flex" alignItems="flex-start" p={0.1} m={0.1}>
+                    <Box>
+                      <fieldset>
+                        <legend>Settings</legend>
 
-        {/* <FormControlLabel label="High-Res" control={<Switch checked={switchHighResChecked} onChange={handleHighResChange} />} />         */}
-        
-        {/* <FormControlLabel label="Hierarchy" control={<Switch checked={switchShowTreeChecked} onChange={handleTreeSwitchChange} />} />
+                        {/* <FormControlLabel label="High-Res" control={<Switch checked={switchHighResChecked} onChange={handleHighResChange} />} />         */}
+
+                        {/* <FormControlLabel label="Hierarchy" control={<Switch checked={switchShowTreeChecked} onChange={handleTreeSwitchChange} />} />
         <FormControlLabel label="Motif" control={<Switch checked={switchMotifChecked} onChange={handleMotifSwitchChange} />} />
         <FormControlLabel label="Domain Structure" control={<Switch checked={switchDomainChecked} onChange={handleDomainSwitchChange} />} /> */}
-        {rendered_options}
-        
-        <FormControlLabel label="View Mode" control={<VisibilityIcon color={viewMode? "primary":"action"} fontSize="small" onClick={handleViewModechange} style={{ cursor: "pointer" }} />} />
-        <FormControlLabel label="Height " labelPlacement="start" control={
-        <div className="sliderHeight">
-            <Slider
-            onChange={heightChanged}
-            defaultValue={height}
-            aria-labelledby="discrete-slider"
-            valueLabelDisplay="auto"
-            step={5}
-            min={50}
-            max={150}
-          />
-       </div>
-        } />
-        <FormControlLabel style={{float:'right', marginLeft: '30px'}} control={<Button size="small" color="secondary" onClick={handleResetClick}>Reset</Button>} />
+                        {rendered_options}
 
-        </fieldset>
-          </Box>
-          <Box className={settings.show_legend && (isEnabled("domain") || isEnabled("motif")) ? "" : classes.hidden}>
-          <fieldset>
-          <legend>Legend</legend>
-            <Box display="flex" alignItems="flex-start" className="LegendText">
-              <Box component="span" 
-                className={isEnabled("motif") ? "legend-motif" : classes.hidden}>
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>DXDmotif</Typography>} control={<img alt="betasheet" src="img/legend/dxdmotif.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>G-loop</Typography>} control={<img alt="betasheet" src="img/legend/gloop.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>XEDmotif</Typography>} control={<img alt="betasheet" src="img/legend/xedmotif.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>C-his</Typography>} control={<img alt="betasheet" src="img/legend/chis.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>hydrophobic residues</Typography>} control={<img alt="betasheet" src="img/legend/hydrophobicresidues.png" />} />
+                        <FormControlLabel label="View Mode" control={<VisibilityIcon color={viewMode ? "primary" : "action"} fontSize="small" onClick={handleViewModechange} style={{ cursor: "pointer" }} />} />
+                        <FormControlLabel label="Height " labelPlacement="start" control={
+                          <div className="sliderHeight">
+                            <Slider
+                              onChange={heightChanged}
+                              defaultValue={height}
+                              aria-labelledby="discrete-slider"
+                              valueLabelDisplay="auto"
+                              step={5}
+                              min={50}
+                              max={150}
+                            />
+                          </div>
+                        } />
+                        <FormControlLabel style={{ float: 'right', marginLeft: '30px' }} control={<Button size="small" color="secondary" onClick={handleResetClick}>Reset</Button>} />
 
-              </Box>
-              <Box component="span" className={isEnabled("domain") ? "legend-domain" : classes.hidden}>
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>&alpha;-helix</Typography>} control={<img alt="betasheet" src="img/legend/alphahelix.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>&beta;-sheet</Typography>} control={<img alt="betasheet" src="img/legend/betasheet.png" />} />
-                <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>hypervariable region</Typography>} control={<img alt="betasheet" src="img/legend/hypervariableregion.png" />} />
-              </Box>
-            </Box>
-          
-        </fieldset>
-          </Box>
-        </Box>
-        </div>
+                      </fieldset>
+                    </Box>
+                    <Box className={settings.show_legend && (isEnabled("domain") || isEnabled("motif")) ? "" : classes.hidden}>
+                      <fieldset>
+                        <legend>Legend</legend>
+                        <Box display="flex" alignItems="flex-start" className="LegendText">
+                          <Box component="span"
+                            className={isEnabled("motif") ? "legend-motif" : classes.hidden}>
+                            <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>DXDmotif</Typography>} control={<img alt="betasheet" src="img/legend/dxdmotif.png" />} />
+                            <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>G-loop</Typography>} control={<img alt="betasheet" src="img/legend/gloop.png" />} />
+                            <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>XEDmotif</Typography>} control={<img alt="betasheet" src="img/legend/xedmotif.png" />} />
+                            <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>C-his</Typography>} control={<img alt="betasheet" src="img/legend/chis.png" />} />
+                            <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>hydrophobic residues</Typography>} control={<img alt="betasheet" src="img/legend/hydrophobicresidues.png" />} />
 
-          <img src={`${appname}/img/motif.png`} alt="Motif" style={{width:4840,marginLeft:16}} className={selectedNode && isEnabled("motif") ? classes.motif : classes.hidden} />
-          <img src={`${appname}/img/structure.png`} alt="Domain Structure" 
-                style={
-                      {
-                        width: isEnabled("domain") && options.filter(x => x.id === "domain")[0].width ? options.filter(x => x.id === "domain")[0].width:4840,
-                        marginLeft: isEnabled("domain") && options.filter(x => x.id === "domain")[0].marginLeft ? options.filter(x => x.id === "domain")[0].marginLeft:16}}  
-                        className={selectedNode && isEnabled("domain") ? classes.structure : classes.hidden} />
-              {
-                <SortableList items={selectedNodes} onSortEnd={onSortEnd} useDragHandle />
-              }
+                          </Box>
+                          <Box component="span" className={isEnabled("domain") ? "legend-domain" : classes.hidden}>
+                            <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>&alpha;-helix</Typography>} control={<img alt="betasheet" src="img/legend/alphahelix.png" />} />
+                            <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>&beta;-sheet</Typography>} control={<img alt="betasheet" src="img/legend/betasheet.png" />} />
+                            <FormControlLabel labelPlacement='end' label={<Typography className={classes.legendLabel}>hypervariable region</Typography>} control={<img alt="betasheet" src="img/legend/hypervariableregion.png" />} />
+                          </Box>
+                        </Box>
+
+                      </fieldset>
+                    </Box>
+                  </Box>
+                </div>
+
+                <img src={`${appname}/img/motif.png`} alt="Motif" style={{ width: 4840, marginLeft: 16 }} className={selectedNode && isEnabled("motif") ? classes.motif : classes.hidden} />
+                <img src={`${appname}/img/structure.png`} alt="Domain Structure"
+                  style={
+                    {
+                      width: isEnabled("domain") && options.filter(x => x.id === "domain")[0].width ? options.filter(x => x.id === "domain")[0].width : 4840,
+                      marginLeft: isEnabled("domain") && options.filter(x => x.id === "domain")[0].marginLeft ? options.filter(x => x.id === "domain")[0].marginLeft : 16
+                    }}
+                  className={selectedNode && isEnabled("domain") ? classes.structure : classes.hidden} />
+                {
+                  <SortableList items={selectedNodes} onSortEnd={onSortEnd} useDragHandle />
+                }
 
               </Paper>
             </div>
