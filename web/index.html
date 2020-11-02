@@ -24,7 +24,30 @@ and open the template in the editor.
 
     <link rel="stylesheet" type="text/css" href="Style/styles.css" />
     <script src="JS/index.js"></script>
-
+    <script>
+        function viewModeChanged()
+        {
+            var v = document.getElementById("viewMode");
+            var tr = document.getElementById("parentrow");
+            var al = document.getElementById("alignmentrow");
+            
+            switch (v.selectedIndex)
+            {
+                case 0:
+                    tr.style.display = "block";
+                    al.style.display = "block";
+                    break;
+                case 1:
+                    tr.style.display = "none";
+                    al.style.display = "block";
+                    break;
+                case 2:
+                    tr.style.display = "block";
+                    al.style.display = "none";
+                    break;
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -42,14 +65,22 @@ and open the template in the editor.
 
     <div class="container" style="max-width: unset;">
         <div class="row">
-            <div class="col-9 card-header bg-background content-center">header</div>
+            <div class="col-9 card-header bg-background content-center">header
+                <label for="viewMode">View Mode</label><br>
+                <select id="viewMode" name="viewMode" onchange="viewModeChanged()">
+                <option value="tr_al">Tree/Alignment</option>
+                <option value="tr">Tree Only</option>
+                <option value="al">Alignment Only</option>
+                </select>
+            </div>
+
             <div class="col-3"></div>
         </div>
         <div id="parentrow" class="row">
             <div id="gttree" class="col-9"></div>
             <div id="weblogo" class="col-3"></div>
         </div>
-        <div class="row">
+        <div id="alignmentrow" class="row">
             <div class="col-12">
                 <iframe id="react_frame" src="http://localhost:3000/" width="550" height="550" frameborder="0"
                     scrolling="yes" style="width: 100%">
