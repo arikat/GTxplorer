@@ -545,661 +545,408 @@
         "nodes": []
     },
     {
-        "id": "id1@Other GT-A families",
+        "id": "id1@Clade1",
         "type": "clade",
-        "value": "Other GT-A families",
-        "SeqNR": "1077",
-        "SeqUniProt": "221",
-        "path": "GT12",
+        "value": "Clade1",
+        "SeqNR": "101828",
+        "SeqUniProt": "25959",
+        "path": "Clade1",
         "members": [
             "GT-A_consensus",
-            "GT12|Hs-B4GALNT1",
-            "GT12|Hs-B4GALNT2"
+            "GT21|Dm-GlcT1",
+            "GT21|Ce-cgt-2",
+            "GT21|Ce-cgt-1",
+            "GT21|Ce-cgt-3",
+            "GT21|Hs-UGCG",
+            "GT2-Bre3|Dm-egh",
+            "GT2-Bre3|Ce-bre-3",
+            "GT2-CeS|At-CSLA14",
+            "GT2-CeS|At-CSLA1",
+            "GT2-CeS|At-CSLA2",
+            "GT2-CeS|At-CSLA11",
+            "GT2-CeS|At-CSLC4",
+            "GT2-CeS|At-CSLA3",
+            "GT2-CeS|At-CSLA10",
+            "GT2-CeS|At-CSLA9",
+            "GT2-CeS|At-CSLC5",
+            "GT2-CeS|At-CSLC8",
+            "GT2-CeS|At-CSLC6",
+            "GT2-CeS|At-CSLA15",
+            "GT2-CeS|At-CSLC12",
+            "GT2-CeS|At-CSLA7",
+            "GT2-CeS|At-CSLB6",
+            "GT2-CeS|At-CESA1",
+            "GT2-CeS|At-CESA2",
+            "GT2-CeS|At-CSLD1",
+            "GT2-CeS|At-CSLB5",
+            "GT2-CeS|At-CSLG3",
+            "GT2-CeS|At-CSLG1",
+            "GT2-CeS|At-CESA4",
+            "GT2-CeS|At-CESA5",
+            "GT2-CeS|At-CESA8",
+            "GT2-CeS|At-CSLG2",
+            "GT2-CeS|At-CSLE1",
+            "GT2-CeS|At-CESA3",
+            "GT2-CeS|At-CESA6",
+            "GT2-CeS|At-CSLD6",
+            "GT2-CeS|At-CSLD2",
+            "GT2-CeS|At-CSLD3",
+            "GT2-CeS|At-CESA9",
+            "GT2-CeS|At-CESA10",
+            "GT2-CeS|At-CSLD5",
+            "GT2-CeS|At-CESA7",
+            "GT2-CeS|At-CSLD4",
+            "GT2-Chitin-HAS|Dm-kkv",
+            "GT2-Chitin-HAS|Dm-Chs2",
+            "GT2-Chitin-HAS|Ce-chs-2",
+            "GT2-Chitin-HAS|Ce-chs-1",
+            "GT2-Chitin-HAS|Sc-CHS1",
+            "GT2-Chitin-HAS|Sc-CHS2",
+            "GT2-Chitin-HAS|Sc-CHS3",
+            "GT2-Chitin-HAS|Hs-HAS3",
+            "GT2-Chitin-HAS|Hs-HAS2",
+            "GT2-Chitin-HAS|Hs-HAS1",
+            "GT2-CWR|Se-icaA",
+            "GT84|Ec-opgH",
+            "GT2-CeS|Pp-Q88MP4",
+            "GT2-CeS|Av-C1DSW1",
+            "GT2-CeS|Pa-ndvB",
+            "GT21|Zm-Q5NNW4",
+            "GT21|Kp-C4R4B3",
+            "GT21|Gm-GLYMA_16G078400",
+            "GT21|Mo-G4MS28",
+            "GT2-CWR|Rs-A4WQA1",
+            "GT2-CWR|Ec-nfrB",
+            "GT2-CWR|Ct-Q8KB11",
+            "GT84|Rs-Q3IW62"
         ],
         "nodes": [
             {
-                "id": "id1@GT12",
+                "id": "id2@GT2-Bre3",
                 "type": "family",
-                "value": "GT12",
-                "SeqNR": "1077",
-                "SeqUniProt": "221",
-                "path": "GT12",
+                "value": "GT2-Bre3",
+                "SeqNR": "699",
+                "SeqUniProt": "288",
+                "path": "GT2-Bre3",
                 "members": [
                     "GT-A_consensus",
-                    "GT12|Hs-B4GALNT1",
-                    "GT12|Hs-B4GALNT2"
+                    "GT2-Bre3|Dm-egh",
+                    "GT2-Bre3|Ce-bre-3"
                 ],
                 "nodes": [
                     {
-                        "id": "id2@GT12-1",
+                        "id": "id3@GT2-Bre3-1",
                         "type": "subfamily",
-                        "value": "GT12-1",
-                        "SeqNR": "1018",
-                        "SeqUniProt": "199",
+                        "value": "GT2-Bre3-1",
+                        "SeqNR": "696",
+                        "SeqUniProt": "286",
                         "members": [
                             "GT-A_consensus",
-                            "GT12|Hs-B4GALNT1",
-                            "GT12|Hs-B4GALNT2"
+                            "GT2-Bre3|Dm-egh",
+                            "GT2-Bre3|Ce-bre-3"
                         ],
-                        "path": "GT12-1",
+                        "path": "GT2-Bre3-1",
                         "nodes": []
                     }
                 ]
             },
             {
-                "id": "id49@GT2-Rham-GlfT",
+                "id": "id4@GT2-CeS",
                 "type": "family",
-                "value": "GT2-Rham-GlfT",
-                "SeqNR": "41017",
-                "SeqUniProt": "10668",
-                "path": "GT2-Rham-GlfT",
+                "value": "GT2-CeS",
+                "SeqNR": "33641",
+                "SeqUniProt": "8254",
+                "path": "GT2-CeS",
                 "members": [
                     "GT-A_consensus",
-                    "GT2-Rham-GlfT|Sf-rfbF",
-                    "GT2-Rham-GlfT|Ms-glfT1",
-                    "GT2-Rham-GlfT|Mt-glfT2"
-                ],
-                "nodes": []
-            },
-            {
-                "id": "id75@GT32",
-                "type": "family",
-                "value": "GT32",
-                "SeqNR": "9617",
-                "SeqUniProt": "3318",
-                "path": "GT32",
-                "members": [
-                    "GT-A_consensus",
-                    "GT32|Dm-alpha4GT2",
-                    "GT32|Dm-alpha4GT1",
-                    "GT32|Hs-A4GALT",
-                    "GT32|Hs-A4GNT",
-                    "GT32|At-At1g61050",
-                    "GT32|At-At2g38150",
-                    "GT32|At-At2g38152",
-                    "GT32|At-At4g19900",
-                    "GT32|At-At5g01250",
-                    "GT32|At-At3g09020",
-                    "GT32|Sc-OCH1",
-                    "GT32|Sc-SUR1",
-                    "GT32|Sc-CSH1",
-                    "GT32|Sc-HOC1",
-                    "GT32|Lp-I7JXA3"
+                    "GT2-CeS|At-CSLA14",
+                    "GT2-CeS|At-CSLA1",
+                    "GT2-CeS|At-CSLA2",
+                    "GT2-CeS|At-CSLA11",
+                    "GT2-CeS|At-CSLC4",
+                    "GT2-CeS|At-CSLA3",
+                    "GT2-CeS|At-CSLA10",
+                    "GT2-CeS|At-CSLA9",
+                    "GT2-CeS|At-CSLC5",
+                    "GT2-CeS|At-CSLC8",
+                    "GT2-CeS|At-CSLC6",
+                    "GT2-CeS|At-CSLA15",
+                    "GT2-CeS|At-CSLC12",
+                    "GT2-CeS|At-CSLA7",
+                    "GT2-CeS|At-CSLB6",
+                    "GT2-CeS|At-CESA1",
+                    "GT2-CeS|At-CESA2",
+                    "GT2-CeS|At-CSLD1",
+                    "GT2-CeS|At-CSLB5",
+                    "GT2-CeS|At-CSLG3",
+                    "GT2-CeS|At-CSLG1",
+                    "GT2-CeS|At-CESA4",
+                    "GT2-CeS|At-CESA5",
+                    "GT2-CeS|At-CESA8",
+                    "GT2-CeS|At-CSLG2",
+                    "GT2-CeS|At-CSLE1",
+                    "GT2-CeS|At-CESA3",
+                    "GT2-CeS|At-CESA6",
+                    "GT2-CeS|At-CSLD6",
+                    "GT2-CeS|At-CSLD2",
+                    "GT2-CeS|At-CSLD3",
+                    "GT2-CeS|At-CESA9",
+                    "GT2-CeS|At-CESA10",
+                    "GT2-CeS|At-CSLD5",
+                    "GT2-CeS|At-CESA7",
+                    "GT2-CeS|At-CSLD4",
+                    "GT2-CeS|Pp-Q88MP4",
+                    "GT2-CeS|Av-C1DSW1",
+                    "GT2-CeS|Pa-ndvB"
                 ],
                 "nodes": [
                     {
-                        "id": "id76@GT32-1",
+                        "id": "id5@GT2-CeS-1",
                         "type": "subfamily",
-                        "value": "GT32-1",
-                        "SeqNR": "585",
-                        "SeqUniProt": "199",
+                        "value": "GT2-CeS-1",
+                        "SeqNR": "4142",
+                        "SeqUniProt": "1565",
                         "members": [
                             "GT-A_consensus",
-                            "GT32|At-At2g38150",
-                            "GT32|At-At2g38152",
-                            "GT32|At-At5g01250",
-                            "GT32|At-At3g09020"
+                            "GT2-CeS|At-CSLA14",
+                            "GT2-CeS|At-CSLA1",
+                            "GT2-CeS|At-CSLA2",
+                            "GT2-CeS|At-CSLA11",
+                            "GT2-CeS|At-CSLC4",
+                            "GT2-CeS|At-CSLA3",
+                            "GT2-CeS|At-CSLA10",
+                            "GT2-CeS|At-CSLA9",
+                            "GT2-CeS|At-CSLC5",
+                            "GT2-CeS|At-CSLC8",
+                            "GT2-CeS|At-CSLC6",
+                            "GT2-CeS|At-CSLA15",
+                            "GT2-CeS|At-CSLC12",
+                            "GT2-CeS|At-CSLA7"
                         ],
-                        "path": "GT32-1",
+                        "path": "GT2-CeS-1",
                         "nodes": []
                     },
                     {
-                        "id": "id77@GT32-2",
+                        "id": "id6@GT2-CeS_putative",
                         "type": "subfamily",
-                        "value": "GT32-2",
-                        "SeqNR": "685",
-                        "SeqUniProt": "131",
+                        "value": "GT2-CeS_putative",
+                        "SeqNR": "2112",
+                        "SeqUniProt": "343",
                         "members": [
                             "GT-A_consensus",
-                            "GT32|Dm-alpha4GT1",
-                            "GT32|At-At4g19900"
+                            "GT2-CeS|Pp-Q88MP4",
+                            "GT2-CeS|Av-C1DSW1",
+                            "GT2-CeS|Pa-ndvB"
                         ],
-                        "path": "GT32-2",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id78@GT32-3",
-                        "type": "subfamily",
-                        "value": "GT32-3",
-                        "SeqNR": "746",
-                        "SeqUniProt": "84",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT32|Hs-A4GALT"
-                        ],
-                        "path": "GT32-3",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id79@GT32-4",
-                        "type": "subfamily",
-                        "value": "GT32-4",
-                        "SeqNR": "4738",
-                        "SeqUniProt": "600",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT32|Sc-SUR1",
-                            "GT32|Sc-CSH1",
-                            "GT32|Sc-HOC1"
-                        ],
-                        "path": "GT32-4",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id80@GT32-5",
-                        "type": "subfamily",
-                        "value": "GT32-5",
-                        "SeqNR": "2393",
-                        "SeqUniProt": "324",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT32|Lp-I7JXA3"
-                        ],
-                        "path": "GT32-5",
+                        "path": "GT2-CeS_putative",
                         "nodes": []
                     }
                 ]
             },
             {
-                "id": "id81@GT34",
+                "id": "id7@GT2-Chitin-HAS",
                 "type": "family",
-                "value": "GT34",
-                "SeqNR": "1201",
-                "SeqUniProt": "597",
-                "path": "GT34",
+                "value": "GT2-Chitin-HAS",
+                "SeqNR": "15918",
+                "SeqUniProt": "5347",
+                "path": "GT2-Chitin-HAS",
                 "members": [
                     "GT-A_consensus",
-                    "GT34|At-XXT2",
-                    "GT34|At-GT7",
-                    "GT34|At-XXT5",
-                    "GT34|At-XXT3",
-                    "GT34|At-XXT1",
-                    "GT34|At-XXT4",
-                    "GT34|At-GT6"
+                    "GT2-Chitin-HAS|Dm-kkv",
+                    "GT2-Chitin-HAS|Dm-Chs2",
+                    "GT2-Chitin-HAS|Ce-chs-2",
+                    "GT2-Chitin-HAS|Ce-chs-1",
+                    "GT2-Chitin-HAS|Sc-CHS1",
+                    "GT2-Chitin-HAS|Sc-CHS2",
+                    "GT2-Chitin-HAS|Sc-CHS3",
+                    "GT2-Chitin-HAS|Hs-HAS3",
+                    "GT2-Chitin-HAS|Hs-HAS2",
+                    "GT2-Chitin-HAS|Hs-HAS1"
                 ],
                 "nodes": [
                     {
-                        "id": "id82@GT34-1",
+                        "id": "id8@GT2-Chitin-HAS-1",
                         "type": "subfamily",
-                        "value": "GT34-1",
-                        "SeqNR": "1198",
-                        "SeqUniProt": "584",
+                        "value": "GT2-Chitin-HAS-1",
+                        "SeqNR": "15602",
+                        "SeqUniProt": "4854",
                         "members": [
                             "GT-A_consensus",
-                            "GT34|At-XXT2",
-                            "GT34|At-GT7",
-                            "GT34|At-XXT5",
-                            "GT34|At-XXT3",
-                            "GT34|At-XXT1",
-                            "GT34|At-XXT4",
-                            "GT34|At-GT6"
+                            "GT2-Chitin-HAS|Dm-kkv",
+                            "GT2-Chitin-HAS|Dm-Chs2",
+                            "GT2-Chitin-HAS|Ce-chs-2",
+                            "GT2-Chitin-HAS|Ce-chs-1",
+                            "GT2-Chitin-HAS|Sc-CHS1",
+                            "GT2-Chitin-HAS|Sc-CHS2",
+                            "GT2-Chitin-HAS|Sc-CHS3",
+                            "GT2-Chitin-HAS|Hs-HAS3",
+                            "GT2-Chitin-HAS|Hs-HAS2",
+                            "GT2-Chitin-HAS|Hs-HAS1"
                         ],
-                        "path": "GT34-1",
+                        "path": "GT2-Chitin-HAS-1",
                         "nodes": []
                     }
                 ]
             },
             {
-                "id": "id83@GT40",
+                "id": "id9@GT2-CWR",
                 "type": "family",
-                "value": "GT40",
-                "SeqNR": "186",
-                "SeqUniProt": "89",
-                "path": "GT40",
+                "value": "GT2-CWR",
+                "SeqNR": "37654",
+                "SeqUniProt": "9236",
+                "path": "GT2-CWR",
                 "members": [
                     "GT-A_consensus",
-                    "GT40|Lm-LPG1"
+                    "GT2-CWR|Se-icaA",
+                    "GT2-CWR|Rs-A4WQA1",
+                    "GT2-CWR|Ec-nfrB",
+                    "GT2-CWR|Ct-Q8KB11"
                 ],
                 "nodes": [
                     {
-                        "id": "id84@GT40-1",
+                        "id": "id10@GT2-CWR_Csl-1",
                         "type": "subfamily",
-                        "value": "GT40-1",
-                        "SeqNR": "167",
-                        "SeqUniProt": "74",
+                        "value": "GT2-CWR_Csl-1",
+                        "SeqNR": "2229",
+                        "SeqUniProt": "240",
                         "members": [
                             "GT-A_consensus",
-                            "GT40|Lm-LPG1"
+                            "GT2-CWR|Ec-nfrB"
                         ],
-                        "path": "GT40-1",
+                        "path": "GT2-CWR_Csl-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id11@GT2-CWR_Csl-2",
+                        "type": "subfamily",
+                        "value": "GT2-CWR_Csl-2",
+                        "SeqNR": "3386",
+                        "SeqUniProt": "919",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-CWR|Rs-A4WQA1"
+                        ],
+                        "path": "GT2-CWR_Csl-2",
                         "nodes": []
                     }
                 ]
             },
             {
-                "id": "id85@GT43",
+                "id": "id12@GT21",
                 "type": "family",
-                "value": "GT43",
-                "SeqNR": "2973",
-                "SeqUniProt": "1107",
-                "path": "GT43",
+                "value": "GT21",
+                "SeqNR": "5001",
+                "SeqUniProt": "1334",
+                "path": "GT21",
                 "members": [
                     "GT-A_consensus",
-                    "GT43|At-IRX14",
-                    "GT43|At-IRX14H",
-                    "GT43|At-IRX9H",
-                    "GT43|At-IRX9",
-                    "GT43|Dm-GlcAT-P",
-                    "GT43|Hs-B3GAT1",
-                    "GT43|Dm-GlcAT-S",
-                    "GT43|Hs-B3GAT2",
-                    "GT43|Dm-GlcAT-I",
-                    "GT43|Hs-B3GAT3",
-                    "GT43|Ce-glct-6",
-                    "GT43|Ce-glct-1",
-                    "GT43|Ce-glct-5",
-                    "GT43|Ce-glct-2",
-                    "GT43|Ce-glct-4",
-                    "GT43|Ce-sqv-8",
-                    "GT43|Ce-glct-3",
-                    "GT43|Dr-b3gat2"
+                    "GT21|Dm-GlcT1",
+                    "GT21|Ce-cgt-2",
+                    "GT21|Ce-cgt-1",
+                    "GT21|Ce-cgt-3",
+                    "GT21|Hs-UGCG",
+                    "GT21|Zm-Q5NNW4",
+                    "GT21|Kp-C4R4B3",
+                    "GT21|Gm-GLYMA_16G078400",
+                    "GT21|Mo-G4MS28"
                 ],
                 "nodes": [
                     {
-                        "id": "id86@GT43-B3GAT3",
+                        "id": "id13@GT21-1",
                         "type": "subfamily",
-                        "value": "GT43-B3GAT3",
-                        "SeqNR": "1865",
-                        "SeqUniProt": "659",
+                        "value": "GT21-1",
+                        "SeqNR": "2958",
+                        "SeqUniProt": "601",
                         "members": [
                             "GT-A_consensus",
-                            "GT43|At-IRX14",
-                            "GT43|At-IRX14H",
-                            "GT43|At-IRX9H",
-                            "GT43|At-IRX9",
-                            "GT43|Dm-GlcAT-P",
-                            "GT43|Dm-GlcAT-I",
-                            "GT43|Hs-B3GAT3",
-                            "GT43|Ce-sqv-8"
+                            "GT21|Zm-Q5NNW4",
+                            "GT21|Gm-GLYMA_16G078400"
                         ],
-                        "path": "GT43-B3GAT3",
+                        "path": "GT21-1",
                         "nodes": []
                     },
                     {
-                        "id": "id87@GT43-Mix-1",
+                        "id": "id14@GT21-2",
                         "type": "subfamily",
-                        "value": "GT43-Mix-1",
-                        "SeqNR": "79",
-                        "SeqUniProt": "17",
+                        "value": "GT21-2",
+                        "SeqNR": "458",
+                        "SeqUniProt": "217",
                         "members": [
                             "GT-A_consensus",
-                            "GT43|Dr-b3gat2"
+                            "GT21|Mo-G4MS28"
                         ],
-                        "path": "GT43-Mix-1",
+                        "path": "GT21-2",
                         "nodes": []
                     },
                     {
-                        "id": "id88@GT43-B3GAT2",
+                        "id": "id15@GT21-3",
                         "type": "subfamily",
-                        "value": "GT43-B3GAT2",
-                        "SeqNR": "129",
-                        "SeqUniProt": "41",
+                        "value": "GT21-3",
+                        "SeqNR": "324",
+                        "SeqUniProt": "147",
                         "members": [
                             "GT-A_consensus",
-                            "GT43|Hs-B3GAT2"
+                            "GT21|Kp-C4R4B3"
                         ],
-                        "path": "GT43-B3GAT2",
+                        "path": "GT21-3",
                         "nodes": []
                     },
                     {
-                        "id": "id89@GT43-Mix-2",
+                        "id": "id16@GT21-4",
                         "type": "subfamily",
-                        "value": "GT43-Mix-2",
-                        "SeqNR": "125",
-                        "SeqUniProt": "53",
+                        "value": "GT21-4",
+                        "SeqNR": "1331",
+                        "SeqUniProt": "366",
                         "members": [
                             "GT-A_consensus",
-                            "GT43|Dm-GlcAT-S"
+                            "GT21|Dm-GlcT1",
+                            "GT21|Ce-cgt-2",
+                            "GT21|Ce-cgt-1",
+                            "GT21|Ce-cgt-3",
+                            "GT21|Hs-UGCG"
                         ],
-                        "path": "GT43-Mix-2",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id90@GT43-B3GAT1",
-                        "type": "subfamily",
-                        "value": "GT43-B3GAT1",
-                        "SeqNR": "690",
-                        "SeqUniProt": "107",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT43|Hs-B3GAT1"
-                        ],
-                        "path": "GT43-B3GAT1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id91@GT43-Nematode",
-                        "type": "subfamily",
-                        "value": "GT43-Nematode",
-                        "SeqNR": "73",
-                        "SeqUniProt": "64",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT43|Ce-glct-6",
-                            "GT43|Ce-glct-1",
-                            "GT43|Ce-glct-5",
-                            "GT43|Ce-glct-2",
-                            "GT43|Ce-glct-4",
-                            "GT43|Ce-glct-3"
-                        ],
-                        "path": "GT43-Nematode",
+                        "path": "GT21-4",
                         "nodes": []
                     }
                 ]
             },
             {
-                "id": "id92@GT45",
+                "id": "id17@GT84",
                 "type": "family",
-                "value": "GT45",
-                "SeqNR": "458",
-                "SeqUniProt": "99",
-                "path": "GT45",
+                "value": "GT84",
+                "SeqNR": "8915",
+                "SeqUniProt": "1500",
+                "path": "GT84",
                 "members": [
                     "GT-A_consensus",
-                    "GT45|Pm-pglA"
+                    "GT84|Ec-opgH",
+                    "GT84|Rs-Q3IW62"
                 ],
                 "nodes": [
                     {
-                        "id": "id93@GT45-1",
+                        "id": "id18@GT84-1",
                         "type": "subfamily",
-                        "value": "GT45-1",
-                        "SeqNR": "410",
-                        "SeqUniProt": "77",
+                        "value": "GT84-1",
+                        "SeqNR": "7993",
+                        "SeqUniProt": "1257",
                         "members": [
                             "GT-A_consensus",
-                            "GT45|Pm-pglA"
+                            "GT84|Ec-opgH"
                         ],
-                        "path": "GT45-1",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id94@GT49",
-                "type": "family",
-                "value": "GT49",
-                "SeqNR": "2817",
-                "SeqUniProt": "1066",
-                "path": "GT49",
-                "members": [
-                    "GT-A_consensus",
-                    "GT49|Dm-CG9171",
-                    "GT49|Dm-CG15483",
-                    "GT49|Dm-CG11149",
-                    "GT49|Dm-CG3253",
-                    "GT49|Ce-bgnt-1.2",
-                    "GT49|Ce-bgnt-1.3",
-                    "GT49|Ce-bgnt-1.4",
-                    "GT49|Ce-bgnt-1.8",
-                    "GT49|Ce-bgnt-1.7",
-                    "GT49|Ce-bgnt-1.6",
-                    "GT49|Ce-lge-1",
-                    "GT49|Ce-bgnt-1.1",
-                    "GT49|Ce-bgnt-1.5",
-                    "GT49|Hs-B4GAT1",
-                    "GT49|Hs-LARGE1",
-                    "GT49|Hs-LARGE2",
-                    "GT49|Pg-E3KIT8"
-                ],
-                "nodes": [
-                    {
-                        "id": "id95@GT49-B4GAT1like",
-                        "type": "subfamily",
-                        "value": "GT49-B4GAT1like",
-                        "SeqNR": "1353",
-                        "SeqUniProt": "463",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT49|Dm-CG3253",
-                            "GT49|Ce-bgnt-1.2",
-                            "GT49|Ce-bgnt-1.4",
-                            "GT49|Ce-lge-1",
-                            "GT49|Hs-B4GAT1"
-                        ],
-                        "path": "GT49-B4GAT1like",
+                        "path": "GT84-1",
                         "nodes": []
                     },
                     {
-                        "id": "id96@GT49-Fungi",
+                        "id": "id19@GT84-2",
                         "type": "subfamily",
-                        "value": "GT49-Fungi",
-                        "SeqNR": "298",
-                        "SeqUniProt": "115",
+                        "value": "GT84-2",
+                        "SeqNR": "738",
+                        "SeqUniProt": "155",
                         "members": [
                             "GT-A_consensus",
-                            "GT49|Pg-E3KIT8"
+                            "GT84|Rs-Q3IW62"
                         ],
-                        "path": "GT49-Fungi",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id97@GT49-LARGE",
-                        "type": "subfamily",
-                        "value": "GT49-LARGE",
-                        "SeqNR": "1111",
-                        "SeqUniProt": "229",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT49|Hs-LARGE1",
-                            "GT49|Hs-LARGE2"
-                        ],
-                        "path": "GT49-LARGE",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id104@GT6",
-                "type": "family",
-                "value": "GT6",
-                "SeqNR": "2842",
-                "SeqUniProt": "435",
-                "path": "GT6",
-                "members": [
-                    "GT-A_consensus",
-                    "GT6|Hs-ABO",
-                    "GT6|Hs-GLT6D1",
-                    "GT6|Hs-GBGT1",
-                    "GT6|Hs-A3GALT2"
-                ],
-                "nodes": [
-                    {
-                        "id": "id105@GT6-Mix",
-                        "type": "subfamily",
-                        "value": "GT6-Mix",
-                        "SeqNR": "1067",
-                        "SeqUniProt": "144",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT6|Hs-GBGT1"
-                        ],
-                        "path": "GT6-Mix",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id106@GT6-A3GALT",
-                        "type": "subfamily",
-                        "value": "GT6-A3GALT",
-                        "SeqNR": "704",
-                        "SeqUniProt": "118",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT6|Hs-A3GALT2"
-                        ],
-                        "path": "GT6-A3GALT",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id107@GT6-ABO",
-                        "type": "subfamily",
-                        "value": "GT6-ABO",
-                        "SeqNR": "839",
-                        "SeqUniProt": "102",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT6|Hs-ABO"
-                        ],
-                        "path": "GT6-ABO",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id108@GT6-GLT6D1",
-                        "type": "subfamily",
-                        "value": "GT6-GLT6D1",
-                        "SeqNR": "226",
-                        "SeqUniProt": "51",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT6|Hs-GLT6D1"
-                        ],
-                        "path": "GT6-GLT6D1",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id115@GT64",
-                "type": "family",
-                "value": "GT64",
-                "SeqNR": "3765",
-                "SeqUniProt": "1220",
-                "path": "GT64",
-                "members": [
-                    "GT-A_consensus",
-                    "GT64|Dm-ttv",
-                    "GT64|Dm-botv",
-                    "GT64|Dm-sotv",
-                    "GT64|Ce-rib-2",
-                    "GT64|Hs-EXTL3",
-                    "GT64|Hs-EXT1",
-                    "GT64|Hs-EXTL1",
-                    "GT64|Hs-EXT2",
-                    "GT64|Hs-EXTL2",
-                    "GT64|At-GINT1",
-                    "GT64|At-At1g80290",
-                    "GT64|At-EPC1"
-                ],
-                "nodes": [
-                    {
-                        "id": "id116@GT64-EXTLs",
-                        "type": "subfamily",
-                        "value": "GT64-EXTLs",
-                        "SeqNR": "1502",
-                        "SeqUniProt": "493",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT64|Dm-botv",
-                            "GT64|Ce-rib-2",
-                            "GT64|Hs-EXTL3",
-                            "GT64|Hs-EXTL2",
-                            "GT64|At-At1g80290"
-                        ],
-                        "path": "GT64-EXTLs",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id117@GT64-EXTs",
-                        "type": "subfamily",
-                        "value": "GT64-EXTs",
-                        "SeqNR": "1637",
-                        "SeqUniProt": "374",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT64|Dm-ttv",
-                            "GT64|Dm-sotv",
-                            "GT64|Hs-EXT1",
-                            "GT64|Hs-EXT2"
-                        ],
-                        "path": "GT64-EXTs",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id118@GT64-Mix",
-                        "type": "subfamily",
-                        "value": "GT64-Mix",
-                        "SeqNR": "599",
-                        "SeqUniProt": "260",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT64|At-GINT1",
-                            "GT64|At-EPC1"
-                        ],
-                        "path": "GT64-Mix",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id122@GT75",
-                "type": "family",
-                "value": "GT75",
-                "SeqNR": "1754",
-                "SeqUniProt": "803",
-                "path": "GT75",
-                "members": [
-                    "GT-A_consensus",
-                    "GT75|Ce-E03H4.4",
-                    "GT75|Ce-F56H6.7",
-                    "GT75|Ce-F56H6.9",
-                    "GT75|Ce-F02C9.2",
-                    "GT75|Ce-ZK105.3",
-                    "GT75|Ce-F46F5.11",
-                    "GT75|At-RGP3",
-                    "GT75|At-STL1",
-                    "GT75|At-RGP5",
-                    "GT75|At-RGP2",
-                    "GT75|At-RGP4",
-                    "GT75|At-RGP1",
-                    "GT75|Hw-Q18EK9"
-                ],
-                "nodes": [
-                    {
-                        "id": "id123@GT75-1",
-                        "type": "subfamily",
-                        "value": "GT75-1",
-                        "SeqNR": "112",
-                        "SeqUniProt": "53",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT75|Hw-Q18EK9"
-                        ],
-                        "path": "GT75-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id124@GT75-2",
-                        "type": "subfamily",
-                        "value": "GT75-2",
-                        "SeqNR": "1154",
-                        "SeqUniProt": "512",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT75|At-RGP3",
-                            "GT75|At-RGP5",
-                            "GT75|At-RGP2",
-                            "GT75|At-RGP4",
-                            "GT75|At-RGP1"
-                        ],
-                        "path": "GT75-2",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id125@GT75-3",
-                        "type": "subfamily",
-                        "value": "GT75-3",
-                        "SeqNR": "475",
-                        "SeqUniProt": "210",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT75|Ce-E03H4.4",
-                            "GT75|Ce-F56H6.7",
-                            "GT75|Ce-F56H6.9",
-                            "GT75|Ce-F02C9.2",
-                            "GT75|Ce-ZK105.3",
-                            "GT75|Ce-F46F5.11",
-                            "GT75|At-STL1"
-                        ],
-                        "path": "GT75-3",
+                        "path": "GT84-2",
                         "nodes": []
                     }
                 ]
@@ -1207,7 +954,717 @@
         ]
     },
     {
-        "id": "id3@Clade6",
+        "id": "id20@Clade2",
+        "type": "clade",
+        "value": "Clade2",
+        "SeqNR": "108242",
+        "SeqUniProt": "30782",
+        "path": "Clade2",
+        "members": [
+            "GT-A_consensus",
+            "GT2-DPs|Dm-wol",
+            "GT2-DPs|Ce-algn-5",
+            "GT2-DPs|Sc-ALG5",
+            "GT2-DPs|Hs-ALG5",
+            "GT2-DPs|At-At2g39630",
+            "GT2-DPs|Dm-CG10166",
+            "GT2-DPs|Ce-dpm-1",
+            "GT2-DPs|Sc-DPM1",
+            "GT2-DPs|Hs-DPM1",
+            "GT2-DPs|At-DPMS1",
+            "GT55|Dm-mpgSP",
+            "GT81|Ms-gpgS",
+            "GT81|Pm-gpgS",
+            "GT2-DPs|Ec-arnC",
+            "GT2-DPs|Lm-Q7AP48",
+            "GT2-DPs|Ss-Q55487",
+            "GT2-DPs|Tt-Q5SJZ8",
+            "GT78|Rm-D0MI02",
+            "GT78|Pp-PHYPA_020118",
+            "GT81|Hw-gtl5"
+        ],
+        "nodes": [
+            {
+                "id": "id21@GT2-DPs",
+                "type": "family",
+                "value": "GT2-DPs",
+                "SeqNR": "102170",
+                "SeqUniProt": "28779",
+                "path": "GT2-DPs",
+                "members": [
+                    "GT-A_consensus",
+                    "GT2-DPs|Dm-wol",
+                    "GT2-DPs|Ce-algn-5",
+                    "GT2-DPs|Sc-ALG5",
+                    "GT2-DPs|Hs-ALG5",
+                    "GT2-DPs|At-At2g39630",
+                    "GT2-DPs|Dm-CG10166",
+                    "GT2-DPs|Ce-dpm-1",
+                    "GT2-DPs|Sc-DPM1",
+                    "GT2-DPs|Hs-DPM1",
+                    "GT2-DPs|At-DPMS1",
+                    "GT2-DPs|Ec-arnC",
+                    "GT2-DPs|Lm-Q7AP48",
+                    "GT2-DPs|Ss-Q55487",
+                    "GT2-DPs|Tt-Q5SJZ8"
+                ],
+                "nodes": [
+                    {
+                        "id": "id22@GT2-DPs_Bact",
+                        "type": "subfamily",
+                        "value": "GT2-DPs_Bact",
+                        "SeqNR": "34163",
+                        "SeqUniProt": "7822",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-DPs|Ec-arnC",
+                            "GT2-DPs|Lm-Q7AP48",
+                            "GT2-DPs|Ss-Q55487"
+                        ],
+                        "path": "GT2-DPs_Bact",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id23@GT2-DPs_Mix",
+                        "type": "subfamily",
+                        "value": "GT2-DPs_Mix",
+                        "SeqNR": "66769",
+                        "SeqUniProt": "20318",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-DPs|Dm-wol",
+                            "GT2-DPs|Ce-algn-5",
+                            "GT2-DPs|Sc-ALG5",
+                            "GT2-DPs|Hs-ALG5",
+                            "GT2-DPs|At-At2g39630",
+                            "GT2-DPs|Dm-CG10166",
+                            "GT2-DPs|Ce-dpm-1",
+                            "GT2-DPs|Sc-DPM1",
+                            "GT2-DPs|Hs-DPM1",
+                            "GT2-DPs|At-DPMS1"
+                        ],
+                        "path": "GT2-DPs_Mix",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id24@GT55",
+                "type": "family",
+                "value": "GT55",
+                "SeqNR": "179",
+                "SeqUniProt": "74",
+                "path": "GT55",
+                "members": [
+                    "GT-A_consensus",
+                    "GT55|Dm-mpgSP"
+                ],
+                "nodes": [
+                    {
+                        "id": "id25@GT55-1",
+                        "type": "subfamily",
+                        "value": "GT55-1",
+                        "SeqNR": "179",
+                        "SeqUniProt": "74",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT55|Dm-mpgSP"
+                        ],
+                        "path": "GT55-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id26@GT78",
+                "type": "family",
+                "value": "GT78",
+                "SeqNR": "22",
+                "SeqUniProt": "8",
+                "path": "GT78",
+                "members": [
+                    "GT-A_consensus",
+                    "GT78|Rm-D0MI02",
+                    "GT78|Pp-PHYPA_020118"
+                ],
+                "nodes": []
+            },
+            {
+                "id": "id27@GT81",
+                "type": "family",
+                "value": "GT81",
+                "SeqNR": "5871",
+                "SeqUniProt": "1921",
+                "path": "GT81",
+                "members": [
+                    "GT-A_consensus",
+                    "GT81|Ms-gpgS",
+                    "GT81|Pm-gpgS",
+                    "GT81|Hw-gtl5"
+                ],
+                "nodes": [
+                    {
+                        "id": "id28@GT81-1",
+                        "type": "subfamily",
+                        "value": "GT81-1",
+                        "SeqNR": "472",
+                        "SeqUniProt": "133",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT81|Hw-gtl5"
+                        ],
+                        "path": "GT81-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id29@GT81-2",
+                        "type": "subfamily",
+                        "value": "GT81-2",
+                        "SeqNR": "3299",
+                        "SeqUniProt": "942",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT81|Ms-gpgS",
+                            "GT81|Pm-gpgS",
+                            "GT78|Rm-D0MI02"
+                        ],
+                        "path": "GT81-2",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id30@GT81-3",
+                        "type": "subfamily",
+                        "value": "GT81-3",
+                        "SeqNR": "1035",
+                        "SeqUniProt": "206",
+                        "members": [
+                            "GT-A_consensus",
+                            ""
+                        ],
+                        "path": "GT81-3",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id31@Others",
+                "type": "family",
+                "value": "Others",
+                "SeqNR": "1543",
+                "SeqUniProt": "518",
+                "path": "GT2-DPs_81_Mix",
+                "members": [
+                    "GT-A_consensus",
+                    "GT2-DPs|Tt-Q5SJZ8"
+                ],
+                "nodes": [
+                    {
+                        "id": "id31@GT2-DPs_81_Mix",
+                        "type": "subfamily",
+                        "value": "GT2-DPs_81_Mix",
+                        "SeqNR": "1543",
+                        "SeqUniProt": "518",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-DPs|Tt-Q5SJZ8"
+                        ],
+                        "path": "GT2-DPs_81_Mix",
+                        "nodes": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "id32@Clade3",
+        "type": "clade",
+        "value": "Clade3",
+        "SeqNR": "42627",
+        "SeqUniProt": "11815",
+        "path": "Clade3",
+        "members": [
+            "GT-A_consensus",
+            "GT2-LpsRelated|Hd-LgtF",
+            "GT62|Sc-VAN1",
+            "GT62|Sc-ANP1",
+            "GT62|Sc-MNN9",
+            "GT62|Mb-A9VDJ7"
+        ],
+        "nodes": [
+            {
+                "id": "id33@GT2-LpsRelated",
+                "type": "family",
+                "value": "GT2-LpsRelated",
+                "SeqNR": "40414",
+                "SeqUniProt": "10733",
+                "path": "GT2-LpsRelated",
+                "members": [
+                    "GT-A_consensus",
+                    "GT2-LpsRelated|Hd-LgtF"
+                ],
+                "nodes": [
+                    {
+                        "id": "id34@GT2-LpsRelated-1",
+                        "type": "subfamily",
+                        "value": "GT2-LpsRelated-1",
+                        "SeqNR": "25139",
+                        "SeqUniProt": "6330",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-LpsRelated|Hd-LgtF"
+                        ],
+                        "path": "GT2-LpsRelated-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id35@GT62",
+                "type": "family",
+                "value": "GT62",
+                "SeqNR": "2213",
+                "SeqUniProt": "1082",
+                "path": "GT62",
+                "members": [
+                    "GT-A_consensus",
+                    "GT62|Sc-VAN1",
+                    "GT62|Sc-ANP1",
+                    "GT62|Sc-MNN9",
+                    "GT62|Mb-A9VDJ7"
+                ],
+                "nodes": [
+                    {
+                        "id": "id36@GT62-1",
+                        "type": "subfamily",
+                        "value": "GT62-1",
+                        "SeqNR": "383",
+                        "SeqUniProt": "139",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT62|Mb-A9VDJ7"
+                        ],
+                        "path": "GT62-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id37@GT62-2",
+                        "type": "subfamily",
+                        "value": "GT62-2",
+                        "SeqNR": "566",
+                        "SeqUniProt": "301",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT62|Sc-MNN9"
+                        ],
+                        "path": "GT62-2",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id38@GT62-3",
+                        "type": "subfamily",
+                        "value": "GT62-3",
+                        "SeqNR": "1201",
+                        "SeqUniProt": "624",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT62|Sc-VAN1",
+                            "GT62|Sc-ANP1"
+                        ],
+                        "path": "GT62-3",
+                        "nodes": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "id39@Clade4",
+        "type": "clade",
+        "value": "Clade4",
+        "SeqNR": "191268",
+        "SeqUniProt": "41499",
+        "path": "Clade4",
+        "members": [
+            "GT-A_consensus",
+            "GT2-B3GntL|Ce-F13G3.6",
+            "GT2-B3GntL|Hs-B3GNTL1",
+            "GT2-Class1|Hs-B4GALNT3",
+            "GT2-Class1|Hs-B4GALNT4",
+            "GT2-Class1|Rm-exoA",
+            "GT2-Class1|Pa-fgtA",
+            "GT2-Class1|Pa-wapR",
+            "GT2-Class1|Pa-migA",
+            "GT2-Class1|Hi-Q57287",
+            "GT2-Class1|Hd-lgtA",
+            "GT2-Class1|Bf-wcfQ",
+            "GT2-Class1|Dd-pgtA"
+        ],
+        "nodes": [
+            {
+                "id": "id40@GT2-B3GntL",
+                "type": "family",
+                "value": "GT2-B3GntL",
+                "SeqNR": "687",
+                "SeqUniProt": "139",
+                "path": "GT2-B3GntL",
+                "members": [
+                    "GT-A_consensus",
+                    "GT2-B3GntL|Ce-F13G3.6",
+                    "GT2-B3GntL|Hs-B3GNTL1"
+                ],
+                "nodes": [
+                    {
+                        "id": "id41@GT2-B3GntL-1",
+                        "type": "subfamily",
+                        "value": "GT2-B3GntL-1",
+                        "SeqNR": "683",
+                        "SeqUniProt": "137",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-B3GntL|Ce-F13G3.6",
+                            "GT2-B3GntL|Hs-B3GNTL1"
+                        ],
+                        "path": "GT2-B3GntL-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id42@GT2-Class1",
+                "type": "family",
+                "value": "GT2-Class1",
+                "SeqNR": "190581",
+                "SeqUniProt": "41360",
+                "path": "GT2-Class1",
+                "members": [
+                    "GT-A_consensus",
+                    "GT2-Class1|Hs-B4GALNT3",
+                    "GT2-Class1|Hs-B4GALNT4",
+                    "GT2-Class1|Rm-exoA",
+                    "GT2-Class1|Pa-fgtA",
+                    "GT2-Class1|Pa-wapR",
+                    "GT2-Class1|Pa-migA",
+                    "GT2-Class1|Hi-Q57287",
+                    "GT2-Class1|Hd-lgtA",
+                    "GT2-Class1|Bf-wcfQ",
+                    "GT2-Class1|Dd-pgtA"
+                ],
+                "nodes": [
+                    {
+                        "id": "id43@GT2-Class1-1",
+                        "type": "subfamily",
+                        "value": "GT2-Class1-1",
+                        "SeqNR": "17387",
+                        "SeqUniProt": "3504",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-Class1|Pa-wapR",
+                            "GT2-Class1|Pa-migA",
+                            "GT2-Class1|Hi-Q57287",
+                            "GT2-Class1|Hd-lgtA",
+                            "GT2-Class1|Bf-wcfQ",
+                            "GT2-Class1|Dd-pgtA"
+                        ],
+                        "path": "GT2-Class1-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id44@GT2-Class1-2",
+                        "type": "subfamily",
+                        "value": "GT2-Class1-2",
+                        "SeqNR": "7496",
+                        "SeqUniProt": "1142",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-Class1|Pa-fgtA"
+                        ],
+                        "path": "GT2-Class1-2",
+                        "nodes": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "id45@Clade5",
+        "type": "clade",
+        "value": "Clade5",
+        "SeqNR": "24886",
+        "SeqUniProt": "6835",
+        "path": "Clade5",
+        "members": [
+            "GT-A_consensus",
+            "GT27|Dm-Pgant6",
+            "GT27|Dm-Pgant5",
+            "GT27|Dm-Pgant2",
+            "GT27|Dm-Pgant1",
+            "GT27|Dm-pgant11",
+            "GT27|Dm-Pgant4",
+            "GT27|Dm-pgant10",
+            "GT27|Dm-pgant12",
+            "GT27|Dm-Pgant9",
+            "GT27|Dm-Pgant7",
+            "GT27|Dm-Pgant35A",
+            "GT27|Dm-pgant13",
+            "GT27|Dm-Pgant8",
+            "GT27|Dm-Pgant3",
+            "GT27|Ce-gly-8",
+            "GT27|Ce-gly-10",
+            "GT27|Ce-gly-6",
+            "GT27|Ce-gly-7",
+            "GT27|Ce-gly-3",
+            "GT27|Ce-gly-11",
+            "GT27|Ce-gly-4",
+            "GT27|Ce-gly-5",
+            "GT27|Ce-gly-9",
+            "GT27|Hs-POC1B-GALNT4",
+            "GT27|Hs-GALNT2",
+            "GT27|Hs-GALNT1",
+            "GT27|Hs-GALNT3",
+            "GT27|Hs-GALNTL6",
+            "GT27|Hs-GALNT17",
+            "GT27|Hs-GALNT18",
+            "GT27|Hs-GALNTL5",
+            "GT27|Hs-GALNT5",
+            "GT27|Hs-GALNT7",
+            "GT27|Hs-GALNT10",
+            "GT27|Hs-GALNT13",
+            "GT27|Hs-GALNT12",
+            "GT27|Hs-GALNT15",
+            "GT27|Hs-GALNT16",
+            "GT27|Hs-GALNT4",
+            "GT27|Hs-GALNT6",
+            "GT27|Hs-GALNT11",
+            "GT27|Hs-GALNT14",
+            "GT27|Hs-GALNT9",
+            "GT27|Hs-GALNT8",
+            "GT2-CHS|Pm-fcbD",
+            "GT2-CHS|Cv-hfsG",
+            "GT7|Dm-b4GalNAcTA",
+            "GT7|Dm-beta4GalNAcTB",
+            "GT7|Dm-beta4GalT7",
+            "GT7|Ce-W02B12.11",
+            "GT7|Ce-sqv-3",
+            "GT7|Ce-bre-4",
+            "GT7|Hs-B4GALT5",
+            "GT7|Hs-B4GALT3",
+            "GT7|Hs-B4GALT4",
+            "GT7|Hs-B4GALT2",
+            "GT7|Hs-B4GALT1",
+            "GT7|Hs-B4GALT7",
+            "GT7|Hs-B4GALT6",
+            "GT60|Tc-Tc00.1047053511759.30"
+        ],
+        "nodes": [
+            {
+                "id": "id46@GT2-CHS",
+                "type": "family",
+                "value": "GT2-CHS",
+                "SeqNR": "7641",
+                "SeqUniProt": "2063",
+                "path": "GT2-CHS",
+                "members": [
+                    "GT-A_consensus",
+                    "GT2-CHS|Pm-fcbD",
+                    "GT2-CHS|Cv-hfsG"
+                ],
+                "nodes": []
+            },
+            {
+                "id": "id47@GT7",
+                "type": "family",
+                "value": "GT7",
+                "SeqNR": "4381",
+                "SeqUniProt": "1202",
+                "path": "GT7",
+                "members": [
+                    "GT-A_consensus",
+                    "GT7|Dm-b4GalNAcTA",
+                    "GT7|Dm-beta4GalNAcTB",
+                    "GT7|Dm-beta4GalT7",
+                    "GT7|Ce-W02B12.11",
+                    "GT7|Ce-sqv-3",
+                    "GT7|Ce-bre-4",
+                    "GT7|Hs-B4GALT5",
+                    "GT7|Hs-B4GALT3",
+                    "GT7|Hs-B4GALT4",
+                    "GT7|Hs-B4GALT2",
+                    "GT7|Hs-B4GALT1",
+                    "GT7|Hs-B4GALT7",
+                    "GT7|Hs-B4GALT6"
+                ],
+                "nodes": [
+                    {
+                        "id": "id48@GT7-1",
+                        "type": "subfamily",
+                        "value": "GT7-1",
+                        "SeqNR": "4372",
+                        "SeqUniProt": "1173",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT7|Dm-b4GalNAcTA",
+                            "GT7|Dm-beta4GalNAcTB",
+                            "GT7|Dm-beta4GalT7",
+                            "GT7|Ce-W02B12.11",
+                            "GT7|Ce-sqv-3",
+                            "GT7|Ce-bre-4",
+                            "GT7|Hs-B4GALT5",
+                            "GT7|Hs-B4GALT3",
+                            "GT7|Hs-B4GALT4",
+                            "GT7|Hs-B4GALT2",
+                            "GT7|Hs-B4GALT1",
+                            "GT7|Hs-B4GALT7",
+                            "GT7|Hs-B4GALT6"
+                        ],
+                        "path": "GT7-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id49@GT27",
+                "type": "family",
+                "value": "GT27",
+                "SeqNR": "11736",
+                "SeqUniProt": "3270",
+                "path": "GT27",
+                "members": [
+                    "GT-A_consensus",
+                    "GT27|Dm-Pgant6",
+                    "GT27|Dm-Pgant5",
+                    "GT27|Dm-Pgant2",
+                    "GT27|Dm-Pgant1",
+                    "GT27|Dm-pgant11",
+                    "GT27|Dm-Pgant4",
+                    "GT27|Dm-pgant10",
+                    "GT27|Dm-pgant12",
+                    "GT27|Dm-Pgant9",
+                    "GT27|Dm-Pgant7",
+                    "GT27|Dm-Pgant35A",
+                    "GT27|Dm-pgant13",
+                    "GT27|Dm-Pgant8",
+                    "GT27|Dm-Pgant3",
+                    "GT27|Ce-gly-8",
+                    "GT27|Ce-gly-10",
+                    "GT27|Ce-gly-6",
+                    "GT27|Ce-gly-7",
+                    "GT27|Ce-gly-3",
+                    "GT27|Ce-gly-11",
+                    "GT27|Ce-gly-4",
+                    "GT27|Ce-gly-5",
+                    "GT27|Ce-gly-9",
+                    "GT27|Hs-POC1B-GALNT4",
+                    "GT27|Hs-GALNT2",
+                    "GT27|Hs-GALNT1",
+                    "GT27|Hs-GALNT3",
+                    "GT27|Hs-GALNTL6",
+                    "GT27|Hs-GALNT17",
+                    "GT27|Hs-GALNT18",
+                    "GT27|Hs-GALNTL5",
+                    "GT27|Hs-GALNT5",
+                    "GT27|Hs-GALNT7",
+                    "GT27|Hs-GALNT10",
+                    "GT27|Hs-GALNT13",
+                    "GT27|Hs-GALNT12",
+                    "GT27|Hs-GALNT15",
+                    "GT27|Hs-GALNT16",
+                    "GT27|Hs-GALNT4",
+                    "GT27|Hs-GALNT6",
+                    "GT27|Hs-GALNT11",
+                    "GT27|Hs-GALNT14",
+                    "GT27|Hs-GALNT9",
+                    "GT27|Hs-GALNT8"
+                ],
+                "nodes": [
+                    {
+                        "id": "id50@GT27-1",
+                        "type": "subfamily",
+                        "value": "GT27-1",
+                        "SeqNR": "11047",
+                        "SeqUniProt": "3040",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT27|Dm-Pgant6",
+                            "GT27|Dm-Pgant5",
+                            "GT27|Dm-Pgant2",
+                            "GT27|Dm-Pgant1",
+                            "GT27|Dm-pgant11",
+                            "GT27|Dm-Pgant4",
+                            "GT27|Dm-pgant10",
+                            "GT27|Dm-pgant12",
+                            "GT27|Dm-Pgant9",
+                            "GT27|Dm-Pgant7",
+                            "GT27|Dm-Pgant35A",
+                            "GT27|Dm-pgant13",
+                            "GT27|Dm-Pgant8",
+                            "GT27|Dm-Pgant3",
+                            "GT27|Ce-gly-8",
+                            "GT27|Ce-gly-10",
+                            "GT27|Ce-gly-6",
+                            "GT27|Ce-gly-7",
+                            "GT27|Ce-gly-3",
+                            "GT27|Ce-gly-11",
+                            "GT27|Ce-gly-4",
+                            "GT27|Ce-gly-5",
+                            "GT27|Ce-gly-9",
+                            "GT27|Hs-POC1B-GALNT4",
+                            "GT27|Hs-GALNT2",
+                            "GT27|Hs-GALNT1",
+                            "GT27|Hs-GALNT3",
+                            "GT27|Hs-GALNTL6",
+                            "GT27|Hs-GALNT17",
+                            "GT27|Hs-GALNT18",
+                            "GT27|Hs-GALNTL5",
+                            "GT27|Hs-GALNT5",
+                            "GT27|Hs-GALNT7",
+                            "GT27|Hs-GALNT10",
+                            "GT27|Hs-GALNT13",
+                            "GT27|Hs-GALNT12",
+                            "GT27|Hs-GALNT15",
+                            "GT27|Hs-GALNT16",
+                            "GT27|Hs-GALNT4",
+                            "GT27|Hs-GALNT6",
+                            "GT27|Hs-GALNT11",
+                            "GT27|Hs-GALNT14",
+                            "GT27|Hs-GALNT9",
+                            "GT27|Hs-GALNT8"
+                        ],
+                        "path": "GT27-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id51@GT60",
+                "type": "family",
+                "value": "GT60",
+                "SeqNR": "1128",
+                "SeqUniProt": "300",
+                "path": "GT60",
+                "members": [
+                    "GT-A_consensus",
+                    "GT60|Tc-Tc00.1047053511759.30"
+                ],
+                "nodes": [
+                    {
+                        "id": "id52@GT60-1",
+                        "type": "subfamily",
+                        "value": "GT60-1",
+                        "SeqNR": "1125",
+                        "SeqUniProt": "236",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT60|Tc-Tc00.1047053511759.30"
+                        ],
+                        "path": "GT60-1",
+                        "nodes": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "id53@Clade6",
         "type": "clade",
         "value": "Clade6",
         "SeqNR": "18261",
@@ -1242,7 +1699,7 @@
         ],
         "nodes": [
             {
-                "id": "id4@GT13",
+                "id": "id54@GT13",
                 "type": "family",
                 "value": "GT13",
                 "SeqNR": "2001",
@@ -1261,23 +1718,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id5@GT13-POMGNT1",
-                        "type": "subfamily",
-                        "value": "GT13-POMGNT1",
-                        "SeqNR": "1272",
-                        "SeqUniProt": "370",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT13|Ce-M70.4",
-                            "GT13|Ce-Q8MQ38",
-                            "GT13|Hs-POMGNT1",
-                            "GT13|At-GNTI"
-                        ],
-                        "path": "GT13-POMGNT1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id6@GT13-MGAT1",
+                        "id": "id55@GT13-MGAT1",
                         "type": "subfamily",
                         "value": "GT13-MGAT1",
                         "SeqNR": "727",
@@ -1291,11 +1732,27 @@
                         ],
                         "path": "GT13-MGAT1",
                         "nodes": []
+                    },
+                    {
+                        "id": "id56@GT13-POMGNT1",
+                        "type": "subfamily",
+                        "value": "GT13-POMGNT1",
+                        "SeqNR": "1272",
+                        "SeqUniProt": "370",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT13|Ce-M70.4",
+                            "GT13|Ce-Q8MQ38",
+                            "GT13|Hs-POMGNT1",
+                            "GT13|At-GNTI"
+                        ],
+                        "path": "GT13-POMGNT1",
+                        "nodes": []
                     }
                 ]
             },
             {
-                "id": "id13@GT16",
+                "id": "id57@GT16",
                 "type": "family",
                 "value": "GT16",
                 "SeqNR": "1147",
@@ -1310,7 +1767,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id14@GT16-1",
+                        "id": "id58@GT16-1",
                         "type": "subfamily",
                         "value": "GT16-1",
                         "SeqNR": "499",
@@ -1324,7 +1781,7 @@
                         "nodes": []
                     },
                     {
-                        "id": "id15@GT16-2",
+                        "id": "id59@GT16-2",
                         "type": "subfamily",
                         "value": "GT16-2",
                         "SeqNR": "648",
@@ -1340,7 +1797,7 @@
                 ]
             },
             {
-                "id": "id58@GT25",
+                "id": "id60@GT25",
                 "type": "family",
                 "value": "GT25",
                 "SeqNR": "12301",
@@ -1357,7 +1814,7 @@
                 "nodes": []
             },
             {
-                "id": "id98@GT54",
+                "id": "id61@GT54",
                 "type": "family",
                 "value": "GT54",
                 "SeqNR": "2812",
@@ -1375,22 +1832,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id99@GT54-MGAT4C",
-                        "type": "subfamily",
-                        "value": "GT54-MGAT4C",
-                        "SeqNR": "1214",
-                        "SeqUniProt": "289",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT54|Dm-dMGAT4-1",
-                            "GT54|Dm-dMGAT4-2",
-                            "GT54|Hs-MGAT4C"
-                        ],
-                        "path": "GT54-MGAT4C",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id100@GT54-MGAT4AB",
+                        "id": "id62@GT54-MGAT4AB",
                         "type": "subfamily",
                         "value": "GT54-MGAT4AB",
                         "SeqNR": "1313",
@@ -1405,7 +1847,22 @@
                         "nodes": []
                     },
                     {
-                        "id": "id101@GT54-Chordate",
+                        "id": "id63@GT54-MGAT4C",
+                        "type": "subfamily",
+                        "value": "GT54-MGAT4C",
+                        "SeqNR": "1214",
+                        "SeqUniProt": "289",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT54|Dm-dMGAT4-1",
+                            "GT54|Dm-dMGAT4-2",
+                            "GT54|Hs-MGAT4C"
+                        ],
+                        "path": "GT54-MGAT4C",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id64@GT54-Chordate",
                         "type": "subfamily",
                         "value": "GT54-Chordate",
                         "SeqNR": "283",
@@ -1422,7 +1879,7 @@
         ]
     },
     {
-        "id": "id7@Clade7",
+        "id": "id65@Clade7",
         "type": "clade",
         "value": "Clade7",
         "SeqNR": "12494",
@@ -1483,7 +1940,7 @@
         ],
         "nodes": [
             {
-                "id": "id8@GT14",
+                "id": "id66@GT14",
                 "type": "family",
                 "value": "GT14",
                 "SeqNR": "9004",
@@ -1536,7 +1993,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id9@GT14-1",
+                        "id": "id67@GT14-1",
                         "type": "subfamily",
                         "value": "GT14-1",
                         "SeqNR": "8206",
@@ -1564,7 +2021,7 @@
                 ]
             },
             {
-                "id": "id16@GT17",
+                "id": "id68@GT17",
                 "type": "family",
                 "value": "GT17",
                 "SeqNR": "2692",
@@ -1582,7 +2039,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id17@GT17-1",
+                        "id": "id69@GT17-1",
                         "type": "subfamily",
                         "value": "GT17-1",
                         "SeqNR": "2672",
@@ -1602,7 +2059,7 @@
                 ]
             },
             {
-                "id": "id156@GT82",
+                "id": "id70@GT82",
                 "type": "family",
                 "value": "GT82",
                 "SeqNR": "798",
@@ -1614,7 +2071,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id157@GT82-1",
+                        "id": "id71@GT82-1",
                         "type": "subfamily",
                         "value": "GT82-1",
                         "SeqNR": "798",
@@ -1631,7 +2088,7 @@
         ]
     },
     {
-        "id": "id10@Clade8",
+        "id": "id72@Clade8",
         "type": "clade",
         "value": "Clade8",
         "SeqNR": "22845",
@@ -1750,7 +2207,7 @@
         ],
         "nodes": [
             {
-                "id": "id11@GT15",
+                "id": "id73@GT15",
                 "type": "family",
                 "value": "GT15",
                 "SeqNR": "3579",
@@ -1770,7 +2227,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id12@GT15-1",
+                        "id": "id74@GT15-1",
                         "type": "subfamily",
                         "value": "GT15-1",
                         "SeqNR": "3547",
@@ -1793,7 +2250,7 @@
                 ]
             },
             {
-                "id": "id61@GT31-Chsy",
+                "id": "id75@GT31-Chsy",
                 "type": "family",
                 "value": "GT31-Chsy",
                 "SeqNR": "1820",
@@ -1812,7 +2269,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id62@GT31-Chsy-1",
+                        "id": "id76@GT31-Chsy-1",
                         "type": "subfamily",
                         "value": "GT31-Chsy-1",
                         "SeqNR": "893",
@@ -1828,7 +2285,7 @@
                         "nodes": []
                     },
                     {
-                        "id": "id63@GT31-Chsy-2",
+                        "id": "id77@GT31-Chsy-2",
                         "type": "subfamily",
                         "value": "GT31-Chsy-2",
                         "SeqNR": "898",
@@ -1846,7 +2303,7 @@
                 ]
             },
             {
-                "id": "id64@GT31-Euk",
+                "id": "id78@GT31-Euk",
                 "type": "family",
                 "value": "GT31-Euk",
                 "SeqNR": "3068",
@@ -1872,7 +2329,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id65@GT31-Euk-1",
+                        "id": "id79@GT31-Euk-1",
                         "type": "subfamily",
                         "value": "GT31-Euk-1",
                         "SeqNR": "721",
@@ -1889,7 +2346,7 @@
                         "nodes": []
                     },
                     {
-                        "id": "id66@GT31-Euk-2",
+                        "id": "id80@GT31-Euk-2",
                         "type": "subfamily",
                         "value": "GT31-Euk-2",
                         "SeqNR": "1979",
@@ -1908,25 +2365,11 @@
                         ],
                         "path": "GT31-Euk-2",
                         "nodes": []
-                    },
-                    {
-                        "id": "id67@GT31-Mix-1",
-                        "type": "subfamily",
-                        "value": "GT31-Mix-1",
-                        "SeqNR": "538",
-                        "SeqUniProt": "160",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT31-Euk|Ce-sqv-2",
-                            "GT31-Galt-Gnt|Hs-B3GALT6"
-                        ],
-                        "path": "GT31-Mix-1",
-                        "nodes": []
                     }
                 ]
             },
             {
-                "id": "id68@GT31-Fringe",
+                "id": "id81@GT31-Fringe",
                 "type": "family",
                 "value": "GT31-Fringe",
                 "SeqNR": "1420",
@@ -1941,7 +2384,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id69@GT31-Fringe-1",
+                        "id": "id82@GT31-Fringe-1",
                         "type": "subfamily",
                         "value": "GT31-Fringe-1",
                         "SeqNR": "1438",
@@ -1955,63 +2398,11 @@
                         ],
                         "path": "GT31-Fringe-1",
                         "nodes": []
-                    },
-                    {
-                        "id": "id70@GT31-67_Mix",
-                        "type": "subfamily",
-                        "value": "GT31-67_Mix",
-                        "SeqNR": "9546",
-                        "SeqUniProt": "2881",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT31-Galt-Gnt|Dm-CG8976",
-                            "GT31-Galt-Gnt|Dm-CG30037",
-                            "GT31-Galt-Gnt|Dm-GalT1",
-                            "GT31-Galt-Gnt|Dm-brn",
-                            "GT31-Galt-Gnt|Dm-GalT3",
-                            "GT31-Galt-Gnt|Dm-GalT4",
-                            "GT31-Galt-Gnt|Dm-GalT5",
-                            "GT31-Galt-Gnt|Dm-GalT2",
-                            "GT31-Galt-Gnt|Ce-C47F8.3",
-                            "GT31-Galt-Gnt|Ce-bus-17",
-                            "GT31-Galt-Gnt|Ce-bus-2",
-                            "GT31-Galt-Gnt|Ce-C54C8.3",
-                            "GT31-Galt-Gnt|Ce-E03H4.11",
-                            "GT31-Galt-Gnt|Ce-C47F8.5",
-                            "GT31-Galt-Gnt|Ce-C47F8.6",
-                            "GT31-Galt-Gnt|Ce-F14B6.4",
-                            "GT31-Galt-Gnt|Ce-bre-2",
-                            "GT31-Galt-Gnt|Ce-B0024.15",
-                            "GT31-Galt-Gnt|Ce-bre-5",
-                            "GT31-Galt-Gnt|Ce-T15D6.5",
-                            "GT31-Galt-Gnt|Hs-B3GALT2",
-                            "GT31-Galt-Gnt|Hs-B3GALNT1",
-                            "GT31-Galt-Gnt|Hs-B3GALT4",
-                            "GT31-Galt-Gnt|Hs-B3GNT9",
-                            "GT31-Galt-Gnt|Hs-B3GNT6",
-                            "GT31-Galt-Gnt|Hs-B3GNT8",
-                            "GT31-Galt-Gnt|Hs-B3GNT7",
-                            "GT31-Galt-Gnt|Hs-B3GNT5",
-                            "GT31-Galt-Gnt|Hs-B3GNT4",
-                            "GT31-Galt-Gnt|Hs-B3GNT2",
-                            "GT31-Galt-Gnt|Hs-B3GNT3",
-                            "GT31-Galt-Gnt|Hs-B3GALT5",
-                            "GT31-Galt-Gnt|Hs-B3GALT1",
-                            "GT31-Galt-Gnt|At-B3GALT20",
-                            "GT31-Galt-Gnt|At-B3GALT17",
-                            "GT31-Galt-Gnt|At-B3GALT15",
-                            "GT31-Galt-Gnt|At-B3GALT18",
-                            "GT31-Galt-Gnt|At-B3GALT16",
-                            "GT31-Galt-Gnt|At-B3GALT19",
-                            "GT67|Tc-Tc00.1047053441923.10"
-                        ],
-                        "path": "GT31-67_Mix",
-                        "nodes": []
                     }
                 ]
             },
             {
-                "id": "id71@GT31-Galt-Gnt",
+                "id": "id83@GT31-Galt-Gnt",
                 "type": "family",
                 "value": "GT31-Galt-Gnt",
                 "SeqNR": "9248",
@@ -2067,7 +2458,7 @@
                 "nodes": []
             },
             {
-                "id": "id72@GT31-Glt",
+                "id": "id84@GT31-Glt",
                 "type": "family",
                 "value": "GT31-Glt",
                 "SeqNR": "3202",
@@ -2104,7 +2495,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id73@GT31-Glt_B3GLCT",
+                        "id": "id85@GT31-Glt_B3GLCT",
                         "type": "subfamily",
                         "value": "GT31-Glt_B3GLCT",
                         "SeqNR": "981",
@@ -2120,7 +2511,7 @@
                         "nodes": []
                     },
                     {
-                        "id": "id74@GT31-Glt_C1GALT",
+                        "id": "id86@GT31-Glt_C1GALT",
                         "type": "subfamily",
                         "value": "GT31-Glt_C1GALT",
                         "SeqNR": "2153",
@@ -2155,7 +2546,7 @@
                 ]
             },
             {
-                "id": "id119@GT67",
+                "id": "id87@GT67",
                 "type": "family",
                 "value": "GT67",
                 "SeqNR": "508",
@@ -2167,595 +2558,122 @@
                     "GT67|Tc-Tc00.1047053441923.10"
                 ],
                 "nodes": []
-            }
-        ]
-    },
-    {
-        "id": "id18@Clade4",
-        "type": "clade",
-        "value": "Clade4",
-        "SeqNR": "191268",
-        "SeqUniProt": "41499",
-        "path": "Clade4",
-        "members": [
-            "GT-A_consensus",
-            "GT2-B3GntL|Ce-F13G3.6",
-            "GT2-B3GntL|Hs-B3GNTL1",
-            "GT2-Class1|Hs-B4GALNT3",
-            "GT2-Class1|Hs-B4GALNT4",
-            "GT2-Class1|Rm-exoA",
-            "GT2-Class1|Pa-fgtA",
-            "GT2-Class1|Pa-wapR",
-            "GT2-Class1|Pa-migA",
-            "GT2-Class1|Hi-Q57287",
-            "GT2-Class1|Hd-lgtA",
-            "GT2-Class1|Bf-wcfQ",
-            "GT2-Class1|Dd-pgtA"
-        ],
-        "nodes": [
-            {
-                "id": "id19@GT2-B3GntL",
-                "type": "family",
-                "value": "GT2-B3GntL",
-                "SeqNR": "687",
-                "SeqUniProt": "139",
-                "path": "GT2-B3GntL",
-                "members": [
-                    "GT-A_consensus",
-                    "GT2-B3GntL|Ce-F13G3.6",
-                    "GT2-B3GntL|Hs-B3GNTL1"
-                ],
-                "nodes": [
-                    {
-                        "id": "id20@GT2-B3GntL-1",
-                        "type": "subfamily",
-                        "value": "GT2-B3GntL-1",
-                        "SeqNR": "683",
-                        "SeqUniProt": "137",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-B3GntL|Ce-F13G3.6",
-                            "GT2-B3GntL|Hs-B3GNTL1"
-                        ],
-                        "path": "GT2-B3GntL-1",
-                        "nodes": []
-                    }
-                ]
             },
             {
-                "id": "id37@GT2-Class1",
+                "id": "id88@Others",
                 "type": "family",
-                "value": "GT2-Class1",
-                "SeqNR": "190581",
-                "SeqUniProt": "41360",
-                "path": "GT2-Class1",
+                "value": "Others",
+                "SeqNR": "9546",
+                "SeqUniProt": "2881",
+                "path": "GT31-67_Mix",
                 "members": [
                     "GT-A_consensus",
-                    "GT2-Class1|Hs-B4GALNT3",
-                    "GT2-Class1|Hs-B4GALNT4",
-                    "GT2-Class1|Rm-exoA",
-                    "GT2-Class1|Pa-fgtA",
-                    "GT2-Class1|Pa-wapR",
-                    "GT2-Class1|Pa-migA",
-                    "GT2-Class1|Hi-Q57287",
-                    "GT2-Class1|Hd-lgtA",
-                    "GT2-Class1|Bf-wcfQ",
-                    "GT2-Class1|Dd-pgtA"
+                    "GT31-Galt-Gnt|Dm-CG8976",
+                    "GT31-Galt-Gnt|Dm-CG30037",
+                    "GT31-Galt-Gnt|Dm-GalT1",
+                    "GT31-Galt-Gnt|Dm-brn",
+                    "GT31-Galt-Gnt|Dm-GalT3",
+                    "GT31-Galt-Gnt|Dm-GalT4",
+                    "GT31-Galt-Gnt|Dm-GalT5",
+                    "GT31-Galt-Gnt|Dm-GalT2",
+                    "GT31-Galt-Gnt|Ce-C47F8.3",
+                    "GT31-Galt-Gnt|Ce-bus-17",
+                    "GT31-Galt-Gnt|Ce-bus-2",
+                    "GT31-Galt-Gnt|Ce-C54C8.3",
+                    "GT31-Galt-Gnt|Ce-E03H4.11",
+                    "GT31-Galt-Gnt|Ce-C47F8.5",
+                    "GT31-Galt-Gnt|Ce-C47F8.6",
+                    "GT31-Galt-Gnt|Ce-F14B6.4",
+                    "GT31-Galt-Gnt|Ce-bre-2",
+                    "GT31-Galt-Gnt|Ce-B0024.15",
+                    "GT31-Galt-Gnt|Ce-bre-5",
+                    "GT31-Galt-Gnt|Ce-T15D6.5",
+                    "GT31-Galt-Gnt|Hs-B3GALT2",
+                    "GT31-Galt-Gnt|Hs-B3GALNT1",
+                    "GT31-Galt-Gnt|Hs-B3GALT4",
+                    "GT31-Galt-Gnt|Hs-B3GNT9",
+                    "GT31-Galt-Gnt|Hs-B3GNT6",
+                    "GT31-Galt-Gnt|Hs-B3GNT8",
+                    "GT31-Galt-Gnt|Hs-B3GNT7",
+                    "GT31-Galt-Gnt|Hs-B3GNT5",
+                    "GT31-Galt-Gnt|Hs-B3GNT4",
+                    "GT31-Galt-Gnt|Hs-B3GNT2",
+                    "GT31-Galt-Gnt|Hs-B3GNT3",
+                    "GT31-Galt-Gnt|Hs-B3GALT5",
+                    "GT31-Galt-Gnt|Hs-B3GALT1",
+                    "GT31-Galt-Gnt|At-B3GALT20",
+                    "GT31-Galt-Gnt|At-B3GALT17",
+                    "GT31-Galt-Gnt|At-B3GALT15",
+                    "GT31-Galt-Gnt|At-B3GALT18",
+                    "GT31-Galt-Gnt|At-B3GALT16",
+                    "GT31-Galt-Gnt|At-B3GALT19",
+                    "GT67|Tc-Tc00.1047053441923.10"
                 ],
                 "nodes": [
                     {
-                        "id": "id38@GT2-Class1-1",
+                        "id": "id88@GT31-67_Mix",
                         "type": "subfamily",
-                        "value": "GT2-Class1-1",
-                        "SeqNR": "17387",
-                        "SeqUniProt": "3504",
+                        "value": "GT31-67_Mix",
+                        "SeqNR": "9546",
+                        "SeqUniProt": "2881",
                         "members": [
                             "GT-A_consensus",
-                            "GT2-Class1|Pa-wapR",
-                            "GT2-Class1|Pa-migA",
-                            "GT2-Class1|Hi-Q57287",
-                            "GT2-Class1|Hd-lgtA",
-                            "GT2-Class1|Bf-wcfQ",
-                            "GT2-Class1|Dd-pgtA"
+                            "GT31-Galt-Gnt|Dm-CG8976",
+                            "GT31-Galt-Gnt|Dm-CG30037",
+                            "GT31-Galt-Gnt|Dm-GalT1",
+                            "GT31-Galt-Gnt|Dm-brn",
+                            "GT31-Galt-Gnt|Dm-GalT3",
+                            "GT31-Galt-Gnt|Dm-GalT4",
+                            "GT31-Galt-Gnt|Dm-GalT5",
+                            "GT31-Galt-Gnt|Dm-GalT2",
+                            "GT31-Galt-Gnt|Ce-C47F8.3",
+                            "GT31-Galt-Gnt|Ce-bus-17",
+                            "GT31-Galt-Gnt|Ce-bus-2",
+                            "GT31-Galt-Gnt|Ce-C54C8.3",
+                            "GT31-Galt-Gnt|Ce-E03H4.11",
+                            "GT31-Galt-Gnt|Ce-C47F8.5",
+                            "GT31-Galt-Gnt|Ce-C47F8.6",
+                            "GT31-Galt-Gnt|Ce-F14B6.4",
+                            "GT31-Galt-Gnt|Ce-bre-2",
+                            "GT31-Galt-Gnt|Ce-B0024.15",
+                            "GT31-Galt-Gnt|Ce-bre-5",
+                            "GT31-Galt-Gnt|Ce-T15D6.5",
+                            "GT31-Galt-Gnt|Hs-B3GALT2",
+                            "GT31-Galt-Gnt|Hs-B3GALNT1",
+                            "GT31-Galt-Gnt|Hs-B3GALT4",
+                            "GT31-Galt-Gnt|Hs-B3GNT9",
+                            "GT31-Galt-Gnt|Hs-B3GNT6",
+                            "GT31-Galt-Gnt|Hs-B3GNT8",
+                            "GT31-Galt-Gnt|Hs-B3GNT7",
+                            "GT31-Galt-Gnt|Hs-B3GNT5",
+                            "GT31-Galt-Gnt|Hs-B3GNT4",
+                            "GT31-Galt-Gnt|Hs-B3GNT2",
+                            "GT31-Galt-Gnt|Hs-B3GNT3",
+                            "GT31-Galt-Gnt|Hs-B3GALT5",
+                            "GT31-Galt-Gnt|Hs-B3GALT1",
+                            "GT31-Galt-Gnt|At-B3GALT20",
+                            "GT31-Galt-Gnt|At-B3GALT17",
+                            "GT31-Galt-Gnt|At-B3GALT15",
+                            "GT31-Galt-Gnt|At-B3GALT18",
+                            "GT31-Galt-Gnt|At-B3GALT16",
+                            "GT31-Galt-Gnt|At-B3GALT19",
+                            "GT67|Tc-Tc00.1047053441923.10"
                         ],
-                        "path": "GT2-Class1-1",
+                        "path": "GT31-67_Mix",
                         "nodes": []
                     },
                     {
-                        "id": "id39@GT2-Class1-2",
+                        "id": "id89@GT31-Mix-1",
                         "type": "subfamily",
-                        "value": "GT2-Class1-2",
-                        "SeqNR": "7496",
-                        "SeqUniProt": "1142",
+                        "value": "GT31-Mix-1",
+                        "SeqNR": "538",
+                        "SeqUniProt": "160",
                         "members": [
                             "GT-A_consensus",
-                            "GT2-Class1|Pa-fgtA"
+                            "GT31-Euk|Ce-sqv-2",
+                            "GT31-Galt-Gnt|Hs-B3GALT6"
                         ],
-                        "path": "GT2-Class1-2",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id40@GT2-Mix-4",
-                        "type": "subfamily",
-                        "value": "GT2-Mix-4",
-                        "SeqNR": "117208",
-                        "SeqUniProt": "24675",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-CHS|Pm-fcbD"
-                        ],
-                        "path": "GT2-Mix-4",
-                        "nodes": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "id21@Clade1",
-        "type": "clade",
-        "value": "Clade1",
-        "SeqNR": "101828",
-        "SeqUniProt": "25959",
-        "path": "Clade1",
-        "members": [
-            "GT-A_consensus",
-            "GT21|Dm-GlcT1",
-            "GT21|Ce-cgt-2",
-            "GT21|Ce-cgt-1",
-            "GT21|Ce-cgt-3",
-            "GT21|Hs-UGCG",
-            "GT2-Bre3|Dm-egh",
-            "GT2-Bre3|Ce-bre-3",
-            "GT2-CeS|At-CSLA14",
-            "GT2-CeS|At-CSLA1",
-            "GT2-CeS|At-CSLA2",
-            "GT2-CeS|At-CSLA11",
-            "GT2-CeS|At-CSLC4",
-            "GT2-CeS|At-CSLA3",
-            "GT2-CeS|At-CSLA10",
-            "GT2-CeS|At-CSLA9",
-            "GT2-CeS|At-CSLC5",
-            "GT2-CeS|At-CSLC8",
-            "GT2-CeS|At-CSLC6",
-            "GT2-CeS|At-CSLA15",
-            "GT2-CeS|At-CSLC12",
-            "GT2-CeS|At-CSLA7",
-            "GT2-CeS|At-CSLB6",
-            "GT2-CeS|At-CESA1",
-            "GT2-CeS|At-CESA2",
-            "GT2-CeS|At-CSLD1",
-            "GT2-CeS|At-CSLB5",
-            "GT2-CeS|At-CSLG3",
-            "GT2-CeS|At-CSLG1",
-            "GT2-CeS|At-CESA4",
-            "GT2-CeS|At-CESA5",
-            "GT2-CeS|At-CESA8",
-            "GT2-CeS|At-CSLG2",
-            "GT2-CeS|At-CSLE1",
-            "GT2-CeS|At-CESA3",
-            "GT2-CeS|At-CESA6",
-            "GT2-CeS|At-CSLD6",
-            "GT2-CeS|At-CSLD2",
-            "GT2-CeS|At-CSLD3",
-            "GT2-CeS|At-CESA9",
-            "GT2-CeS|At-CESA10",
-            "GT2-CeS|At-CSLD5",
-            "GT2-CeS|At-CESA7",
-            "GT2-CeS|At-CSLD4",
-            "GT2-Chitin-HAS|Dm-kkv",
-            "GT2-Chitin-HAS|Dm-Chs2",
-            "GT2-Chitin-HAS|Ce-chs-2",
-            "GT2-Chitin-HAS|Ce-chs-1",
-            "GT2-Chitin-HAS|Sc-CHS1",
-            "GT2-Chitin-HAS|Sc-CHS2",
-            "GT2-Chitin-HAS|Sc-CHS3",
-            "GT2-Chitin-HAS|Hs-HAS3",
-            "GT2-Chitin-HAS|Hs-HAS2",
-            "GT2-Chitin-HAS|Hs-HAS1",
-            "GT2-CWR|Se-icaA",
-            "GT84|Ec-opgH",
-            "GT2-CeS|Pp-Q88MP4",
-            "GT2-CeS|Av-C1DSW1",
-            "GT2-CeS|Pa-ndvB",
-            "GT21|Zm-Q5NNW4",
-            "GT21|Kp-C4R4B3",
-            "GT21|Gm-GLYMA_16G078400",
-            "GT21|Mo-G4MS28",
-            "GT2-CWR|Rs-A4WQA1",
-            "GT2-CWR|Ec-nfrB",
-            "GT2-CWR|Ct-Q8KB11",
-            "GT84|Rs-Q3IW62"
-        ],
-        "nodes": [
-            {
-                "id": "id22@GT2-Bre3",
-                "type": "family",
-                "value": "GT2-Bre3",
-                "SeqNR": "699",
-                "SeqUniProt": "288",
-                "path": "GT2-Bre3",
-                "members": [
-                    "GT-A_consensus",
-                    "GT2-Bre3|Dm-egh",
-                    "GT2-Bre3|Ce-bre-3"
-                ],
-                "nodes": [
-                    {
-                        "id": "id23@GT2-Bre3-1",
-                        "type": "subfamily",
-                        "value": "GT2-Bre3-1",
-                        "SeqNR": "696",
-                        "SeqUniProt": "286",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-Bre3|Dm-egh",
-                            "GT2-Bre3|Ce-bre-3"
-                        ],
-                        "path": "GT2-Bre3-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id24@GT2-Mix-1",
-                        "type": "subfamily",
-                        "value": "GT2-Mix-1",
-                        "SeqNR": "39143",
-                        "SeqUniProt": "10677",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-Class1|Rm-exoA",
-                            "GT2-CWR|Ct-Q8KB11"
-                        ],
-                        "path": "GT2-Mix-1",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id25@GT2-CWR",
-                "type": "family",
-                "value": "GT2-CWR",
-                "SeqNR": "37654",
-                "SeqUniProt": "9236",
-                "path": "GT2-CWR",
-                "members": [
-                    "GT-A_consensus",
-                    "GT2-CWR|Se-icaA",
-                    "GT2-CWR|Rs-A4WQA1",
-                    "GT2-CWR|Ec-nfrB",
-                    "GT2-CWR|Ct-Q8KB11"
-                ],
-                "nodes": [
-                    {
-                        "id": "id26@GT2-CWR_Csl-1",
-                        "type": "subfamily",
-                        "value": "GT2-CWR_Csl-1",
-                        "SeqNR": "2229",
-                        "SeqUniProt": "240",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-CWR|Ec-nfrB"
-                        ],
-                        "path": "GT2-CWR_Csl-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id27@GT2-CWR_Csl-2",
-                        "type": "subfamily",
-                        "value": "GT2-CWR_Csl-2",
-                        "SeqNR": "3386",
-                        "SeqUniProt": "919",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-CWR|Rs-A4WQA1"
-                        ],
-                        "path": "GT2-CWR_Csl-2",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id28@GT2-Mix-2",
-                        "type": "subfamily",
-                        "value": "GT2-Mix-2",
-                        "SeqNR": "40778",
-                        "SeqUniProt": "8997",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-CeS|At-CESA1",
-                            "GT2-CeS|At-CESA2",
-                            "GT2-CeS|At-CSLD1",
-                            "GT2-CeS|At-CSLB5",
-                            "GT2-CeS|At-CSLG3",
-                            "GT2-CeS|At-CSLG1",
-                            "GT2-CeS|At-CESA4",
-                            "GT2-CeS|At-CESA5",
-                            "GT2-CeS|At-CESA8",
-                            "GT2-CeS|At-CSLG2",
-                            "GT2-CeS|At-CSLE1",
-                            "GT2-CeS|At-CESA3",
-                            "GT2-CeS|At-CESA6",
-                            "GT2-CeS|At-CSLD6",
-                            "GT2-CeS|At-CSLD2",
-                            "GT2-CeS|At-CSLD3",
-                            "GT2-CeS|At-CESA9",
-                            "GT2-CeS|At-CESA10",
-                            "GT2-CeS|At-CSLD5",
-                            "GT2-CeS|At-CESA7",
-                            "GT2-CeS|At-CSLD4",
-                            "GT2-CWR|Se-icaA"
-                        ],
-                        "path": "GT2-Mix-2",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id29@GT2-CeS",
-                "type": "family",
-                "value": "GT2-CeS",
-                "SeqNR": "33641",
-                "SeqUniProt": "8254",
-                "path": "GT2-CeS",
-                "members": [
-                    "GT-A_consensus",
-                    "GT2-CeS|At-CSLA14",
-                    "GT2-CeS|At-CSLA1",
-                    "GT2-CeS|At-CSLA2",
-                    "GT2-CeS|At-CSLA11",
-                    "GT2-CeS|At-CSLC4",
-                    "GT2-CeS|At-CSLA3",
-                    "GT2-CeS|At-CSLA10",
-                    "GT2-CeS|At-CSLA9",
-                    "GT2-CeS|At-CSLC5",
-                    "GT2-CeS|At-CSLC8",
-                    "GT2-CeS|At-CSLC6",
-                    "GT2-CeS|At-CSLA15",
-                    "GT2-CeS|At-CSLC12",
-                    "GT2-CeS|At-CSLA7",
-                    "GT2-CeS|At-CSLB6",
-                    "GT2-CeS|At-CESA1",
-                    "GT2-CeS|At-CESA2",
-                    "GT2-CeS|At-CSLD1",
-                    "GT2-CeS|At-CSLB5",
-                    "GT2-CeS|At-CSLG3",
-                    "GT2-CeS|At-CSLG1",
-                    "GT2-CeS|At-CESA4",
-                    "GT2-CeS|At-CESA5",
-                    "GT2-CeS|At-CESA8",
-                    "GT2-CeS|At-CSLG2",
-                    "GT2-CeS|At-CSLE1",
-                    "GT2-CeS|At-CESA3",
-                    "GT2-CeS|At-CESA6",
-                    "GT2-CeS|At-CSLD6",
-                    "GT2-CeS|At-CSLD2",
-                    "GT2-CeS|At-CSLD3",
-                    "GT2-CeS|At-CESA9",
-                    "GT2-CeS|At-CESA10",
-                    "GT2-CeS|At-CSLD5",
-                    "GT2-CeS|At-CESA7",
-                    "GT2-CeS|At-CSLD4",
-                    "GT2-CeS|Pp-Q88MP4",
-                    "GT2-CeS|Av-C1DSW1",
-                    "GT2-CeS|Pa-ndvB"
-                ],
-                "nodes": [
-                    {
-                        "id": "id30@GT2-CeS-1",
-                        "type": "subfamily",
-                        "value": "GT2-CeS-1",
-                        "SeqNR": "4142",
-                        "SeqUniProt": "1565",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-CeS|At-CSLA14",
-                            "GT2-CeS|At-CSLA1",
-                            "GT2-CeS|At-CSLA2",
-                            "GT2-CeS|At-CSLA11",
-                            "GT2-CeS|At-CSLC4",
-                            "GT2-CeS|At-CSLA3",
-                            "GT2-CeS|At-CSLA10",
-                            "GT2-CeS|At-CSLA9",
-                            "GT2-CeS|At-CSLC5",
-                            "GT2-CeS|At-CSLC8",
-                            "GT2-CeS|At-CSLC6",
-                            "GT2-CeS|At-CSLA15",
-                            "GT2-CeS|At-CSLC12",
-                            "GT2-CeS|At-CSLA7"
-                        ],
-                        "path": "GT2-CeS-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id31@GT2-CeS_putative",
-                        "type": "subfamily",
-                        "value": "GT2-CeS_putative",
-                        "SeqNR": "2112",
-                        "SeqUniProt": "343",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-CeS|Pp-Q88MP4",
-                            "GT2-CeS|Av-C1DSW1",
-                            "GT2-CeS|Pa-ndvB"
-                        ],
-                        "path": "GT2-CeS_putative",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id32@GT2-Chitin-HAS",
-                "type": "family",
-                "value": "GT2-Chitin-HAS",
-                "SeqNR": "15918",
-                "SeqUniProt": "5347",
-                "path": "GT2-Chitin-HAS",
-                "members": [
-                    "GT-A_consensus",
-                    "GT2-Chitin-HAS|Dm-kkv",
-                    "GT2-Chitin-HAS|Dm-Chs2",
-                    "GT2-Chitin-HAS|Ce-chs-2",
-                    "GT2-Chitin-HAS|Ce-chs-1",
-                    "GT2-Chitin-HAS|Sc-CHS1",
-                    "GT2-Chitin-HAS|Sc-CHS2",
-                    "GT2-Chitin-HAS|Sc-CHS3",
-                    "GT2-Chitin-HAS|Hs-HAS3",
-                    "GT2-Chitin-HAS|Hs-HAS2",
-                    "GT2-Chitin-HAS|Hs-HAS1"
-                ],
-                "nodes": [
-                    {
-                        "id": "id33@GT2-Chitin-HAS-1",
-                        "type": "subfamily",
-                        "value": "GT2-Chitin-HAS-1",
-                        "SeqNR": "15602",
-                        "SeqUniProt": "4854",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-Chitin-HAS|Dm-kkv",
-                            "GT2-Chitin-HAS|Dm-Chs2",
-                            "GT2-Chitin-HAS|Ce-chs-2",
-                            "GT2-Chitin-HAS|Ce-chs-1",
-                            "GT2-Chitin-HAS|Sc-CHS1",
-                            "GT2-Chitin-HAS|Sc-CHS2",
-                            "GT2-Chitin-HAS|Sc-CHS3",
-                            "GT2-Chitin-HAS|Hs-HAS3",
-                            "GT2-Chitin-HAS|Hs-HAS2",
-                            "GT2-Chitin-HAS|Hs-HAS1"
-                        ],
-                        "path": "GT2-Chitin-HAS-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id36@GT2-Mix-3",
-                        "type": "subfamily",
-                        "value": "GT2-Mix-3",
-                        "SeqNR": "69424",
-                        "SeqUniProt": "17720",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-CHS|Cv-hfsG",
-                            "GT2-Class1|Hs-B4GALNT4"
-                        ],
-                        "path": "GT2-Mix-3",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id50@GT21",
-                "type": "family",
-                "value": "GT21",
-                "SeqNR": "5001",
-                "SeqUniProt": "1334",
-                "path": "GT21",
-                "members": [
-                    "GT-A_consensus",
-                    "GT21|Dm-GlcT1",
-                    "GT21|Ce-cgt-2",
-                    "GT21|Ce-cgt-1",
-                    "GT21|Ce-cgt-3",
-                    "GT21|Hs-UGCG",
-                    "GT21|Zm-Q5NNW4",
-                    "GT21|Kp-C4R4B3",
-                    "GT21|Gm-GLYMA_16G078400",
-                    "GT21|Mo-G4MS28"
-                ],
-                "nodes": [
-                    {
-                        "id": "id51@GT21-1",
-                        "type": "subfamily",
-                        "value": "GT21-1",
-                        "SeqNR": "2958",
-                        "SeqUniProt": "601",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT21|Zm-Q5NNW4",
-                            "GT21|Gm-GLYMA_16G078400"
-                        ],
-                        "path": "GT21-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id52@GT21-2",
-                        "type": "subfamily",
-                        "value": "GT21-2",
-                        "SeqNR": "458",
-                        "SeqUniProt": "217",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT21|Mo-G4MS28"
-                        ],
-                        "path": "GT21-2",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id53@GT21-3",
-                        "type": "subfamily",
-                        "value": "GT21-3",
-                        "SeqNR": "324",
-                        "SeqUniProt": "147",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT21|Kp-C4R4B3"
-                        ],
-                        "path": "GT21-3",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id54@GT21-4",
-                        "type": "subfamily",
-                        "value": "GT21-4",
-                        "SeqNR": "1331",
-                        "SeqUniProt": "366",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT21|Dm-GlcT1",
-                            "GT21|Ce-cgt-2",
-                            "GT21|Ce-cgt-1",
-                            "GT21|Ce-cgt-3",
-                            "GT21|Hs-UGCG"
-                        ],
-                        "path": "GT21-4",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id158@GT84",
-                "type": "family",
-                "value": "GT84",
-                "SeqNR": "8915",
-                "SeqUniProt": "1500",
-                "path": "GT84",
-                "members": [
-                    "GT-A_consensus",
-                    "GT84|Ec-opgH",
-                    "GT84|Rs-Q3IW62"
-                ],
-                "nodes": [
-                    {
-                        "id": "id159@GT84-1",
-                        "type": "subfamily",
-                        "value": "GT84-1",
-                        "SeqNR": "7993",
-                        "SeqUniProt": "1257",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT84|Ec-opgH"
-                        ],
-                        "path": "GT84-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id160@GT84-2",
-                        "type": "subfamily",
-                        "value": "GT84-2",
-                        "SeqNR": "738",
-                        "SeqUniProt": "155",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT84|Rs-Q3IW62"
-                        ],
-                        "path": "GT84-2",
+                        "path": "GT31-Mix-1",
                         "nodes": []
                     }
                 ]
@@ -2763,625 +2681,7 @@
         ]
     },
     {
-        "id": "id24@Other GT-A subfamilies",
-        "type": "clade",
-        "value": "Other GT-A subfamilies",
-        "SeqNR": "39143",
-        "SeqUniProt": "10677",
-        "path": "GT2-Mix-1",
-        "members": [
-            "GT-A_consensus",
-            "GT2-Class1|Rm-exoA",
-            "GT2-CWR|Ct-Q8KB11"
-        ],
-        "nodes": []
-    },
-    {
-        "id": "id34@Clade5",
-        "type": "clade",
-        "value": "Clade5",
-        "SeqNR": "24886",
-        "SeqUniProt": "6835",
-        "path": "Clade5",
-        "members": [
-            "GT-A_consensus",
-            "GT27|Dm-Pgant6",
-            "GT27|Dm-Pgant5",
-            "GT27|Dm-Pgant2",
-            "GT27|Dm-Pgant1",
-            "GT27|Dm-pgant11",
-            "GT27|Dm-Pgant4",
-            "GT27|Dm-pgant10",
-            "GT27|Dm-pgant12",
-            "GT27|Dm-Pgant9",
-            "GT27|Dm-Pgant7",
-            "GT27|Dm-Pgant35A",
-            "GT27|Dm-pgant13",
-            "GT27|Dm-Pgant8",
-            "GT27|Dm-Pgant3",
-            "GT27|Ce-gly-8",
-            "GT27|Ce-gly-10",
-            "GT27|Ce-gly-6",
-            "GT27|Ce-gly-7",
-            "GT27|Ce-gly-3",
-            "GT27|Ce-gly-11",
-            "GT27|Ce-gly-4",
-            "GT27|Ce-gly-5",
-            "GT27|Ce-gly-9",
-            "GT27|Hs-POC1B-GALNT4",
-            "GT27|Hs-GALNT2",
-            "GT27|Hs-GALNT1",
-            "GT27|Hs-GALNT3",
-            "GT27|Hs-GALNTL6",
-            "GT27|Hs-GALNT17",
-            "GT27|Hs-GALNT18",
-            "GT27|Hs-GALNTL5",
-            "GT27|Hs-GALNT5",
-            "GT27|Hs-GALNT7",
-            "GT27|Hs-GALNT10",
-            "GT27|Hs-GALNT13",
-            "GT27|Hs-GALNT12",
-            "GT27|Hs-GALNT15",
-            "GT27|Hs-GALNT16",
-            "GT27|Hs-GALNT4",
-            "GT27|Hs-GALNT6",
-            "GT27|Hs-GALNT11",
-            "GT27|Hs-GALNT14",
-            "GT27|Hs-GALNT9",
-            "GT27|Hs-GALNT8",
-            "GT2-CHS|Pm-fcbD",
-            "GT2-CHS|Cv-hfsG",
-            "GT7|Dm-b4GalNAcTA",
-            "GT7|Dm-beta4GalNAcTB",
-            "GT7|Dm-beta4GalT7",
-            "GT7|Ce-W02B12.11",
-            "GT7|Ce-sqv-3",
-            "GT7|Ce-bre-4",
-            "GT7|Hs-B4GALT5",
-            "GT7|Hs-B4GALT3",
-            "GT7|Hs-B4GALT4",
-            "GT7|Hs-B4GALT2",
-            "GT7|Hs-B4GALT1",
-            "GT7|Hs-B4GALT7",
-            "GT7|Hs-B4GALT6",
-            "GT60|Tc-Tc00.1047053511759.30"
-        ],
-        "nodes": [
-            {
-                "id": "id35@GT2-CHS",
-                "type": "family",
-                "value": "GT2-CHS",
-                "SeqNR": "7641",
-                "SeqUniProt": "2063",
-                "path": "GT2-CHS",
-                "members": [
-                    "GT-A_consensus",
-                    "GT2-CHS|Pm-fcbD",
-                    "GT2-CHS|Cv-hfsG"
-                ],
-                "nodes": []
-            },
-            {
-                "id": "id59@GT27",
-                "type": "family",
-                "value": "GT27",
-                "SeqNR": "11736",
-                "SeqUniProt": "3270",
-                "path": "GT27",
-                "members": [
-                    "GT-A_consensus",
-                    "GT27|Dm-Pgant6",
-                    "GT27|Dm-Pgant5",
-                    "GT27|Dm-Pgant2",
-                    "GT27|Dm-Pgant1",
-                    "GT27|Dm-pgant11",
-                    "GT27|Dm-Pgant4",
-                    "GT27|Dm-pgant10",
-                    "GT27|Dm-pgant12",
-                    "GT27|Dm-Pgant9",
-                    "GT27|Dm-Pgant7",
-                    "GT27|Dm-Pgant35A",
-                    "GT27|Dm-pgant13",
-                    "GT27|Dm-Pgant8",
-                    "GT27|Dm-Pgant3",
-                    "GT27|Ce-gly-8",
-                    "GT27|Ce-gly-10",
-                    "GT27|Ce-gly-6",
-                    "GT27|Ce-gly-7",
-                    "GT27|Ce-gly-3",
-                    "GT27|Ce-gly-11",
-                    "GT27|Ce-gly-4",
-                    "GT27|Ce-gly-5",
-                    "GT27|Ce-gly-9",
-                    "GT27|Hs-POC1B-GALNT4",
-                    "GT27|Hs-GALNT2",
-                    "GT27|Hs-GALNT1",
-                    "GT27|Hs-GALNT3",
-                    "GT27|Hs-GALNTL6",
-                    "GT27|Hs-GALNT17",
-                    "GT27|Hs-GALNT18",
-                    "GT27|Hs-GALNTL5",
-                    "GT27|Hs-GALNT5",
-                    "GT27|Hs-GALNT7",
-                    "GT27|Hs-GALNT10",
-                    "GT27|Hs-GALNT13",
-                    "GT27|Hs-GALNT12",
-                    "GT27|Hs-GALNT15",
-                    "GT27|Hs-GALNT16",
-                    "GT27|Hs-GALNT4",
-                    "GT27|Hs-GALNT6",
-                    "GT27|Hs-GALNT11",
-                    "GT27|Hs-GALNT14",
-                    "GT27|Hs-GALNT9",
-                    "GT27|Hs-GALNT8"
-                ],
-                "nodes": [
-                    {
-                        "id": "id60@GT27-1",
-                        "type": "subfamily",
-                        "value": "GT27-1",
-                        "SeqNR": "11047",
-                        "SeqUniProt": "3040",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT27|Dm-Pgant6",
-                            "GT27|Dm-Pgant5",
-                            "GT27|Dm-Pgant2",
-                            "GT27|Dm-Pgant1",
-                            "GT27|Dm-pgant11",
-                            "GT27|Dm-Pgant4",
-                            "GT27|Dm-pgant10",
-                            "GT27|Dm-pgant12",
-                            "GT27|Dm-Pgant9",
-                            "GT27|Dm-Pgant7",
-                            "GT27|Dm-Pgant35A",
-                            "GT27|Dm-pgant13",
-                            "GT27|Dm-Pgant8",
-                            "GT27|Dm-Pgant3",
-                            "GT27|Ce-gly-8",
-                            "GT27|Ce-gly-10",
-                            "GT27|Ce-gly-6",
-                            "GT27|Ce-gly-7",
-                            "GT27|Ce-gly-3",
-                            "GT27|Ce-gly-11",
-                            "GT27|Ce-gly-4",
-                            "GT27|Ce-gly-5",
-                            "GT27|Ce-gly-9",
-                            "GT27|Hs-POC1B-GALNT4",
-                            "GT27|Hs-GALNT2",
-                            "GT27|Hs-GALNT1",
-                            "GT27|Hs-GALNT3",
-                            "GT27|Hs-GALNTL6",
-                            "GT27|Hs-GALNT17",
-                            "GT27|Hs-GALNT18",
-                            "GT27|Hs-GALNTL5",
-                            "GT27|Hs-GALNT5",
-                            "GT27|Hs-GALNT7",
-                            "GT27|Hs-GALNT10",
-                            "GT27|Hs-GALNT13",
-                            "GT27|Hs-GALNT12",
-                            "GT27|Hs-GALNT15",
-                            "GT27|Hs-GALNT16",
-                            "GT27|Hs-GALNT4",
-                            "GT27|Hs-GALNT6",
-                            "GT27|Hs-GALNT11",
-                            "GT27|Hs-GALNT14",
-                            "GT27|Hs-GALNT9",
-                            "GT27|Hs-GALNT8"
-                        ],
-                        "path": "GT27-1",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id109@GT60",
-                "type": "family",
-                "value": "GT60",
-                "SeqNR": "1128",
-                "SeqUniProt": "300",
-                "path": "GT60",
-                "members": [
-                    "GT-A_consensus",
-                    "GT60|Tc-Tc00.1047053511759.30"
-                ],
-                "nodes": [
-                    {
-                        "id": "id110@GT60-1",
-                        "type": "subfamily",
-                        "value": "GT60-1",
-                        "SeqNR": "1125",
-                        "SeqUniProt": "236",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT60|Tc-Tc00.1047053511759.30"
-                        ],
-                        "path": "GT60-1",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id120@GT7",
-                "type": "family",
-                "value": "GT7",
-                "SeqNR": "4381",
-                "SeqUniProt": "1202",
-                "path": "GT7",
-                "members": [
-                    "GT-A_consensus",
-                    "GT7|Dm-b4GalNAcTA",
-                    "GT7|Dm-beta4GalNAcTB",
-                    "GT7|Dm-beta4GalT7",
-                    "GT7|Ce-W02B12.11",
-                    "GT7|Ce-sqv-3",
-                    "GT7|Ce-bre-4",
-                    "GT7|Hs-B4GALT5",
-                    "GT7|Hs-B4GALT3",
-                    "GT7|Hs-B4GALT4",
-                    "GT7|Hs-B4GALT2",
-                    "GT7|Hs-B4GALT1",
-                    "GT7|Hs-B4GALT7",
-                    "GT7|Hs-B4GALT6"
-                ],
-                "nodes": [
-                    {
-                        "id": "id121@GT7-1",
-                        "type": "subfamily",
-                        "value": "GT7-1",
-                        "SeqNR": "4372",
-                        "SeqUniProt": "1173",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT7|Dm-b4GalNAcTA",
-                            "GT7|Dm-beta4GalNAcTB",
-                            "GT7|Dm-beta4GalT7",
-                            "GT7|Ce-W02B12.11",
-                            "GT7|Ce-sqv-3",
-                            "GT7|Ce-bre-4",
-                            "GT7|Hs-B4GALT5",
-                            "GT7|Hs-B4GALT3",
-                            "GT7|Hs-B4GALT4",
-                            "GT7|Hs-B4GALT2",
-                            "GT7|Hs-B4GALT1",
-                            "GT7|Hs-B4GALT7",
-                            "GT7|Hs-B4GALT6"
-                        ],
-                        "path": "GT7-1",
-                        "nodes": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "id41@Clade2",
-        "type": "clade",
-        "value": "Clade2",
-        "SeqNR": "108242",
-        "SeqUniProt": "30782",
-        "path": "Clade2",
-        "members": [
-            "GT-A_consensus",
-            "GT2-DPs|Dm-wol",
-            "GT2-DPs|Ce-algn-5",
-            "GT2-DPs|Sc-ALG5",
-            "GT2-DPs|Hs-ALG5",
-            "GT2-DPs|At-At2g39630",
-            "GT2-DPs|Dm-CG10166",
-            "GT2-DPs|Ce-dpm-1",
-            "GT2-DPs|Sc-DPM1",
-            "GT2-DPs|Hs-DPM1",
-            "GT2-DPs|At-DPMS1",
-            "GT55|Dm-mpgSP",
-            "GT81|Ms-gpgS",
-            "GT81|Pm-gpgS",
-            "GT2-DPs|Ec-arnC",
-            "GT2-DPs|Lm-Q7AP48",
-            "GT2-DPs|Ss-Q55487",
-            "GT2-DPs|Tt-Q5SJZ8",
-            "GT78|Rm-D0MI02",
-            "GT78|Pp-PHYPA_020118",
-            "GT81|Hw-gtl5"
-        ],
-        "nodes": [
-            {
-                "id": "id42@GT2-DPs",
-                "type": "family",
-                "value": "GT2-DPs",
-                "SeqNR": "102170",
-                "SeqUniProt": "28779",
-                "path": "GT2-DPs",
-                "members": [
-                    "GT-A_consensus",
-                    "GT2-DPs|Dm-wol",
-                    "GT2-DPs|Ce-algn-5",
-                    "GT2-DPs|Sc-ALG5",
-                    "GT2-DPs|Hs-ALG5",
-                    "GT2-DPs|At-At2g39630",
-                    "GT2-DPs|Dm-CG10166",
-                    "GT2-DPs|Ce-dpm-1",
-                    "GT2-DPs|Sc-DPM1",
-                    "GT2-DPs|Hs-DPM1",
-                    "GT2-DPs|At-DPMS1",
-                    "GT2-DPs|Ec-arnC",
-                    "GT2-DPs|Lm-Q7AP48",
-                    "GT2-DPs|Ss-Q55487",
-                    "GT2-DPs|Tt-Q5SJZ8"
-                ],
-                "nodes": [
-                    {
-                        "id": "id43@GT2-DPs_Bact",
-                        "type": "subfamily",
-                        "value": "GT2-DPs_Bact",
-                        "SeqNR": "34163",
-                        "SeqUniProt": "7822",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-DPs|Ec-arnC",
-                            "GT2-DPs|Lm-Q7AP48",
-                            "GT2-DPs|Ss-Q55487"
-                        ],
-                        "path": "GT2-DPs_Bact",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id44@GT2-DPs_Mix",
-                        "type": "subfamily",
-                        "value": "GT2-DPs_Mix",
-                        "SeqNR": "66769",
-                        "SeqUniProt": "20318",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-DPs|Dm-wol",
-                            "GT2-DPs|Ce-algn-5",
-                            "GT2-DPs|Sc-ALG5",
-                            "GT2-DPs|Hs-ALG5",
-                            "GT2-DPs|At-At2g39630",
-                            "GT2-DPs|Dm-CG10166",
-                            "GT2-DPs|Ce-dpm-1",
-                            "GT2-DPs|Sc-DPM1",
-                            "GT2-DPs|Hs-DPM1",
-                            "GT2-DPs|At-DPMS1"
-                        ],
-                        "path": "GT2-DPs_Mix",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id102@GT55",
-                "type": "family",
-                "value": "GT55",
-                "SeqNR": "179",
-                "SeqUniProt": "74",
-                "path": "GT55",
-                "members": [
-                    "GT-A_consensus",
-                    "GT55|Dm-mpgSP"
-                ],
-                "nodes": [
-                    {
-                        "id": "id103@GT55-1",
-                        "type": "subfamily",
-                        "value": "GT55-1",
-                        "SeqNR": "179",
-                        "SeqUniProt": "74",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT55|Dm-mpgSP"
-                        ],
-                        "path": "GT55-1",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id129@GT78",
-                "type": "family",
-                "value": "GT78",
-                "SeqNR": "22",
-                "SeqUniProt": "8",
-                "path": "GT78",
-                "members": [
-                    "GT-A_consensus",
-                    "GT78|Rm-D0MI02",
-                    "GT78|Pp-PHYPA_020118"
-                ],
-                "nodes": []
-            },
-            {
-                "id": "id151@GT81",
-                "type": "family",
-                "value": "GT81",
-                "SeqNR": "5871",
-                "SeqUniProt": "1921",
-                "path": "GT81",
-                "members": [
-                    "GT-A_consensus",
-                    "GT81|Ms-gpgS",
-                    "GT81|Pm-gpgS",
-                    "GT81|Hw-gtl5"
-                ],
-                "nodes": [
-                    {
-                        "id": "id152@GT81-1",
-                        "type": "subfamily",
-                        "value": "GT81-1",
-                        "SeqNR": "472",
-                        "SeqUniProt": "133",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT81|Hw-gtl5"
-                        ],
-                        "path": "GT81-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id153@GT81-2",
-                        "type": "subfamily",
-                        "value": "GT81-2",
-                        "SeqNR": "3299",
-                        "SeqUniProt": "942",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT81|Ms-gpgS",
-                            "GT81|Pm-gpgS",
-                            "GT78|Rm-D0MI02"
-                        ],
-                        "path": "GT81-2",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id154@GT2-DPs_81_Mix",
-                        "type": "subfamily",
-                        "value": "GT2-DPs_81_Mix",
-                        "SeqNR": "1543",
-                        "SeqUniProt": "518",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-DPs|Tt-Q5SJZ8"
-                        ],
-                        "path": "GT2-DPs_81_Mix",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id155@GT81-3",
-                        "type": "subfamily",
-                        "value": "GT81-3",
-                        "SeqNR": "1035",
-                        "SeqUniProt": "206",
-                        "members": [
-                            "GT-A_consensus",
-                            ""
-                        ],
-                        "path": "GT81-3",
-                        "nodes": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "id45@Clade3",
-        "type": "clade",
-        "value": "Clade3",
-        "SeqNR": "42627",
-        "SeqUniProt": "11815",
-        "path": "Clade3",
-        "members": [
-            "GT-A_consensus",
-            "GT2-LpsRelated|Hd-LgtF",
-            "GT62|Sc-VAN1",
-            "GT62|Sc-ANP1",
-            "GT62|Sc-MNN9",
-            "GT62|Mb-A9VDJ7"
-        ],
-        "nodes": [
-            {
-                "id": "id46@GT2-LpsRelated",
-                "type": "family",
-                "value": "GT2-LpsRelated",
-                "SeqNR": "40414",
-                "SeqUniProt": "10733",
-                "path": "GT2-LpsRelated",
-                "members": [
-                    "GT-A_consensus",
-                    "GT2-LpsRelated|Hd-LgtF"
-                ],
-                "nodes": [
-                    {
-                        "id": "id47@GT2-LpsRelated-1",
-                        "type": "subfamily",
-                        "value": "GT2-LpsRelated-1",
-                        "SeqNR": "25139",
-                        "SeqUniProt": "6330",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-LpsRelated|Hd-LgtF"
-                        ],
-                        "path": "GT2-LpsRelated-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id48@GT2-Mix-5",
-                        "type": "subfamily",
-                        "value": "GT2-Mix-5",
-                        "SeqNR": "23498",
-                        "SeqUniProt": "5638",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT2-Class1|Hs-B4GALNT3",
-                            "GT2-Rham-GlfT|Sf-rfbF",
-                            "GT2-Rham-GlfT|Ms-glfT1",
-                            "GT2-Rham-GlfT|Mt-glfT2"
-                        ],
-                        "path": "GT2-Mix-5",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id111@GT62",
-                "type": "family",
-                "value": "GT62",
-                "SeqNR": "2213",
-                "SeqUniProt": "1082",
-                "path": "GT62",
-                "members": [
-                    "GT-A_consensus",
-                    "GT62|Sc-VAN1",
-                    "GT62|Sc-ANP1",
-                    "GT62|Sc-MNN9",
-                    "GT62|Mb-A9VDJ7"
-                ],
-                "nodes": [
-                    {
-                        "id": "id112@GT62-1",
-                        "type": "subfamily",
-                        "value": "GT62-1",
-                        "SeqNR": "383",
-                        "SeqUniProt": "139",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT62|Mb-A9VDJ7"
-                        ],
-                        "path": "GT62-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id113@GT62-2",
-                        "type": "subfamily",
-                        "value": "GT62-2",
-                        "SeqNR": "566",
-                        "SeqUniProt": "301",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT62|Sc-MNN9"
-                        ],
-                        "path": "GT62-2",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id114@GT62-3",
-                        "type": "subfamily",
-                        "value": "GT62-3",
-                        "SeqNR": "1201",
-                        "SeqUniProt": "624",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT62|Sc-VAN1",
-                            "GT62|Sc-ANP1"
-                        ],
-                        "path": "GT62-3",
-                        "nodes": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "id55@Clade9",
+        "id": "id90@Clade9",
         "type": "clade",
         "value": "Clade9",
         "SeqNR": "44850",
@@ -3487,120 +2787,7 @@
         ],
         "nodes": [
             {
-                "id": "id56@GT24",
-                "type": "family",
-                "value": "GT24",
-                "SeqNR": "2769",
-                "SeqUniProt": "860",
-                "path": "GT24",
-                "members": [
-                    "GT-A_consensus",
-                    "GT24|Dm-Uggt",
-                    "GT24|Ce-uggt-2",
-                    "GT24|Ce-uggt-1",
-                    "GT24|Sc-KRE5",
-                    "GT24|Hs-UGGT2",
-                    "GT24|Hs-UGGT1",
-                    "GT24|At-UGGT"
-                ],
-                "nodes": [
-                    {
-                        "id": "id57@GT24-1",
-                        "type": "subfamily",
-                        "value": "GT24-1",
-                        "SeqNR": "2756",
-                        "SeqUniProt": "841",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT24|Dm-Uggt",
-                            "GT24|Ce-uggt-2",
-                            "GT24|Ce-uggt-1",
-                            "GT24|Hs-UGGT2",
-                            "GT24|Hs-UGGT1",
-                            "GT24|At-UGGT"
-                        ],
-                        "path": "GT24-1",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id126@GT77",
-                "type": "family",
-                "value": "GT77",
-                "SeqNR": "3374",
-                "SeqUniProt": "1534",
-                "path": "GT77",
-                "members": [
-                    "GT-A_consensus",
-                    "GT77|Ce-Y57G11C.31",
-                    "GT77|Ce-Y48E1B.8",
-                    "GT77|Ce-F41C3.11",
-                    "GT77|At-At4g19975",
-                    "GT77|At-RAY1",
-                    "GT77|At-At2g02061",
-                    "GT77|At-At4g19970",
-                    "GT77|At-MHK7.13",
-                    "GT77|At-At5g44820",
-                    "GT77|At-At1g28695",
-                    "GT77|At-XEG113",
-                    "GT77|At-RRA2",
-                    "GT77|At-RRA1",
-                    "GT77|At-RGXT3",
-                    "GT77|At-At1g28710",
-                    "GT77|At-RRA3",
-                    "GT77|At-MGP4",
-                    "GT77|At-At1g14590",
-                    "GT77|At-At1g28700",
-                    "GT77|At-RGXT2",
-                    "GT77|At-RGXT1"
-                ],
-                "nodes": [
-                    {
-                        "id": "id127@GT77-1",
-                        "type": "subfamily",
-                        "value": "GT77-1",
-                        "SeqNR": "1923",
-                        "SeqUniProt": "713",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT77|At-RAY1",
-                            "GT77|At-RRA2",
-                            "GT77|At-RRA1",
-                            "GT77|At-RGXT3",
-                            "GT77|At-RRA3",
-                            "GT77|At-MGP4",
-                            "GT77|At-RGXT2",
-                            "GT77|At-RGXT1"
-                        ],
-                        "path": "GT77-1",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id128@GT77-2",
-                        "type": "subfamily",
-                        "value": "GT77-2",
-                        "SeqNR": "1402",
-                        "SeqUniProt": "589",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT77|At-At4g19975",
-                            "GT77|At-At2g02061",
-                            "GT77|At-At4g19970",
-                            "GT77|At-MHK7.13",
-                            "GT77|At-At5g44820",
-                            "GT77|At-At1g28695",
-                            "GT77|At-At1g28710",
-                            "GT77|At-At1g14590",
-                            "GT77|At-At1g28700"
-                        ],
-                        "path": "GT77-2",
-                        "nodes": []
-                    }
-                ]
-            },
-            {
-                "id": "id130@GT8-Fun",
+                "id": "id91@GT8-Fun",
                 "type": "family",
                 "value": "GT8-Fun",
                 "SeqNR": "722",
@@ -3612,7 +2799,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id131@GT8-Fun-1",
+                        "id": "id92@GT8-Fun-1",
                         "type": "subfamily",
                         "value": "GT8-Fun-1",
                         "SeqNR": "738",
@@ -3623,35 +2810,11 @@
                         ],
                         "path": "GT8-Fun-1",
                         "nodes": []
-                    },
-                    {
-                        "id": "id132@GT8-GAUT_GATL_Mix",
-                        "type": "subfamily",
-                        "value": "GT8-GAUT_GATL_Mix",
-                        "SeqNR": "1877",
-                        "SeqUniProt": "720",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT8-GATL|At-GATL6",
-                            "GT8-GATL|At-GATL9",
-                            "GT8-GATL|At-GATL8",
-                            "GT8-GATL|At-GATL3",
-                            "GT8-GATL|At-GATL7",
-                            "GT8-GATL|At-GATL5",
-                            "GT8-GATL|At-GATL10",
-                            "GT8-GATL|At-GATL1",
-                            "GT8-GATL|At-GATL4",
-                            "GT8-GATL|At-GATL2",
-                            "GT8-GAUT|Hs-GLT8D1",
-                            "GT8-GAUT|Hs-GLT8D2"
-                        ],
-                        "path": "GT8-GAUT_GATL_Mix",
-                        "nodes": []
                     }
                 ]
             },
             {
-                "id": "id133@GT8-GATL",
+                "id": "id93@GT8-GATL",
                 "type": "family",
                 "value": "GT8-GATL",
                 "SeqNR": "5730",
@@ -3674,7 +2837,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id134@GT8-GATL-1",
+                        "id": "id94@GT8-GATL-1",
                         "type": "subfamily",
                         "value": "GT8-GATL-1",
                         "SeqNR": "144",
@@ -3689,7 +2852,7 @@
                 ]
             },
             {
-                "id": "id135@GT8-GAUT",
+                "id": "id95@GT8-GAUT",
                 "type": "family",
                 "value": "GT8-GAUT",
                 "SeqNR": "4637",
@@ -3717,7 +2880,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id136@GT8-GAUT-1",
+                        "id": "id96@GT8-GAUT-1",
                         "type": "subfamily",
                         "value": "GT8-GAUT-1",
                         "SeqNR": "906",
@@ -3732,7 +2895,7 @@
                         "nodes": []
                     },
                     {
-                        "id": "id137@GT8-GAUT-2",
+                        "id": "id97@GT8-GAUT-2",
                         "type": "subfamily",
                         "value": "GT8-GAUT-2",
                         "SeqNR": "1714",
@@ -3751,7 +2914,7 @@
                         "nodes": []
                     },
                     {
-                        "id": "id138@GT8-GAUT-3",
+                        "id": "id98@GT8-GAUT-3",
                         "type": "subfamily",
                         "value": "GT8-GAUT-3",
                         "SeqNR": "503",
@@ -3764,7 +2927,7 @@
                         "nodes": []
                     },
                     {
-                        "id": "id139@GT8-GAUT-4",
+                        "id": "id99@GT8-GAUT-4",
                         "type": "subfamily",
                         "value": "GT8-GAUT-4",
                         "SeqNR": "938",
@@ -3778,39 +2941,11 @@
                         ],
                         "path": "GT8-GAUT-4",
                         "nodes": []
-                    },
-                    {
-                        "id": "id140@GT8-Mix-1",
-                        "type": "subfamily",
-                        "value": "GT8-Mix-1",
-                        "SeqNR": "4367",
-                        "SeqUniProt": "1407",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT8-Glycogenin|Ce-T10B10.8",
-                            "GT8-Glycogenin|At-GUX5",
-                            "GT8-Glycogenin|At-PGSIP7",
-                            "GT8-Glycogenin|At-GOLS10",
-                            "GT8-Glycogenin|At-GOLS4",
-                            "GT8-Glycogenin|At-GOLS3",
-                            "GT8-Glycogenin|At-GOLS7",
-                            "GT8-Glycogenin|At-IPUT1",
-                            "GT8-Glycogenin|At-GUX2",
-                            "GT8-Glycogenin|At-GOLS6",
-                            "GT8-Glycogenin|At-PGSIP8",
-                            "GT8-Glycogenin|At-GUX3",
-                            "GT8-Glycogenin|At-GOLS5",
-                            "GT8-Glycogenin|At-GOLS2",
-                            "GT8-Glycogenin|At-GUX4",
-                            "GT8-Glycogenin|At-GUX1"
-                        ],
-                        "path": "GT8-Mix-1",
-                        "nodes": []
                     }
                 ]
             },
             {
-                "id": "id141@GT8-Glycogenin",
+                "id": "id100@GT8-Glycogenin",
                 "type": "family",
                 "value": "GT8-Glycogenin",
                 "SeqNR": "8364",
@@ -3846,7 +2981,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id142@GT8-Glycogenin-1",
+                        "id": "id101@GT8-Glycogenin-1",
                         "type": "subfamily",
                         "value": "GT8-Glycogenin-1",
                         "SeqNR": "1143",
@@ -3859,7 +2994,7 @@
                         "nodes": []
                     },
                     {
-                        "id": "id143@GT8-Glycogenin-2",
+                        "id": "id102@GT8-Glycogenin-2",
                         "type": "subfamily",
                         "value": "GT8-Glycogenin-2",
                         "SeqNR": "2937",
@@ -3875,40 +3010,11 @@
                         ],
                         "path": "GT8-Glycogenin-2",
                         "nodes": []
-                    },
-                    {
-                        "id": "id144@GT8-Mix-2",
-                        "type": "subfamily",
-                        "value": "GT8-Mix-2",
-                        "SeqNR": "19773",
-                        "SeqUniProt": "1802",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT8-GATL|Hp-O24967",
-                            "GT8-LpsGlt|Ec-rfaI",
-                            "GT8-LpsGlt|Ec-rfaJ"
-                        ],
-                        "path": "GT8-Mix-2",
-                        "nodes": []
-                    },
-                    {
-                        "id": "id145@GT8-Mix-3",
-                        "type": "subfamily",
-                        "value": "GT8-Mix-3",
-                        "SeqNR": "375",
-                        "SeqUniProt": "117",
-                        "members": [
-                            "GT-A_consensus",
-                            "GT8-LpsGlt|Hs-XXYLT1",
-                            "GT8-Lrg|Dm-Xxylt"
-                        ],
-                        "path": "GT8-Mix-3",
-                        "nodes": []
                     }
                 ]
             },
             {
-                "id": "id146@GT8-LpsGlt",
+                "id": "id103@GT8-LpsGlt",
                 "type": "family",
                 "value": "GT8-LpsGlt",
                 "SeqNR": "16370",
@@ -3923,7 +3029,7 @@
                 "nodes": []
             },
             {
-                "id": "id147@GT8-Lrg",
+                "id": "id104@GT8-Lrg",
                 "type": "family",
                 "value": "GT8-Lrg",
                 "SeqNR": "1458",
@@ -3938,7 +3044,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id148@GT8-Lrg-1",
+                        "id": "id105@GT8-Lrg-1",
                         "type": "subfamily",
                         "value": "GT8-Lrg-1",
                         "SeqNR": "1204",
@@ -3955,7 +3061,7 @@
                 ]
             },
             {
-                "id": "id149@GT8-XylT",
+                "id": "id106@GT8-XylT",
                 "type": "family",
                 "value": "GT8-XylT",
                 "SeqNR": "1240",
@@ -3969,7 +3075,7 @@
                 ],
                 "nodes": [
                     {
-                        "id": "id150@GT8-XylT-1",
+                        "id": "id107@GT8-XylT-1",
                         "type": "subfamily",
                         "value": "GT8-XylT-1",
                         "SeqNR": "1252",
@@ -3986,7 +3092,120 @@
                 ]
             },
             {
-                "id": "id161@GT88",
+                "id": "id108@GT24",
+                "type": "family",
+                "value": "GT24",
+                "SeqNR": "2769",
+                "SeqUniProt": "860",
+                "path": "GT24",
+                "members": [
+                    "GT-A_consensus",
+                    "GT24|Dm-Uggt",
+                    "GT24|Ce-uggt-2",
+                    "GT24|Ce-uggt-1",
+                    "GT24|Sc-KRE5",
+                    "GT24|Hs-UGGT2",
+                    "GT24|Hs-UGGT1",
+                    "GT24|At-UGGT"
+                ],
+                "nodes": [
+                    {
+                        "id": "id109@GT24-1",
+                        "type": "subfamily",
+                        "value": "GT24-1",
+                        "SeqNR": "2756",
+                        "SeqUniProt": "841",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT24|Dm-Uggt",
+                            "GT24|Ce-uggt-2",
+                            "GT24|Ce-uggt-1",
+                            "GT24|Hs-UGGT2",
+                            "GT24|Hs-UGGT1",
+                            "GT24|At-UGGT"
+                        ],
+                        "path": "GT24-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id110@GT77",
+                "type": "family",
+                "value": "GT77",
+                "SeqNR": "3374",
+                "SeqUniProt": "1534",
+                "path": "GT77",
+                "members": [
+                    "GT-A_consensus",
+                    "GT77|Ce-Y57G11C.31",
+                    "GT77|Ce-Y48E1B.8",
+                    "GT77|Ce-F41C3.11",
+                    "GT77|At-At4g19975",
+                    "GT77|At-RAY1",
+                    "GT77|At-At2g02061",
+                    "GT77|At-At4g19970",
+                    "GT77|At-MHK7.13",
+                    "GT77|At-At5g44820",
+                    "GT77|At-At1g28695",
+                    "GT77|At-XEG113",
+                    "GT77|At-RRA2",
+                    "GT77|At-RRA1",
+                    "GT77|At-RGXT3",
+                    "GT77|At-At1g28710",
+                    "GT77|At-RRA3",
+                    "GT77|At-MGP4",
+                    "GT77|At-At1g14590",
+                    "GT77|At-At1g28700",
+                    "GT77|At-RGXT2",
+                    "GT77|At-RGXT1"
+                ],
+                "nodes": [
+                    {
+                        "id": "id111@GT77-1",
+                        "type": "subfamily",
+                        "value": "GT77-1",
+                        "SeqNR": "1923",
+                        "SeqUniProt": "713",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT77|At-RAY1",
+                            "GT77|At-RRA2",
+                            "GT77|At-RRA1",
+                            "GT77|At-RGXT3",
+                            "GT77|At-RRA3",
+                            "GT77|At-MGP4",
+                            "GT77|At-RGXT2",
+                            "GT77|At-RGXT1"
+                        ],
+                        "path": "GT77-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id112@GT77-2",
+                        "type": "subfamily",
+                        "value": "GT77-2",
+                        "SeqNR": "1402",
+                        "SeqUniProt": "589",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT77|At-At4g19975",
+                            "GT77|At-At2g02061",
+                            "GT77|At-At4g19970",
+                            "GT77|At-MHK7.13",
+                            "GT77|At-At5g44820",
+                            "GT77|At-At1g28695",
+                            "GT77|At-At1g28710",
+                            "GT77|At-At1g14590",
+                            "GT77|At-At1g28700"
+                        ],
+                        "path": "GT77-2",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id113@GT88",
                 "type": "family",
                 "value": "GT88",
                 "SeqNR": "186",
@@ -3998,6 +3217,885 @@
                     "GT88|Lp-legC5"
                 ],
                 "nodes": []
+            },
+            {
+                "id": "id114@Others",
+                "type": "family",
+                "value": "Others",
+                "SeqNR": "4367",
+                "SeqUniProt": "1407",
+                "path": "GT8-Mix-1",
+                "members": [
+                    "GT-A_consensus",
+                    "GT8-Glycogenin|Ce-T10B10.8",
+                    "GT8-Glycogenin|At-GUX5",
+                    "GT8-Glycogenin|At-PGSIP7",
+                    "GT8-Glycogenin|At-GOLS10",
+                    "GT8-Glycogenin|At-GOLS4",
+                    "GT8-Glycogenin|At-GOLS3",
+                    "GT8-Glycogenin|At-GOLS7",
+                    "GT8-Glycogenin|At-IPUT1",
+                    "GT8-Glycogenin|At-GUX2",
+                    "GT8-Glycogenin|At-GOLS6",
+                    "GT8-Glycogenin|At-PGSIP8",
+                    "GT8-Glycogenin|At-GUX3",
+                    "GT8-Glycogenin|At-GOLS5",
+                    "GT8-Glycogenin|At-GOLS2",
+                    "GT8-Glycogenin|At-GUX4",
+                    "GT8-Glycogenin|At-GUX1"
+                ],
+                "nodes": [
+                    {
+                        "id": "id114@GT8-Mix-1",
+                        "type": "subfamily",
+                        "value": "GT8-Mix-1",
+                        "SeqNR": "4367",
+                        "SeqUniProt": "1407",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT8-Glycogenin|Ce-T10B10.8",
+                            "GT8-Glycogenin|At-GUX5",
+                            "GT8-Glycogenin|At-PGSIP7",
+                            "GT8-Glycogenin|At-GOLS10",
+                            "GT8-Glycogenin|At-GOLS4",
+                            "GT8-Glycogenin|At-GOLS3",
+                            "GT8-Glycogenin|At-GOLS7",
+                            "GT8-Glycogenin|At-IPUT1",
+                            "GT8-Glycogenin|At-GUX2",
+                            "GT8-Glycogenin|At-GOLS6",
+                            "GT8-Glycogenin|At-PGSIP8",
+                            "GT8-Glycogenin|At-GUX3",
+                            "GT8-Glycogenin|At-GOLS5",
+                            "GT8-Glycogenin|At-GOLS2",
+                            "GT8-Glycogenin|At-GUX4",
+                            "GT8-Glycogenin|At-GUX1"
+                        ],
+                        "path": "GT8-Mix-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id115@GT8-Mix-2",
+                        "type": "subfamily",
+                        "value": "GT8-Mix-2",
+                        "SeqNR": "19773",
+                        "SeqUniProt": "1802",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT8-GATL|Hp-O24967",
+                            "GT8-LpsGlt|Ec-rfaI",
+                            "GT8-LpsGlt|Ec-rfaJ"
+                        ],
+                        "path": "GT8-Mix-2",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id116@GT8-Mix-3",
+                        "type": "subfamily",
+                        "value": "GT8-Mix-3",
+                        "SeqNR": "375",
+                        "SeqUniProt": "117",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT8-LpsGlt|Hs-XXYLT1",
+                            "GT8-Lrg|Dm-Xxylt"
+                        ],
+                        "path": "GT8-Mix-3",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id117@GT8-GAUT_GATL_Mix",
+                        "type": "subfamily",
+                        "value": "GT8-GAUT_GATL_Mix",
+                        "SeqNR": "1877",
+                        "SeqUniProt": "720",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT8-GATL|At-GATL6",
+                            "GT8-GATL|At-GATL9",
+                            "GT8-GATL|At-GATL8",
+                            "GT8-GATL|At-GATL3",
+                            "GT8-GATL|At-GATL7",
+                            "GT8-GATL|At-GATL5",
+                            "GT8-GATL|At-GATL10",
+                            "GT8-GATL|At-GATL1",
+                            "GT8-GATL|At-GATL4",
+                            "GT8-GATL|At-GATL2",
+                            "GT8-GAUT|Hs-GLT8D1",
+                            "GT8-GAUT|Hs-GLT8D2"
+                        ],
+                        "path": "GT8-GAUT_GATL_Mix",
+                        "nodes": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "id118@Other GT-A families",
+        "type": "clade",
+        "value": "Other GT-A families",
+        "SeqNR": "41017",
+        "SeqUniProt": "10668",
+        "path": "GT2-Rham-GlfT",
+        "members": [
+            "GT-A_consensus",
+            "GT2-Rham-GlfT|Sf-rfbF",
+            "GT2-Rham-GlfT|Ms-glfT1",
+            "GT2-Rham-GlfT|Mt-glfT2"
+        ],
+        "nodes": [
+            {
+                "id": "id118@GT2-Rham-GlfT",
+                "type": "family",
+                "value": "GT2-Rham-GlfT",
+                "SeqNR": "41017",
+                "SeqUniProt": "10668",
+                "path": "GT2-Rham-GlfT",
+                "members": [
+                    "GT-A_consensus",
+                    "GT2-Rham-GlfT|Sf-rfbF",
+                    "GT2-Rham-GlfT|Ms-glfT1",
+                    "GT2-Rham-GlfT|Mt-glfT2"
+                ],
+                "nodes": []
+            },
+            {
+                "id": "id119@GT6",
+                "type": "family",
+                "value": "GT6",
+                "SeqNR": "2842",
+                "SeqUniProt": "435",
+                "path": "GT6",
+                "members": [
+                    "GT-A_consensus",
+                    "GT6|Hs-ABO",
+                    "GT6|Hs-GLT6D1",
+                    "GT6|Hs-GBGT1",
+                    "GT6|Hs-A3GALT2"
+                ],
+                "nodes": [
+                    {
+                        "id": "id120@GT6-ABO",
+                        "type": "subfamily",
+                        "value": "GT6-ABO",
+                        "SeqNR": "839",
+                        "SeqUniProt": "102",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT6|Hs-ABO"
+                        ],
+                        "path": "GT6-ABO",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id121@GT6-A3GALT",
+                        "type": "subfamily",
+                        "value": "GT6-A3GALT",
+                        "SeqNR": "704",
+                        "SeqUniProt": "118",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT6|Hs-A3GALT2"
+                        ],
+                        "path": "GT6-A3GALT",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id122@GT6-GLT6D1",
+                        "type": "subfamily",
+                        "value": "GT6-GLT6D1",
+                        "SeqNR": "226",
+                        "SeqUniProt": "51",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT6|Hs-GLT6D1"
+                        ],
+                        "path": "GT6-GLT6D1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id123@GT6-Mix",
+                        "type": "subfamily",
+                        "value": "GT6-Mix",
+                        "SeqNR": "1067",
+                        "SeqUniProt": "144",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT6|Hs-GBGT1"
+                        ],
+                        "path": "GT6-Mix",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id124@GT12",
+                "type": "family",
+                "value": "GT12",
+                "SeqNR": "1077",
+                "SeqUniProt": "221",
+                "path": "GT12",
+                "members": [
+                    "GT-A_consensus",
+                    "GT12|Hs-B4GALNT1",
+                    "GT12|Hs-B4GALNT2"
+                ],
+                "nodes": [
+                    {
+                        "id": "id125@GT12-1",
+                        "type": "subfamily",
+                        "value": "GT12-1",
+                        "SeqNR": "1018",
+                        "SeqUniProt": "199",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT12|Hs-B4GALNT1",
+                            "GT12|Hs-B4GALNT2"
+                        ],
+                        "path": "GT12-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id126@GT32",
+                "type": "family",
+                "value": "GT32",
+                "SeqNR": "9617",
+                "SeqUniProt": "3318",
+                "path": "GT32",
+                "members": [
+                    "GT-A_consensus",
+                    "GT32|Dm-alpha4GT2",
+                    "GT32|Dm-alpha4GT1",
+                    "GT32|Hs-A4GALT",
+                    "GT32|Hs-A4GNT",
+                    "GT32|At-At1g61050",
+                    "GT32|At-At2g38150",
+                    "GT32|At-At2g38152",
+                    "GT32|At-At4g19900",
+                    "GT32|At-At5g01250",
+                    "GT32|At-At3g09020",
+                    "GT32|Sc-OCH1",
+                    "GT32|Sc-SUR1",
+                    "GT32|Sc-CSH1",
+                    "GT32|Sc-HOC1",
+                    "GT32|Lp-I7JXA3"
+                ],
+                "nodes": [
+                    {
+                        "id": "id127@GT32-1",
+                        "type": "subfamily",
+                        "value": "GT32-1",
+                        "SeqNR": "585",
+                        "SeqUniProt": "199",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT32|At-At2g38150",
+                            "GT32|At-At2g38152",
+                            "GT32|At-At5g01250",
+                            "GT32|At-At3g09020"
+                        ],
+                        "path": "GT32-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id128@GT32-2",
+                        "type": "subfamily",
+                        "value": "GT32-2",
+                        "SeqNR": "685",
+                        "SeqUniProt": "131",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT32|Dm-alpha4GT1",
+                            "GT32|At-At4g19900"
+                        ],
+                        "path": "GT32-2",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id129@GT32-3",
+                        "type": "subfamily",
+                        "value": "GT32-3",
+                        "SeqNR": "746",
+                        "SeqUniProt": "84",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT32|Hs-A4GALT"
+                        ],
+                        "path": "GT32-3",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id130@GT32-4",
+                        "type": "subfamily",
+                        "value": "GT32-4",
+                        "SeqNR": "4738",
+                        "SeqUniProt": "600",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT32|Sc-SUR1",
+                            "GT32|Sc-CSH1",
+                            "GT32|Sc-HOC1"
+                        ],
+                        "path": "GT32-4",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id131@GT32-5",
+                        "type": "subfamily",
+                        "value": "GT32-5",
+                        "SeqNR": "2393",
+                        "SeqUniProt": "324",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT32|Lp-I7JXA3"
+                        ],
+                        "path": "GT32-5",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id132@GT34",
+                "type": "family",
+                "value": "GT34",
+                "SeqNR": "1201",
+                "SeqUniProt": "597",
+                "path": "GT34",
+                "members": [
+                    "GT-A_consensus",
+                    "GT34|At-XXT2",
+                    "GT34|At-GT7",
+                    "GT34|At-XXT5",
+                    "GT34|At-XXT3",
+                    "GT34|At-XXT1",
+                    "GT34|At-XXT4",
+                    "GT34|At-GT6"
+                ],
+                "nodes": [
+                    {
+                        "id": "id133@GT34-1",
+                        "type": "subfamily",
+                        "value": "GT34-1",
+                        "SeqNR": "1198",
+                        "SeqUniProt": "584",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT34|At-XXT2",
+                            "GT34|At-GT7",
+                            "GT34|At-XXT5",
+                            "GT34|At-XXT3",
+                            "GT34|At-XXT1",
+                            "GT34|At-XXT4",
+                            "GT34|At-GT6"
+                        ],
+                        "path": "GT34-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id134@GT40",
+                "type": "family",
+                "value": "GT40",
+                "SeqNR": "186",
+                "SeqUniProt": "89",
+                "path": "GT40",
+                "members": [
+                    "GT-A_consensus",
+                    "GT40|Lm-LPG1"
+                ],
+                "nodes": [
+                    {
+                        "id": "id135@GT40-1",
+                        "type": "subfamily",
+                        "value": "GT40-1",
+                        "SeqNR": "167",
+                        "SeqUniProt": "74",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT40|Lm-LPG1"
+                        ],
+                        "path": "GT40-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id136@GT43",
+                "type": "family",
+                "value": "GT43",
+                "SeqNR": "2973",
+                "SeqUniProt": "1107",
+                "path": "GT43",
+                "members": [
+                    "GT-A_consensus",
+                    "GT43|At-IRX14",
+                    "GT43|At-IRX14H",
+                    "GT43|At-IRX9H",
+                    "GT43|At-IRX9",
+                    "GT43|Dm-GlcAT-P",
+                    "GT43|Hs-B3GAT1",
+                    "GT43|Dm-GlcAT-S",
+                    "GT43|Hs-B3GAT2",
+                    "GT43|Dm-GlcAT-I",
+                    "GT43|Hs-B3GAT3",
+                    "GT43|Ce-glct-6",
+                    "GT43|Ce-glct-1",
+                    "GT43|Ce-glct-5",
+                    "GT43|Ce-glct-2",
+                    "GT43|Ce-glct-4",
+                    "GT43|Ce-sqv-8",
+                    "GT43|Ce-glct-3",
+                    "GT43|Dr-b3gat2"
+                ],
+                "nodes": [
+                    {
+                        "id": "id137@GT43-B3GAT1",
+                        "type": "subfamily",
+                        "value": "GT43-B3GAT1",
+                        "SeqNR": "690",
+                        "SeqUniProt": "107",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT43|Hs-B3GAT1"
+                        ],
+                        "path": "GT43-B3GAT1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id138@GT43-B3GAT2",
+                        "type": "subfamily",
+                        "value": "GT43-B3GAT2",
+                        "SeqNR": "129",
+                        "SeqUniProt": "41",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT43|Hs-B3GAT2"
+                        ],
+                        "path": "GT43-B3GAT2",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id139@GT43-B3GAT3",
+                        "type": "subfamily",
+                        "value": "GT43-B3GAT3",
+                        "SeqNR": "1865",
+                        "SeqUniProt": "659",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT43|At-IRX14",
+                            "GT43|At-IRX14H",
+                            "GT43|At-IRX9H",
+                            "GT43|At-IRX9",
+                            "GT43|Dm-GlcAT-P",
+                            "GT43|Dm-GlcAT-I",
+                            "GT43|Hs-B3GAT3",
+                            "GT43|Ce-sqv-8"
+                        ],
+                        "path": "GT43-B3GAT3",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id140@GT43-Nematode",
+                        "type": "subfamily",
+                        "value": "GT43-Nematode",
+                        "SeqNR": "73",
+                        "SeqUniProt": "64",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT43|Ce-glct-6",
+                            "GT43|Ce-glct-1",
+                            "GT43|Ce-glct-5",
+                            "GT43|Ce-glct-2",
+                            "GT43|Ce-glct-4",
+                            "GT43|Ce-glct-3"
+                        ],
+                        "path": "GT43-Nematode",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id141@GT43-Mix-1",
+                        "type": "subfamily",
+                        "value": "GT43-Mix-1",
+                        "SeqNR": "79",
+                        "SeqUniProt": "17",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT43|Dr-b3gat2"
+                        ],
+                        "path": "GT43-Mix-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id142@GT43-Mix-2",
+                        "type": "subfamily",
+                        "value": "GT43-Mix-2",
+                        "SeqNR": "125",
+                        "SeqUniProt": "53",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT43|Dm-GlcAT-S"
+                        ],
+                        "path": "GT43-Mix-2",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id143@GT45",
+                "type": "family",
+                "value": "GT45",
+                "SeqNR": "458",
+                "SeqUniProt": "99",
+                "path": "GT45",
+                "members": [
+                    "GT-A_consensus",
+                    "GT45|Pm-pglA"
+                ],
+                "nodes": [
+                    {
+                        "id": "id144@GT45-1",
+                        "type": "subfamily",
+                        "value": "GT45-1",
+                        "SeqNR": "410",
+                        "SeqUniProt": "77",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT45|Pm-pglA"
+                        ],
+                        "path": "GT45-1",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id145@GT49",
+                "type": "family",
+                "value": "GT49",
+                "SeqNR": "2817",
+                "SeqUniProt": "1066",
+                "path": "GT49",
+                "members": [
+                    "GT-A_consensus",
+                    "GT49|Dm-CG9171",
+                    "GT49|Dm-CG15483",
+                    "GT49|Dm-CG11149",
+                    "GT49|Dm-CG3253",
+                    "GT49|Ce-bgnt-1.2",
+                    "GT49|Ce-bgnt-1.3",
+                    "GT49|Ce-bgnt-1.4",
+                    "GT49|Ce-bgnt-1.8",
+                    "GT49|Ce-bgnt-1.7",
+                    "GT49|Ce-bgnt-1.6",
+                    "GT49|Ce-lge-1",
+                    "GT49|Ce-bgnt-1.1",
+                    "GT49|Ce-bgnt-1.5",
+                    "GT49|Hs-B4GAT1",
+                    "GT49|Hs-LARGE1",
+                    "GT49|Hs-LARGE2",
+                    "GT49|Pg-E3KIT8"
+                ],
+                "nodes": [
+                    {
+                        "id": "id146@GT49-LARGE",
+                        "type": "subfamily",
+                        "value": "GT49-LARGE",
+                        "SeqNR": "1111",
+                        "SeqUniProt": "229",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT49|Hs-LARGE1",
+                            "GT49|Hs-LARGE2"
+                        ],
+                        "path": "GT49-LARGE",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id147@GT49-B4GAT1like",
+                        "type": "subfamily",
+                        "value": "GT49-B4GAT1like",
+                        "SeqNR": "1353",
+                        "SeqUniProt": "463",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT49|Dm-CG3253",
+                            "GT49|Ce-bgnt-1.2",
+                            "GT49|Ce-bgnt-1.4",
+                            "GT49|Ce-lge-1",
+                            "GT49|Hs-B4GAT1"
+                        ],
+                        "path": "GT49-B4GAT1like",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id148@GT49-Fungi",
+                        "type": "subfamily",
+                        "value": "GT49-Fungi",
+                        "SeqNR": "298",
+                        "SeqUniProt": "115",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT49|Pg-E3KIT8"
+                        ],
+                        "path": "GT49-Fungi",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id149@GT64",
+                "type": "family",
+                "value": "GT64",
+                "SeqNR": "3765",
+                "SeqUniProt": "1220",
+                "path": "GT64",
+                "members": [
+                    "GT-A_consensus",
+                    "GT64|Dm-ttv",
+                    "GT64|Dm-botv",
+                    "GT64|Dm-sotv",
+                    "GT64|Ce-rib-2",
+                    "GT64|Hs-EXTL3",
+                    "GT64|Hs-EXT1",
+                    "GT64|Hs-EXTL1",
+                    "GT64|Hs-EXT2",
+                    "GT64|Hs-EXTL2",
+                    "GT64|At-GINT1",
+                    "GT64|At-At1g80290",
+                    "GT64|At-EPC1"
+                ],
+                "nodes": [
+                    {
+                        "id": "id150@GT64-EXTs",
+                        "type": "subfamily",
+                        "value": "GT64-EXTs",
+                        "SeqNR": "1637",
+                        "SeqUniProt": "374",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT64|Dm-ttv",
+                            "GT64|Dm-sotv",
+                            "GT64|Hs-EXT1",
+                            "GT64|Hs-EXT2"
+                        ],
+                        "path": "GT64-EXTs",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id151@GT64-EXTLs",
+                        "type": "subfamily",
+                        "value": "GT64-EXTLs",
+                        "SeqNR": "1502",
+                        "SeqUniProt": "493",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT64|Dm-botv",
+                            "GT64|Ce-rib-2",
+                            "GT64|Hs-EXTL3",
+                            "GT64|Hs-EXTL2",
+                            "GT64|At-At1g80290"
+                        ],
+                        "path": "GT64-EXTLs",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id152@GT64-Mix",
+                        "type": "subfamily",
+                        "value": "GT64-Mix",
+                        "SeqNR": "599",
+                        "SeqUniProt": "260",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT64|At-GINT1",
+                            "GT64|At-EPC1"
+                        ],
+                        "path": "GT64-Mix",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id153@GT75",
+                "type": "family",
+                "value": "GT75",
+                "SeqNR": "1754",
+                "SeqUniProt": "803",
+                "path": "GT75",
+                "members": [
+                    "GT-A_consensus",
+                    "GT75|Ce-E03H4.4",
+                    "GT75|Ce-F56H6.7",
+                    "GT75|Ce-F56H6.9",
+                    "GT75|Ce-F02C9.2",
+                    "GT75|Ce-ZK105.3",
+                    "GT75|Ce-F46F5.11",
+                    "GT75|At-RGP3",
+                    "GT75|At-STL1",
+                    "GT75|At-RGP5",
+                    "GT75|At-RGP2",
+                    "GT75|At-RGP4",
+                    "GT75|At-RGP1",
+                    "GT75|Hw-Q18EK9"
+                ],
+                "nodes": [
+                    {
+                        "id": "id154@GT75-1",
+                        "type": "subfamily",
+                        "value": "GT75-1",
+                        "SeqNR": "112",
+                        "SeqUniProt": "53",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT75|Hw-Q18EK9"
+                        ],
+                        "path": "GT75-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id155@GT75-2",
+                        "type": "subfamily",
+                        "value": "GT75-2",
+                        "SeqNR": "1154",
+                        "SeqUniProt": "512",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT75|At-RGP3",
+                            "GT75|At-RGP5",
+                            "GT75|At-RGP2",
+                            "GT75|At-RGP4",
+                            "GT75|At-RGP1"
+                        ],
+                        "path": "GT75-2",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id156@GT75-3",
+                        "type": "subfamily",
+                        "value": "GT75-3",
+                        "SeqNR": "475",
+                        "SeqUniProt": "210",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT75|Ce-E03H4.4",
+                            "GT75|Ce-F56H6.7",
+                            "GT75|Ce-F56H6.9",
+                            "GT75|Ce-F02C9.2",
+                            "GT75|Ce-ZK105.3",
+                            "GT75|Ce-F46F5.11",
+                            "GT75|At-STL1"
+                        ],
+                        "path": "GT75-3",
+                        "nodes": []
+                    }
+                ]
+            },
+            {
+                "id": "id157@Other GT-A subfamilies",
+                "type": "family",
+                "value": "Other GT-A subfamilies",
+                "SeqNR": "39143",
+                "SeqUniProt": "10677",
+                "path": "GT2-Mix-1",
+                "members": [
+                    "GT-A_consensus",
+                    "GT2-Class1|Rm-exoA",
+                    "GT2-CWR|Ct-Q8KB11"
+                ],
+                "nodes": [
+                    {
+                        "id": "id157@GT2-Mix-1",
+                        "type": "subfamily",
+                        "value": "GT2-Mix-1",
+                        "SeqNR": "39143",
+                        "SeqUniProt": "10677",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-Class1|Rm-exoA",
+                            "GT2-CWR|Ct-Q8KB11"
+                        ],
+                        "path": "GT2-Mix-1",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id158@GT2-Mix-2",
+                        "type": "subfamily",
+                        "value": "GT2-Mix-2",
+                        "SeqNR": "40778",
+                        "SeqUniProt": "8997",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-CeS|At-CESA1",
+                            "GT2-CeS|At-CESA2",
+                            "GT2-CeS|At-CSLD1",
+                            "GT2-CeS|At-CSLB5",
+                            "GT2-CeS|At-CSLG3",
+                            "GT2-CeS|At-CSLG1",
+                            "GT2-CeS|At-CESA4",
+                            "GT2-CeS|At-CESA5",
+                            "GT2-CeS|At-CESA8",
+                            "GT2-CeS|At-CSLG2",
+                            "GT2-CeS|At-CSLE1",
+                            "GT2-CeS|At-CESA3",
+                            "GT2-CeS|At-CESA6",
+                            "GT2-CeS|At-CSLD6",
+                            "GT2-CeS|At-CSLD2",
+                            "GT2-CeS|At-CSLD3",
+                            "GT2-CeS|At-CESA9",
+                            "GT2-CeS|At-CESA10",
+                            "GT2-CeS|At-CSLD5",
+                            "GT2-CeS|At-CESA7",
+                            "GT2-CeS|At-CSLD4",
+                            "GT2-CWR|Se-icaA"
+                        ],
+                        "path": "GT2-Mix-2",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id159@GT2-Mix-3",
+                        "type": "subfamily",
+                        "value": "GT2-Mix-3",
+                        "SeqNR": "69424",
+                        "SeqUniProt": "17720",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-CHS|Cv-hfsG",
+                            "GT2-Class1|Hs-B4GALNT4"
+                        ],
+                        "path": "GT2-Mix-3",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id160@GT2-Mix-4",
+                        "type": "subfamily",
+                        "value": "GT2-Mix-4",
+                        "SeqNR": "117208",
+                        "SeqUniProt": "24675",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-CHS|Pm-fcbD"
+                        ],
+                        "path": "GT2-Mix-4",
+                        "nodes": []
+                    },
+                    {
+                        "id": "id161@GT2-Mix-5",
+                        "type": "subfamily",
+                        "value": "GT2-Mix-5",
+                        "SeqNR": "23498",
+                        "SeqUniProt": "5638",
+                        "members": [
+                            "GT-A_consensus",
+                            "GT2-Class1|Hs-B4GALNT3",
+                            "GT2-Rham-GlfT|Sf-rfbF",
+                            "GT2-Rham-GlfT|Ms-glfT1",
+                            "GT2-Rham-GlfT|Mt-glfT2"
+                        ],
+                        "path": "GT2-Mix-5",
+                        "nodes": []
+                    }
+                ]
             }
         ]
     }
