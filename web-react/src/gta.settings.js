@@ -1,5 +1,5 @@
 export const settings = {
-    title:"GTExplorer",
+    title:"GTXplorer",
     show_legend: true,
     ui: {
         numberingMarginLeft: "12px",
