@@ -38,12 +38,12 @@ and open the template in the editor.
                     al.style.display = "block";
                     break;
                 case 1:
-                    tr.style.display = "none";
-                    al.style.display = "block";
-                    break;
-                case 2:
                     tr.style.display = "block";
                     al.style.display = "none";
+                    break;
+                case 2:
+                    tr.style.display = "none";
+                    al.style.display = "block";
                     break;
             }
         }
@@ -63,28 +63,31 @@ and open the template in the editor.
             </iframe>
         </div> -->
 
-    <div class="container" style="max-width: unset;">
+    <div class="container-fluid" style="max-width: unset;">
         <div class="row">
-            <div class="col-9 card-header bg-background content-center">header
-                <label for="viewMode">View Mode</label><br>
-                <select id="viewMode" name="viewMode" onchange="viewModeChanged()">
-                <option value="tr_al">Tree/Alignment</option>
-                <option value="tr">Tree Only</option>
-                <option value="al">Alignment Only</option>
-                </select>
-            </div>
-
-            <div class="col-3"></div>
+            <div class="col-12 card-header bg-background content-center">header</div>
+        </div>
+        <div class="col-12">
+            <label for="viewMode">View Mode:&nbsp;&nbsp;</label>
+            <select id="viewMode" name="viewMode" onchange="viewModeChanged()">
+            <option value="tr_al">Tree/Alignment</option>
+            <option value="tr">Tree Only</option>
+            <option value="al">Alignment Only</option>
+            </select>
         </div>
         <div id="parentrow" class="row">
-            <div id="gttree" class="col-9"></div>
-            <div id="weblogo" class="col-3"></div>
+            <div class="col-9">
+                <div class="scaling-svg-container container-fluid" id="gttree" ></div>
+            </div>
+            <div class="col-3">
+                <div id="weblogo"></div>
+            </div>
         </div>
         <div id="alignmentrow" class="row">
             <div class="col-12">
                 <iframe id="react_frame" src="http://localhost:3000/" style="width: 550; min-height: 1100px;width: 100%" frameborder="0"
                     scrolling="yes">
-                </iframe>
+                </iframe>           
             </div>
         </div>
         <div class="row">
@@ -93,5 +96,4 @@ and open the template in the editor.
     </div>
 
 </body>
-
 </html>
