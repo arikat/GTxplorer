@@ -35,20 +35,24 @@ and open the template in the editor.
             var v = document.getElementById("viewMode");
             var tr = document.getElementById("parentrow");
             var al = document.getElementById("alignmentrow");
+            var hl = document.getElementById("horizontalrule");
             
             switch (v.selectedIndex)
             {
                 case 0:
                     tr.style.display = "block";
                     al.style.display = "block";
+                    hl.style.display = "block";
                     break;
                 case 1:
                     tr.style.display = "block";
                     al.style.display = "none";
+                    hl.style.display = "none";
                     break;
                 case 2:
                     tr.style.display = "none";
                     al.style.display = "block";
+                    hl.style.display = "none";
                     break;
             }
         }
@@ -69,7 +73,6 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <hr\>
         <div class="row">
             <div class="col-12 card-header bg-background d-flex justify-content-around title-color">
                 <p class="mt-2">Beta version 1.0.0</p>
@@ -95,6 +98,11 @@ and open the template in the editor.
                 <div id="weblogo"></div>
             </div>
         </div>
+    </div>
+    <div id="horizontalrule">
+        <hr style="height:2px;border-width:0;color:#242828;background-color:#242828">
+    </div>
+    <div class="container-fluid" style="max-width: unset;">
         <div id="alignmentrow" class="row">
             <div class="col-12">
                 <iframe id="react_frame" src="http://localhost:3000/" style="width: 550; min-height: 1100px;width: 100%" frameborder="0"

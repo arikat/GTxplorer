@@ -1,7 +1,7 @@
 .scaling-svg-container {
  position: relative; 
  height: 675px; 
- width: 125%; 
+ max-width: 100%
  padding: 0;
  padding-bottom: 50%; 
 }
