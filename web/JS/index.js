@@ -15,6 +15,7 @@ var svgload = function () {
     embed.setAttribute('height', '675px');
     embed.setAttribute('type', 'image/svg+xml');
     embed.setAttribute('data', 'SVG/gta_tree_v2_edited.svg');
+    embed.setAttribute('style','outline: 1px solid #b8b6b4');
     document.getElementById('gttree').appendChild(embed);
     lastEventListener = function () {
         svgPanZoom(embed, {
