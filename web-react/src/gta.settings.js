@@ -50,23 +50,18 @@ export const settings = {
                 },
                 {
                     name: "Full-length seq",
-                    dir: "aligned_full",
+                    dir: "FastaFull",
                     ext: "fasta"
                 },
                 {
-                    name: "Kinase domain",
-                    dir: "aligned_kd",
-                    ext: "txt"
+                    name: "GT-A domain",
+                    dir: "Fasta",
+                    ext: "fasta"
                 },
                 {
-                    name: "Mutation",
-                    dir: "aligned_mut",
-                    ext: "txt"
-                },
-                {
-                    name: "PTM",
-                    dir: "aligned_ptm",
-                    ext: "txt"
+                    name: "Table",
+                    dir: "tables",
+                    ext: "tsv"
                 },
             ]
         },
@@ -75,15 +70,25 @@ export const settings = {
             name: "UniProt sequences",
             visible: true,
             options: [{
-                    name: "Alignment",
-                    dir: "ortholog_full",
-                    ext: "aln"
-                },
-                {
-                    name: "Full-length seq",
-                    dir: "ortholog_kd",
-                    ext: "fasta"
-                }
+                name: "Alignment",
+                dir: "aligned_aln",
+                ext: "aln"
+            },
+            {
+                name: "Full-length seq",
+                dir: "FastaFull",
+                ext: "fasta"
+            },
+            {
+                name: "GT-A domain",
+                dir: "Fasta",
+                ext: "fasta"
+            },
+            {
+                name: "Table",
+                dir: "tables",
+                ext: "tsv"
+            },
 
             ]
         },
