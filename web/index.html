@@ -9,11 +9,16 @@ and open the template in the editor.
 <head>
 
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="./SVG/gtXplorer-favicon1.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gtXplorer</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         crossorigin="anonymous">
+    
+    <link href='http://fonts.googleapis.com/css?family=Alegreya:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:400,300,700" rel="stylesheet" type='text/css'> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap" rel="stylesheet"> -->
+    
     <script src="JS/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
@@ -50,36 +55,43 @@ and open the template in the editor.
     </script>
 </head>
 
-<body>
-    <!-- <div class="container" style="margin-left: 0;">
-            <div id="parentrow" class="row">
-                <div class="col-md-9" id="gttree"></div>
-                <div class="col-md-3" id="weblogo"></div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12"></div>
-            </div>
-            <iframe id="react_frame" src="http://localhost:3000/" width="550" height="550" frameborder="0" scrolling="yes" style="width: 100%"> 
-            </iframe>
-        </div> -->
-
+<body>    
+    <!-- HEADER -->
     <div class="container-fluid" style="max-width: unset;">
         <div class="row">
-            <div class="col-12 card-header bg-background content-center">header</div>
+            <div class="col-12">
+                <div class="wrapper">
+                    <div class="badge">
+                        <i class="left"></i>
+                        <i class="right"></i>
+                        BETA
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-12">
-            <label for="viewMode">View Mode:&nbsp;&nbsp;</label>
-            <select id="viewMode" name="viewMode" onchange="viewModeChanged()">
-            <option value="tr_al">Tree/Alignment</option>
-            <option value="tr">Tree Only</option>
-            <option value="al">Alignment Only</option>
-            </select>
+        <hr\>
+        <div class="row">
+            <div class="col-12 card-header bg-background d-flex justify-content-around title-color">
+                <p class="mt-2">Beta version 1.0.0</p>
+                <span class="align-middle"><img src="./SVG/gtXplorer-mono2.png" style="max-width:60px; margin-bottom: -2px"></span>
+                <span class="mt-2"><label for="viewMode">View Mode:&nbsp;&nbsp;</label>
+                <select id="viewMode" name="viewMode" onchange="viewModeChanged()">
+                <option value="tr_al">Tree/Alignment</option>
+                <option value="tr">Tree Only</option>
+                <option value="al">Alignment Only</option>
+                </select>
+                </span>
+            </div>
         </div>
+    </div> 
+    
+    <!-- TREE and ALIGNMENT view -->
+    <div class="container-fluid" style="max-width: unset;">
         <div id="parentrow" class="row">
-            <div class="col-9">
+            <div class="col-8">
                 <div class="scaling-svg-container container-fluid" id="gttree" ></div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
                 <div id="weblogo"></div>
             </div>
         </div>
@@ -90,8 +102,29 @@ and open the template in the editor.
                 </iframe>           
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">footer</div>
+    </div>
+        
+    <!-- FOOTER -->
+    <div class="container-fluid d-inline" style="max-width: unset;">
+        <div class="row ml-1d-flex justify-content-around" style="background: #e7e8e6;">
+            <div class="col-1 my-auto"></div>
+            <div class="col-3 my-auto">
+                <span >Most of the data presented here was part of an <br><a href="https://elifesciences.org/articles/54532" target="_blank"><b>evolutionary study of the GT-A fold enzymes.</b></a></span><br>
+            </div>
+            <div class="col-4 my-auto d-flex justify-content-center">
+                <span class="copyright align-middle">
+                    ©
+                    <script>
+                      document.write(new Date().getFullYear())
+                    </script>, <a href="https://esbg.bmb.uga.edu/" target="_blank"><b>ESBG lab</b></a>.
+                </span>
+            </div>
+            <div class="col-4 my-auto">
+                <br>
+                <span class="ml-2"><u>Contact</u>:</span><br> 
+                <span class="ml-2">Natarajan Kannan: <a href="mailto:nkannan@uga.edu">nkannan@uga.edu</a></span><br>
+                <span class="ml-2">Rahil Taujale: <a href="mailto:rtaujale@uga.edu">rtaujale@uga.edu</a></span><br><br>
+            </div>
         </div>
     </div>
 
