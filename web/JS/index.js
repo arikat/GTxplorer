@@ -1,4 +1,4 @@
-const SERVER_ADDRESS= "http://localhost:3000/"
+const SERVER_ADDRESS= "https://uga-gta.netlify.app/"
 var lastEventListener = null;
 var svgload = function () {
     var wid = $(window).width() - 430;
