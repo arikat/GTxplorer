@@ -269,25 +269,28 @@ function App() {
 
   //weblogo options (e.g., weblogo checkboxes) initialize here, when a node is selected
   function treeCheckboxChanged(node, checked) {
-    let alreadyAdded = selectedNodes.some(item => item.id === node.id);
 
+    let alreadyAdded =selectedNodes.some(item => item.id === node.id);
+    
     if (checked && !alreadyAdded) { //add the selection to selectedNodes
       setSelectedNode(node);
-      let switches = elements.reduce(function (res, item) {
-        if (item.switchable) {
-          // creating checkboxes from settings, for example:
-          // node.residueChecked = true;
-          // node.ptmChecked = false;
-          let obj = {};
-          obj[item.id + "Checked"] = checked;
-          res.push(obj);
-        }
-        return res;
-      }, []);
-      node.swiches = switches;
+      if (!node.checkboxes)
+        node.checkboxes = JSON.parse(JSON.stringify(checkboxes));
+      // let checkboxes = elements.reduce(function (res, item) {
+      //   if (item.type === "checkbox") {
+      //     // creating checkboxes from settings, for example:
+      //     // node.residueChecked = true;
+      //     // node.ptmChecked = false;
+      //     let obj = {};
+      //     obj[item.id] = {"checked":checked};
+      //     res.push(obj);
+      //   }
+      //   return res;
+      // }, []);
+      // node.options = checkboxes;   
       setSelectedNodes(selectedNodes => [...selectedNodes, node]);
     }
-    else if (!checked) //remvoe the Selection
+    else if(!checked) //remvoe the Selection
     {
       //setSelectedNode('');
       handleDelete(node);
