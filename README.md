@@ -1,4 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d72a4443-c0c1-45c6-84c5-38e71d5be520/deploy-status)](https://app.netlify.com/sites/uga-gta-kinview/deploys)
+Client [![Netlify Status](https://api.netlify.com/api/v1/badges/d72a4443-c0c1-45c6-84c5-38e71d5be520/deploy-status)](https://app.netlify.com/sites/uga-gta/deploys)
+Server [![Netlify Status](https://api.netlify.com/api/v1/badges/3189882c-cd2a-480a-8d66-3a50f276e2bc/deploy-status)](https://app.netlify.com/sites/uga-gta-server/deploys)
 
 
 # GTA-Tree
