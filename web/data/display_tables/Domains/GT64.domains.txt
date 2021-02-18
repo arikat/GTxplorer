@@ -1,6 +1,0 @@
-261	0.214	GT-A
-225	0.185	Exotosin|GT-A
-222	0.182	TMhelix|Exotosin|GT-A
-194	0.159	TMhelix|GT-A
-64	0.053	TMhelix|GH43_62_32_68_117_130|TMhelix|GT-A
-58	0.048	TMhelix|TPR_MLP1_2|Exotosin|GT-A
