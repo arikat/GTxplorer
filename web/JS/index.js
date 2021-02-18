@@ -1,4 +1,53 @@
-const SERVER_ADDRESS= "http://localhost:3000/"
+// Back to top arrow
+$(document).ready(function(){
+    $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+               $('#back-to-top').fadeIn();
+           } else {
+               $('#back-to-top').fadeOut();
+           }
+       });
+       // scroll body to 0px on click
+       $('#back-to-top').click(function () {
+           $('#back-to-top').tooltip('hide');
+           $('body,html').animate({
+               scrollTop: 0
+           }, 200);
+           return false;
+       });
+       
+       $('#back-to-top').tooltip('show');
+
+});
+
+//material contact form animation
+$('.contact-form').find('.form-control').each(function() {
+    var targetItem = $(this).parent();
+    if ($(this).val()) {
+      $(targetItem).find('label').css({
+        'top': '10px',
+        'fontSize': '14px'
+      });
+    }
+  })
+  $('.contact-form').find('.form-control').focus(function() {
+    $(this).parent('.input-block').addClass('focus');
+    $(this).parent().find('label').animate({
+      'top': '10px',
+      'fontSize': '14px'
+    }, 300);
+  })
+  $('.contact-form').find('.form-control').blur(function() {
+    if ($(this).val().length == 0) {
+      $(this).parent('.input-block').removeClass('focus');
+      $(this).parent().find('label').animate({
+        'top': '25px',
+        'fontSize': '18px'
+      }, 300);
+    }
+  })
+
+  const SERVER_ADDRESS= "http://localhost:3000/"
 var lastEventListener = null;
 var svgload = function () {
     var wid = $(window).width() - 430;
@@ -14,7 +63,7 @@ var svgload = function () {
     embed.setAttribute('width', wid);
     embed.setAttribute('height', '675px');
     embed.setAttribute('type', 'image/svg+xml');
-    embed.setAttribute('data', 'SVG/gta_tree_v2_edited.svg');
+    embed.setAttribute('data', 'SVG/gta_tree_v3.svg');
     embed.setAttribute('style','outline: 1px solid #b8b6b4');
     document.getElementById('gttree').appendChild(embed);
     lastEventListener = function () {
@@ -114,7 +163,7 @@ var card = function(GTAname, jsondata){
         ///////Family////////
         var subfamily = "";
         if (jsondata[index].subfamilies === null || jsondata[index].subfamilies === undefined || jsondata[index].subfamilies === '' || jsondata[index].subfamilies.length === 0) {
-            subfamily = "<span style='font-size: 9px; color: #000;'>No Data Found!</span>";
+            subfamily = "<span style='font-size: 9px; color: #000;'>No Subfamilies!</span>";
         } else {
             subfamily = "<table class='scrollable'>"
                     + "<tr style='font-size: 10px;'>"
@@ -124,14 +173,14 @@ var card = function(GTAname, jsondata){
             if (famName === "GT") {
                 subfamily += "<th>Subfamily</th>";
             }
-            subfamily += "<th> | FastaGTADomain</th>"
-                    + "<th> | FastaFullSequence</th>"
-                    + "<th> | Tables</th>"
+            subfamily += "<th> | GT-A Domain</th>"
+                    + "<th> | Full Sequence</th>"
+                    + "<th> | Table</th>"
                     + "</tr>";
             $.each(jsondata[index].subfamilies, function (i, value) {
                 var download = "";
                 $.each(value.downloads, function (j, val) {
-                    download += "<td class='center'><a href='" + val.nr + "' title='NR' download><i class='fas fa-file-download' style='color:#ff5200;font-size:17px;'></i></a>&nbsp;<a href='" + val.uniprot + "' title='Uniprot' download><i class='fas fa-file-download' style='color:#084177;font-size:17px;'></i></a></td>";
+                    download += "<td class='center'><a href='" + val.nr + "' title='NR' download><i class='fas fa-file-download icon-nr'></i></a>&nbsp;<a href='" + val.uniprot + "' title='Uniprot' download><i class='fas fa-file-download icon-up'></i></a></td>";
                 });
                 subfamily += "<tr><td style='font-size: 9px; color: #000;' nowrap><div><span>" + value.name + "</span></div></td>" + download + "</tr>";
             });
@@ -140,7 +189,7 @@ var card = function(GTAname, jsondata){
         ///////Domain Organization////////
         var domainOrganization = "";
         if (jsondata[index].domainOrganization === null || jsondata[index].domainOrganization === undefined || jsondata[index].domainOrganization === '' || jsondata[index].domainOrganization.length === 0) {
-            domainOrganization = "<br>No Domain Organization Found!";
+            domainOrganization = "<br>Domain Organization Data for family level only!";
         } else {
             domainOrganization = "<table class='scrollable'>"
                     + "<tr style='font-size: 10px;'>"
@@ -225,7 +274,7 @@ var card = function(GTAname, jsondata){
                                                                     +"<p class='card-text' style='font-size: 10px; color: #000;margin-top: -10px;'>"+taxonomicDistribution+"</p>"
                                                                 +"</div>"
                                                                 +"<div class='card-footer card-footer-custom bg-white card-border'>"
-                                                                    +"<h6 class='card-subtitle mb-1 text-dark'>Family Alignment</h6>"
+                                                                    +"<h6 class='card-subtitle mb-1 text-dark' style='margin-left: -10px'>Family Alignment</h6>"
                                                                     +"<div class='card-img-top' id='' style='overflow-x:scroll; width:397px;margin-left:-19px;margin-top:-5px;'><img src='"+jsondata[index].familyAlignment+"' height=80px></div>"
                                                                     +"<p class='card-text' style='font-size: 10px; color: #000;margin-top: 5px;'>"+downloads+"</p>"
                                                                 +"</div>"

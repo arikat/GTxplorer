@@ -15,12 +15,10 @@ and open the template in the editor.
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         crossorigin="anonymous">
     
-    <link href='http://fonts.googleapis.com/css?family=Alegreya:400,300,700' rel='stylesheet' type='text/css'>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:400,300,700" rel="stylesheet" type='text/css'> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Alegreya:400,300,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet"><!-- <link href="https://fonts.googleapis.com/css2?family=Lato:400,300,700" rel="stylesheet" type='text/css'> -->
     
-    <script src="https://www.google.com/reCAPTCHA/api.js" async defer></script>
-
     <script src="JS/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
@@ -32,7 +30,7 @@ and open the template in the editor.
     <link rel="stylesheet" type="text/css" href="Style/styles.css" />
     <script src="JS/index.js"></script>
 
-    <script>
+    <!-- <script>
         function viewModeChanged()
         {
             var v = document.getElementById("viewMode");
@@ -59,12 +57,35 @@ and open the template in the editor.
                     break;
             }
         }
-    </script>
+    </script> -->
 </head>
 
-<body>    
+<body>  
+      <!-- NAVIGATION BAR -->
+      <!-- <nav id=topSection class="navbar navbar-expand-md navbar-dark nav-bg"> -->
+      <nav id=topSection class="navbar navbar-expand-md navbar-dark nav-bg">
+        <span class="align-middle"><img src="./SVG/gtXplorer-mono2.png" style="max-width:60px; margin-bottom: -2px"></span>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <!-- <p>Version: Beta 1.0.0</p> -->
+                <a href="#" class="nav-item nav-link ml-5">Version: Beta 1.0.0</a>
+                <a href="#Navigation" class="nav-item nav-link ml-5">Navigation tutorial</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" rel="tooltip" title="Get entire project from github" data-placement="bottom" href="https://github.com/rhilt13" target="_blank">
+                    <button class="btn btn-outline navbar-btn"><i class="fa fa-github"></i></button>
+                </a>
+                <a href="#TreeView" class="nav-item nav-link"><button class="btn btn-outline navbar-btn">Tree View</button></a>
+                <a href="#AlignmentView" class="nav-item nav-link"><button class="btn btn-outline navbar-btn">Alignment View</button></a>
+            </div>
+        </div>
+    </nav>
     <!-- HEADER -->
-    <div class="container-fluid" style="max-width: unset;">
+    <!-- <div class="container-fluid" style="max-width: unset;">
         <div class="row">
             <div class="col-12">
                 <div class="wrapper">
@@ -89,10 +110,45 @@ and open the template in the editor.
                 </span>
             </div>
         </div>
-    </div> 
+    </div>  -->
     
-    <!-- TREE and ALIGNMENT view -->
-    <div class="container-fluid" style="max-width: unset;">
+    <!-- Landing Page Top -->
+    <div style="background: url(SVG/landingPage.jpg)" class="page-holder bg-cover">
+        <div class="container py-5">
+            <header class="text-left text-white py-5">
+                <h1 class="display-4 font-weight-bold mb-4">GT Xplorer</h1>
+                <p class="lead mb-0">An interactive portal to visualize and mine evolutionary data for glycosyltransferases with a GT-A type fold.</p>
+                <p class="font-italic">From the  <a href="http://esbg.bmb.uga.edu/" style="color:#3ea2ce;">
+                    <u>ESBG lab,UGA</u></a>
+                </p>
+            </header>
+            <div class="text-left text-white" style="overflow-x: visible;">
+                <!-- <code class="bg-white px-2 py-1 rounded">body</code>  -->
+                <div class="pdesc">
+                    <p>GTXplorer provides an interactive platform for users to access, navigate, download and 
+                    visualize the evolutionary information from primary protein sequences of the GT-A fold families.
+                    There are 2 main ways to navigate.</p>
+                    <a href="#TreeView" style="color:#3ea2ce;"><h5>Tree view</h5></a>
+                    <p>Click on clade and family names for a pop up card with all the information.</p>
+                    <a href="#AlignmentView" style="color:#3ea2ce;"><h5>Alignment view</h5></a>
+                    <p>Stack alignments of Clades, Families and Subfamilies for cross-comparison of conserved pattern positions.</p>
+                    <br>
+                    <p>For a quick start guide, please click <a href="#Navigation" style="color:#3ea2ce;">here</a>.</p>
+                    <p>Build a local copy from <a href="https://github.com/rhilt13" style="color:#3ea2ce;">Github</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TREE view -->
+    <div id="TreeView" class="container-fluid" style="max-width: unset;">
+        <div class="row">
+            <div class="col-12">
+                <div class="title text-center">
+                    <h4 class="font-weight-bold">Tree View</h4>
+                </div>
+            </div>
+        </div>
         <div id="parentrow" class="row">
             <div class="col-8">
                 <div class="scaling-svg-container container-fluid" id="gttree"></div>
@@ -105,7 +161,16 @@ and open the template in the editor.
     <div id="horizontalrule">
         <hr style="height:2px;border-width:0;color:#242828;background-color:#242828">
     </div>
-    <div class="container-fluid" style="max-width: unset;">
+
+    <!-- ALIGNMENT view -->
+    <div id="AlignmentView" class="container-fluid" style="max-width: unset;">
+        <div class="row">
+            <div class="col-12">
+                <div class="title text-center">
+                    <h4 class="font-weight-bold">Alignment View</h4>
+                </div>
+            </div>
+        </div>
         <div id="alignmentrow" class="row">
             <div class="col-12">
                 <iframe id="react_frame" src="http://localhost:3000/" style="width: 550; min-height: 1100px;width: 100%" frameborder="0"
@@ -115,26 +180,75 @@ and open the template in the editor.
         </div>
     </div>
     
+    <!-- TUTORIAL -->
+    <div id="Navigation" class="container-fluid" style="max-width: unset;background-color: #f3ecd9;">
+        <div class="row">
+            <div class="col-12">
+                <br>
+                <div class="title text-center">
+                    <h4 class="font-weight-bold">How to navigate GTXplorer?</h4>
+                </div>
+            </div>
+            <div class="col-12">
+                <p>Watch this short video that shows the basic navigation functions.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12 col-lg-9">
+                
+                <div class="embed-responsive embed-responsive-16by9">
+                    <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe> -->
+                    <!-- <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/bq_2sFtKvK8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/A30YepOH6O0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-12 ml-3">
+                <h5 class="font-weight-bold">4 types of files are available for download from GTXplorer:</h5>
+                <ul>
+                    <li>FASTA formatted full lenght GT-A sequences (from NCBInr and UniProt databases).</li>
+                    <li>FASTA formatted sequences for the GT-A domains only (for both NCBInr and UniProt).</li>
+                    <li>Sequence information in a tabular format. This tab delimited file has the most detailed information about all the GT-A sequences.</li>
+                    <li>Domain organization information for each of the 53 families.</li>
+                </ul>
+                <p>To download these files, look for these icons: <i class='fas fa-file-download icon-nr ml-3'></i> (for NCBInr data) and <i class='fas fa-file-download icon-up ml-3'></i> (for UniProt data)</p>
+            </div>
+        </div>
+    </div>
+
     <!-- FEEDBACK -->
-    <div class="container-fluid" style="padding-right: 0px;padding-left: 0px;background-color: #fce9c7;">
-        <hr style="height:2px;border-width:0;color:#242828;background-color:#242828">
-        <section>
+    <div class="container-fluid" style="background-color: #FDF8F5;">
+        <!-- <hr style="height:2px;border-width:0;color:#242828;background-color:#242828"> -->
+        <section style="max-width: 700px; margin: 0 auto;">
             <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Feedback</h2>
+            <h4 class="h1-responsive font-weight-bold text-center my-4">Feedback</h4>
             <!--Section description-->
-            <p class="text-center w-responsive mx-auto">We are continuously striving to make this website more intuitive and accessible to users. 
+            <p>We are continuously striving to make this website more intuitive and accessible to users. 
                 Please provide us any feedback you may have. 
                 Much appreciated!!</p>
-            <p class="text-center w-responsive mx-auto mb-2"> Email us your feedback:</p>
-            <p class="text-center w-responsive mx-auto">Rahil Taujale: <a href="mailto:rtaujale@uga.edu">rtaujale@uga.edu</a></p>
+            <p>You can either post an issue on <a href="https://github.com/rhilt13">Github</a> or email us directly at: <a href="mailto:rtaujale@uga.edu">rtaujale@uga.edu</a></p>
         </section>
-        <hr style="height:2px;border-width:0;color:#242828;background-color:#242828">
+        <section style="max-width: 700px; margin: 0 auto;">
+            <!--Section heading-->
+            <h4 class="h1-responsive font-weight-bold text-center my-4">Citation</h4>
+            <!--Section description-->
+            <p>GTXplorer was first described and presented <a href="#">here</a>.</p>
+            <p>The phylogenetic tree and alignment information presented here were derived from <a href="https://elifesciences.org/articles/54532">here</a>.</p>
+        </section>
+        <!-- <hr style="height:2px;border-width:0;color:#242828;background-color:#242828"> -->
 
     </div>
 
+    <!-- <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a> -->
+
+
+
     <!-- FOOTER -->
-    <div class="container-fluid d-inline" style="max-width: unset;">
-        <div class="row ml-1d-flex justify-content-around" style="background: #e7e8e6;">
+    <div class="container-fluid" style="background-color: #e7e8e6;max-width: unset;">
+        <div class="row justify-content-around">
             <div class="col-1 my-auto"></div>
             <div class="col-3 my-auto">
                 <span >Most of the data presented here was part of an <br><a href="https://elifesciences.org/articles/54532" target="_blank"><b>evolutionary study of the GT-A fold enzymes.</b></a></span><br>
@@ -155,6 +269,8 @@ and open the template in the editor.
             </div>
         </div>
     </div>
+
+    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" role="button" title="Back to top" data-toggle="tooltip" data-placement="left"><span></span><i class="fas fa-angle-up" style="size:5x"></i></span></a>
 
 </body>
 </html>
