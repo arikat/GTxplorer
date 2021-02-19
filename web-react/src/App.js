@@ -19,7 +19,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import TextField from '@material-ui/core/TextField';
+import Tooltip from '@material-ui/core/Tooltip';
 import Slider from '@material-ui/core/Slider';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import Box from '@material-ui/core/Box';
@@ -117,7 +117,15 @@ const imgUgaLogoStyle = {
 // };
 
 
+function ValueLabelComponent(props) {
+  const { children, open, value } = props;
 
+  return (
+    <Tooltip open={open} enterTouchDelay={0} placement="top" title={value}>
+      {children}
+    </Tooltip>
+  );
+}
 
 function App() {
   const [explorerValue, setExplorerValue] = React.useState(null);
@@ -496,6 +504,7 @@ function App() {
                           <div className="sliderHeight">
                             <Slider
                               onChange={heightChanged}
+                              ValueLabelComponent={ValueLabelComponent}
                               defaultValue={height}
                               aria-labelledby="discrete-slider"
                               valueLabelDisplay="auto"
