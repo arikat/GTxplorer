@@ -57,7 +57,8 @@ const useStyles = makeStyles(theme => ({
     left: 0,
     position:'sticky',
     zIndex:2,
-    backgroundColor:'#fff'
+    backgroundColor:'#ccc',
+    alignSelf: 'fixed'
   },
   treeInvisible:
   {

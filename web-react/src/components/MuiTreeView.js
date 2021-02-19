@@ -69,7 +69,7 @@ const styles = theme => ({
     },
   },
   text: {
-    overflow: 'hidden',
+    // overflow: 'hidden',
     textOverflow: 'ellipsis',
     whiteSpace: 'noWrap',
     maxWidth: '75vw',
