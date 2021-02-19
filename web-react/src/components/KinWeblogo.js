@@ -136,7 +136,7 @@ const ExpansionPanelDetails = withStyles(theme => ({
 const StyledFormGroup = withStyles(theme => ({
   root: {
     position: 'sticky',
-    left: 0,
+    left: 182,
     display: 'flex',
     placeItems: 'center',
     //width: '1300px',
