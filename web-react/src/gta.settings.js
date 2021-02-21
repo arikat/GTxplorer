@@ -29,7 +29,17 @@ export const settings = {
             visible: true
         }
     ],
-    elements: [{
+    elements: [
+        {
+            id: "pattern",
+            type: "checkbox",
+            name: "Pattern",
+            dirpath: "patterns/png",
+            extention: "png",
+            checked: true,
+            visible: true
+        },
+        {
             id: "weblogo",
             type: "checkbox",
             name: "Residue",
@@ -65,33 +75,7 @@ export const settings = {
                 },
             ]
         },
-        {
-            type: "dropdown",
-            name: "UniProt sequences",
-            visible: true,
-            options: [{
-                name: "Alignment",
-                dir: "aligned_aln",
-                ext: "aln"
-            },
-            {
-                name: "Full-length seq",
-                dir: "FastaFull",
-                ext: "fasta"
-            },
-            {
-                name: "GT-A domain",
-                dir: "Fasta",
-                ext: "fasta"
-            },
-            {
-                name: "Table",
-                dir: "tables",
-                ext: "tsv"
-            },
-
-            ]
-        },
+      ,
 
     ]
 };

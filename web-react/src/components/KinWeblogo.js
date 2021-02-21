@@ -5,30 +5,19 @@ import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
 import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
-
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
-import Divider from '@material-ui/core/Divider';
-
-import FormControl from '@material-ui/core/FormControl';
-import FormLabel from '@material-ui/core/FormLabel';
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Switch from '@material-ui/core/Switch';
 import NativeSelect from '@material-ui/core/NativeSelect';
-import InputLabel from '@material-ui/core/InputLabel';
 import { withStyles } from '@material-ui/core/styles';
 import { sortableHandle } from 'react-sortable-hoc';
-
 import ReorderIcon from '@material-ui/icons/Reorder';
 import DeleteIcon from '@material-ui/icons/Delete';
-import { Label, SentimentSatisfied } from '@material-ui/icons';
-
-import SvgIcon from '@material-ui/core/SvgIcon';
-import Tooltip from '@material-ui/core/Tooltip';
 import DropDownButton from '../components/DropDownButton'
 import ExpandLessOrMore from '../components/ExpandLessOrMore'
-import { setSyntheticLeadingComments } from 'typescript';
+import PatternsList from '../gta/data/patterns.json';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -147,7 +136,7 @@ const ExpansionPanelDetails = withStyles(theme => ({
 const StyledFormGroup = withStyles(theme => ({
   root: {
     position: 'sticky',
-    left: 0,
+    left: 182,
     display: 'flex',
     placeItems: 'center',
     //width: '1300px',
@@ -285,7 +274,6 @@ function KinWeblogo(props) {
   const numberingChanged = event => {
     if (props.numbers && event.target) {
       const val = props.numbers.filter(function (item) { return item.name === event.target.value });
-      console.log(val);
       let numbering = "N/A";
       if (val)
         numbering = val[0].value.map(n => n === null ? '- ' : <span className="v">{n}</span>);
@@ -369,11 +357,20 @@ function KinWeblogo(props) {
   //     <DropDownButton items={getOrthologSequences()} value={props.value.ortholog_seq} />      
   //     </>;
   
-
+function isInList(elementId,path)
+{
+  if (elementId!== "pattern")
+    return true;
+  
+  //if it's a pattern, then check file exists
+  console.log(path);
+  return PatternsList.includes(path);
+}
 let rendered_checkboxes = [];
 checkboxes.forEach((element, index) => 
 {
-  if (element.visible) 
+  
+  if (element.visible && isInList(element.id,props.value.path)) 
   {
     let checkbox = <FormControlLabel style={{marginLeft:5}} control={
     <Switch size="small" 
@@ -450,7 +447,7 @@ dropdowns.forEach((element,index) =>
         </ExpansionPanelSummary>
         
         <ExpansionPanelDetails className={classes.details}>
-          {checkboxes.map(element => 
+          {checkboxes.map(element => isInList(element.id,props.value.path)? //only if image exists (check the list of images)
              <div>
                <Box>
                   <img
@@ -463,7 +460,7 @@ dropdowns.forEach((element,index) =>
                     width={props.width || "4840"}
                     ></img>
                 </Box>
-              </div>
+              </div>:<div></div>
             )}
         
           

@@ -198,6 +198,12 @@
   height:46px;
 }
 
+/* .contents
+{
+  position:'sticky';
+  display:'flex';
+  left:182;
+} */
 
 .sliderHeight
 {
