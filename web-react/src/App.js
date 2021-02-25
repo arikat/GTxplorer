@@ -19,7 +19,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import TextField from '@material-ui/core/TextField';
+import Tooltip from '@material-ui/core/Tooltip';
 import Slider from '@material-ui/core/Slider';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import Box from '@material-ui/core/Box';
@@ -57,7 +57,8 @@ const useStyles = makeStyles(theme => ({
     left: 0,
     position:'sticky',
     zIndex:2,
-    backgroundColor:'#fff'
+    alignSelf: 'fixed',
+    backgroundColor: '#fff'
   },
   treeInvisible:
   {
@@ -67,6 +68,7 @@ const useStyles = makeStyles(theme => ({
   nowrap:
   {
     flexWrap: "nowrap !important",
+    width: "fit-content"
   },
 
   paper: {
@@ -117,7 +119,15 @@ const imgUgaLogoStyle = {
 // };
 
 
+function ValueLabelComponent(props) {
+  const { children, open, value } = props;
 
+  return (
+    <Tooltip open={open} enterTouchDelay={0} placement="top" title={value}>
+      {children}
+    </Tooltip>
+  );
+}
 
 function App() {
   const [explorerValue, setExplorerValue] = React.useState(null);
@@ -306,6 +316,7 @@ function App() {
   //   //   setSecondLabel(node.value);
 
   // }
+  
   function getCandidateNumbers(node) {
     let numbering = { numberingjson }
     //todo: members[0] should be a dropdown box
@@ -334,7 +345,7 @@ function App() {
   const handleHighResChange = () => {
     setHighResChecked(prev => !prev);
   };
-  const handleViewModechange = () => {
+  const handleViewModechange = e => {
     setViewMode(prev => !prev);
   };
 
@@ -496,6 +507,7 @@ function App() {
                           <div className="sliderHeight">
                             <Slider
                               onChange={heightChanged}
+                              ValueLabelComponent={ValueLabelComponent}
                               defaultValue={height}
                               aria-labelledby="discrete-slider"
                               valueLabelDisplay="auto"
@@ -533,19 +545,19 @@ function App() {
                     </Box>
                   </Box>
                 </div>
-
-                <img src={`${appname}/img/motif.png`} alt="Motif" style={{ width: 4840, marginLeft: 16 }} className={selectedNode && isEnabled("motif") ? classes.motif : classes.hidden} />
-                <img src={`${appname}/img/structure.png`} alt="Domain Structure"
-                  style={
-                    {
-                      width: isEnabled("domain") && options.filter(x => x.id === "domain")[0].width ? options.filter(x => x.id === "domain")[0].width : 4840,
-                      marginLeft: isEnabled("domain") && options.filter(x => x.id === "domain")[0].marginLeft ? options.filter(x => x.id === "domain")[0].marginLeft : 16
-                    }}
-                  className={selectedNode && isEnabled("domain") ? classes.structure : classes.hidden} />
-                {
-                  <SortableList items={selectedNodes} onSortEnd={onSortEnd} useDragHandle />
-                }
-
+                <div className="contents">
+                  <img src={`${appname}/img/motif.png`} alt="Motif" style={{ width: 4840, marginLeft: 16 }} className={selectedNode && isEnabled("motif") ? classes.motif : classes.hidden} />
+                  <img src={`${appname}/img/structure.png`} alt="Domain Structure"
+                    style={
+                      {
+                        width: isEnabled("domain") && options.filter(x => x.id === "domain")[0].width ? options.filter(x => x.id === "domain")[0].width : 4840,
+                        marginLeft: isEnabled("domain") && options.filter(x => x.id === "domain")[0].marginLeft ? options.filter(x => x.id === "domain")[0].marginLeft : 16
+                      }}
+                    className={selectedNode && isEnabled("domain") ? classes.structure : classes.hidden} />
+                  {
+                    <SortableList items={selectedNodes} onSortEnd={onSortEnd} useDragHandle />
+                  }
+                </div>
               </Paper>
             </div>
           </Grid>

@@ -29,15 +29,7 @@ export const settings = {
             visible: true
         }
     ],
-    elements: [{
-            id: "weblogo",
-            type: "checkbox",
-            name: "Residue",
-            dirpath: "sequences/png",
-            extention: "png",
-            checked: true,
-            visible: false
-        },
+    elements: [
         {
             id: "pattern",
             type: "checkbox",
@@ -46,6 +38,15 @@ export const settings = {
             extention: "png",
             checked: true,
             visible: true
+        },
+        {
+            id: "weblogo",
+            type: "checkbox",
+            name: "Residue",
+            dirpath: "sequences/png",
+            extention: "png",
+            checked: true,
+            visible: false
         },
         {
             id: "nr_seq",

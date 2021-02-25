@@ -1,4 +1,0 @@
-1260	0.395	TMhelix|GT-A|Lectin
-1186	0.372	GT-A|Lectin
-365	0.114	GT-A
-107	0.034	TMhelix|GT-A

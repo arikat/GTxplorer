@@ -1,3 +1,141 @@
+.pdesc {
+  max-width: 700px;
+  display: inline-block;
+}
+
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-position: center center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* opacity: 0.8; */
+}
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display:none;
+}
+
+/* Bact to Top button */
+#toTopBtn {
+  position: fixed;
+  bottom: 26px;
+  right: 39px;
+  z-index: 98;
+  padding: 21px;
+  background-color: #212529
+}
+
+.js .cd-top--fade-out {
+  opacity: .5
+}
+
+.js .cd-top--is-visible {
+  visibility: visible;
+  opacity: 1
+}
+
+.js .cd-top {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 20px;
+  bottom: var(--cd-back-to-top-margin);
+  right: 20px;
+  right: var(--cd-back-to-top-margin);
+  display: inline-block;
+  height: 30px;
+  height: var(--cd-back-to-top-size);
+  width: 30px;
+  width: var(--cd-back-to-top-size);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+  /* background-color: hsla(5, 76%, 62%, .8); */
+  /* background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8) */
+}
+
+
+.container-fluid {
+    padding-top: 1px !important;
+}
+
+.set-footer {
+  display: flex;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Feedback form */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #c8cbc4;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#c8cbc4;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:black;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+/* END Feedback from */
+
+.icon-nr {
+  color:#ff5200;
+  font-size:17px;
+}
+
+.icon-up {
+  color:#084177;
+  font-size:17px;
+}
 /* Scaling svg tree image */
 
 .scaling-svg-container {
@@ -14,6 +152,56 @@
  left: 0; 
  top: 0;
 } */
+
+.nav-bg {
+    background-color: #242828;
+}
+
+nav .nav-link {
+    color: #f5eff1 !important;
+}
+
+.btn-image {
+  background-image: url('https://brandflow.net/assets/img/featured/mdb-prolog.jpg') !important;
+  background-size: contain; //or cover
+}
+
+/* Button */
+
+.btn-outline {
+  color: #f5eff1;
+  background-color: #242828;
+  border-color: #242828;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+}
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: #c8cbc4;
+  color: #242828;
+  border-color: #242828;
+  
+}
+.btn-colour-1 {
+  color: #fff;
+  background-color: #004E64;
+  border-color: #004E64;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+}
+.btn-colour-1:hover,
+.btn-colour-1:active,
+.btn-colour-1:focus,
+.btn-colour-1.active {
+  /* let's darken #004E64 a bit for hover effect */
+  background: #003D4F;
+  color: #ffffff;
+  border-color: #003D4F;
+}
 
 /* Corner ribbon for beta version */
 
@@ -94,7 +282,8 @@
 }
 
 body {
-  font-family: 'Alegreya', sans-serif !important;
+  /* font-family: 'B612', sans-serif  */
+  font-family: 'Archivo', sans-serif; !important;
 }
 
 .card-border{
@@ -233,7 +422,7 @@ tr:nth-child(even) {
 
 .scrollable {
   max-height: 110px;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   display:block;
   /*border-bottom: 1px solid #ddd;*/
 }
@@ -247,6 +436,6 @@ th {
 
 .scrollableDiv {
   height: 460px;
-  overflow-y: auto;/*hidden;/*scroll//auto */
+  /* overflow-y: auto; */
   display:block;
 }
