@@ -175,22 +175,63 @@ function highlightColumn(e) {
 
 }
 function KinWeblogo(props) {
-  const [numbering, setNumbering] = React.useState(props && props.numbers ? props.numbers[0] : '');
+  // const [numbering, setNumbering] = React.useState(props && props.numbers ? props.numbers[0] : '');
   const [selectedNumberingValue, setSelectedNumberingValue] = React.useState('');
-  const [propChanged, setPropChanged] = React.useState(false);
   const [isExpanded, setIsExpanded] = React.useState(true);
   const [dropdowns, setDropdowns] = React.useState([]);
+  const [rendered_checkboxes, setRenderedCheckboxes] = React.useState([]);
+  const [rendered_dropdowns, setRenderedDropdowns] = React.useState([]);
 
 
   const appname= process.env.REACT_APP_NAME;
   let settings = require(`../${appname}.settings.js`).settings;
-  
+  const numberingMapping = 
+  (n, index) => 
+   <span key={`p${index}`} onClick={highlightColumn} style={{minWidth:`${settings.ui.numberingMinWidth}`, writingMode:"vertical-lr"}}>{n === null ? "-" : n}</span>
+
+  const [renderedNumbers, setRenderedNumbering] = React.useState(props.numbers ?props.numbers[0].value.map(numberingMapping):'');
   const [checkboxes, setCheckboxes] = React.useState(props.checkboxes && props.checkboxes.length>0?props.checkboxes :settings.elements.filter(x=>x.type==="checkbox"));
   useEffect(() => {
       //setCheckboxes(settings.elements.filter(x=>x.type==="checkbox"));
       // setCheckboxes(props.checkboxes);
       setDropdowns(settings.elements.filter(x=>x.type==="dropdown"));
   }, [settings.elements]);
+
+useEffect(()=>{
+checkboxes.forEach((element, index) => 
+{
+  if (element.visible && isInList(element.id,props.value.path)) 
+  {
+    let checkbox = <FormControlLabel style={{marginLeft:5}} control={
+    <Switch size="small" 
+      id={`${element.id}-checkbox-${props.value.id}`} 
+      //checked={swiches[x=>x.id === ""].visible} 
+      checked={element.checked} 
+      value={element.id} 
+    onClick={e => { e.stopPropagation(); }} 
+    onChange={toggleCheckbox} />} label={element.name} />
+    setRenderedCheckboxes(x => [...x, checkbox]); //push new checkbox to the array
+  }
+}
+);
+},[checkboxes])
+
+useEffect(()=>{
+      dropdowns.forEach((element,index) =>
+      {
+        if (element.visible) 
+        {
+          let dropdown = 
+              <>
+                <Typography style={{marginLeft:15,marginRight:5}}>{element.name}</Typography>
+                <DropDownButton items={getDropdownItems(element.options)} value={props.value.aligend_seq} />
+              </>;
+          setRenderedDropdowns(x=>[...x, dropdown]);
+        }
+      }
+      );
+ },[dropdowns]);
+
 
 
   // const [residueChecked, setResidueChecked] = React.useState(props.residueChecked);
@@ -266,8 +307,6 @@ function KinWeblogo(props) {
     setIsExpanded(!isExpanded);
   };
 
-
-  
   let baseUrl = `${window.location.origin.toString()}`;
   baseUrl = baseUrl + "/" + appname;
 
@@ -276,11 +315,12 @@ function KinWeblogo(props) {
       const val = props.numbers.filter(function (item) { return item.name === event.target.value });
       let numbering = "N/A";
       if (val)
-        numbering = val[0].value.map(n => n === null ? '- ' : <span className="v">{n}</span>);
+        //numbering = val[0].value.map(n => n === null ? '- ' : <span className="v">{n}</span>);
+        numbering = val[0].value.map(numberingMapping)
       //showNumbers()
-      setNumbering({ "value": numbering });
-      setPropChanged(true);
+      //setNumbering({ "value": numbering });
       setSelectedNumberingValue(event.target.value);
+      setRenderedNumbering(numbering);
     }
   };
 
@@ -366,39 +406,9 @@ function isInList(elementId,path)
   console.log(path);
   return PatternsList.includes(path);
 }
-let rendered_checkboxes = [];
-checkboxes.forEach((element, index) => 
-{
-  
-  if (element.visible && isInList(element.id,props.value.path)) 
-  {
-    let checkbox = <FormControlLabel style={{marginLeft:5}} control={
-    <Switch size="small" 
-      id={`${element.id}-checkbox-${props.value.id}`} 
-      //checked={swiches[x=>x.id === ""].visible} 
-      checked={element.checked} 
-      value={element.id} 
-    onClick={e => { e.stopPropagation(); }} 
-    onChange={toggleCheckbox} />} label={element.name} />
-    rendered_checkboxes.push(checkbox);
-  }
-}
-);
 
-let rendered_dropdowns = [];
-dropdowns.forEach((element,index) =>
-{
-  if (element.visible) 
-  {
-    let dropdown = 
-        <>
-          <Typography style={{marginLeft:15,marginRight:5}}>{element.name}</Typography>
-          <DropDownButton items={getDropdownItems(element.options)} value={props.value.aligend_seq} />
-        </>;
-    rendered_dropdowns.push(dropdown);
-  }
-}
-);
+
+
             
   return (
     //<div className={classes.root}>
@@ -478,9 +488,7 @@ dropdowns.forEach((element,index) =>
           </Box> */}
    
           <div className={numberingclass} style={{marginLeft: settings.ui.numberingMarginLeft, marginTop: settings.ui.numberingMarginTop}}>
-            {numbering ? numbering.value.map(
-              (n, index) => 
-               <span key={`p${index}`} onClick={highlightColumn} style={{minWidth:`${settings.ui.numberingMinWidth}`, writingMode:"vertical-lr"}}>{n === null ? "-" : n}</span>) : ""}
+            {renderedNumbers}
           </div>
 
 

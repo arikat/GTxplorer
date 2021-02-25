@@ -316,6 +316,7 @@ function App() {
   //   //   setSecondLabel(node.value);
 
   // }
+  
   function getCandidateNumbers(node) {
     let numbering = { numberingjson }
     //todo: members[0] should be a dropdown box
@@ -344,7 +345,7 @@ function App() {
   const handleHighResChange = () => {
     setHighResChecked(prev => !prev);
   };
-  const handleViewModechange = () => {
+  const handleViewModechange = e => {
     setViewMode(prev => !prev);
   };
 
