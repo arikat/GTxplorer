@@ -48,7 +48,7 @@ $('.contact-form').find('.form-control').each(function() {
     }
   })
 
-  const SERVER_ADDRESS= "http://localhost:3000/"
+const SERVER_ADDRESS= process.env.SERVER_ADDRESS;
 var lastEventListener = null;
 var svgload = function () {
     var wid = $(window).width() - 430;
