@@ -24,6 +24,7 @@ import Slider from '@material-ui/core/Slider';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import Box from '@material-ui/core/Box';
 import { Helmet } from "react-helmet";
+import useScrollOnDrag from 'react-scroll-ondrag';
 
 // const rowWidth = 30, rowHeight = 120;
 const useStyles = makeStyles(theme => ({
@@ -138,6 +139,9 @@ function App() {
   const [elements, setElements] = React.useState([]);
   const [checkboxes, setCheckboxes] = React.useState([]);
   const [options, setOptions] = React.useState([]);
+
+  const scrollRef = useRef();
+  const { scrollEvents } = useScrollOnDrag(scrollRef);
 
   const [selectedNodes, setSelectedNodes] = React.useState([]);
   // const [switchShowTreeChecked, setSwitchShowTreeChecked] = React.useState(true);
@@ -264,7 +268,7 @@ function App() {
   );
   const SortableList = SortableContainer(({ items }) => {
     return (
-      <div>
+      <div id="divToScroll" {...scrollEvents} ref={scrollRef}>
         {selectedNodes.map((item, index) => (
           <SortableItem key={`item-${item.id}`} index={index} value={item} />
           //     <KinWeblogo src={'weblogos/' + item.path} label={item.value} numbers={getCandidateNumbers(item)}/>
