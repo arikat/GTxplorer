@@ -412,7 +412,11 @@ function isInList(elementId,path)
             
   return (
     //<div className={classes.root}>
-    <div>
+    <div style={{
+      display: `inline-block`,
+      background: `skyblue`,
+      margin: `2em 1em`,
+    }}>
       <ExpansionPanel square expanded={isExpanded}>
         <ExpansionPanelSummary className={props.viewMode? classes.hidden:''}
           //expandIcon={<ExpandMoreIcon />} 

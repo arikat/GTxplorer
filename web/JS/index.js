@@ -47,7 +47,7 @@ $('.contact-form').find('.form-control').each(function() {
     }
   })
 
-const SERVER_ADDRESS= process.env.SERVER_ADDRESS;
+const SERVER_ADDRESS= "https://uga-gta-server.netlify.app/";
 var lastEventListener = null;
 var svgload = function () {
     var wid = $(window).width() - 430;
