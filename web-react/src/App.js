@@ -55,8 +55,8 @@ const useStyles = makeStyles(theme => ({
     display: 'inline-block',
     marginRight: 40,
     left: 0,
-    position:'sticky',
-    zIndex:2,
+    position: 'sticky',
+    zIndex: 2,
     alignSelf: 'fixed',
     backgroundColor: '#fff'
   },
@@ -139,6 +139,7 @@ function App() {
   const [checkboxes, setCheckboxes] = React.useState([]);
   const [options, setOptions] = React.useState([]);
 
+
   const [selectedNodes, setSelectedNodes] = React.useState([]);
   // const [switchShowTreeChecked, setSwitchShowTreeChecked] = React.useState(true);
   // const [switchDomainChecked, setSwitchDomainChecked] = React.useState(false);
@@ -154,6 +155,44 @@ function App() {
   let numberingjson = require(`./${appname}/data/numbering.json`);
   const settings = require(`./${appname}.settings.js`).settings;
   let tree = require(`./${appname}/data/classification.json`);
+  const scrollableDiv = useRef(null);
+
+  // useEffect(() => {
+  //   // if (settings && settings.elements.length <= 0) return;
+  //   if (scrollableDiv) {
+  //     let slider = scrollableDiv.current; //document.querySelector('divToScroll');
+  //     console.log("slider", slider);
+
+  //     let isDown = false;
+  //     let startX;
+  //     let scrollLeft;
+
+  //     slider.addEventListener('mousedown', (e) => {
+  //       isDown = true;
+  //       slider.classList.add('active');
+  //       startX = e.pageX - slider.offsetLeft;
+  //       scrollLeft = slider.scrollLeft;
+  //       //console.log("down")
+  //     });
+  //     slider.addEventListener('mouseleave', () => {
+  //       isDown = false;
+  //       slider.classList.remove('active');
+  //     });
+  //     slider.addEventListener('mouseup', () => {
+  //       isDown = false;
+  //       slider.classList.remove('active');
+  //     });
+  //     slider.addEventListener('mousemove', (e) => {
+  //       if (!isDown) return;
+  //       e.preventDefault();
+  //       const x = e.pageX - slider.offsetLeft;
+  //       const walk = (x - startX) * 3; //scroll-fast
+  //       slider.scrollLeft = scrollLeft - walk;
+  //       //console.log(walk);
+  //     });
+
+  //   }
+  // }, [scrollableDiv])
 
   window.addEventListener('message', function (e) {
     // if(e.origin !== 'https://uga-gta-kinview.netlify.app') return;
@@ -264,12 +303,10 @@ function App() {
   );
   const SortableList = SortableContainer(({ items }) => {
     return (
-      <div>
-        {selectedNodes.map((item, index) => (
-          <SortableItem key={`item-${item.id}`} index={index} value={item} />
-          //     <KinWeblogo src={'weblogos/' + item.path} label={item.value} numbers={getCandidateNumbers(item)}/>
-        ))}
-      </div>
+      selectedNodes.map((item, index) => (
+        <SortableItem key={`item-${item.id}`} index={index} value={item} />
+      ))
+
     );
   });
   const onSortEnd = ({ oldIndex, newIndex }) => {
@@ -280,8 +317,8 @@ function App() {
   //weblogo options (e.g., weblogo checkboxes) initialize here, when a node is selected
   function treeCheckboxChanged(node, checked) {
 
-    let alreadyAdded =selectedNodes.some(item => item.id === node.id);
-    
+    let alreadyAdded = selectedNodes.some(item => item.id === node.id);
+
     if (checked && !alreadyAdded) { //add the selection to selectedNodes
       setSelectedNode(node);
       if (!node.checkboxes)
@@ -300,7 +337,7 @@ function App() {
       // node.options = checkboxes;   
       setSelectedNodes(selectedNodes => [...selectedNodes, node]);
     }
-    else if(!checked) //remvoe the Selection
+    else if (!checked) //remvoe the Selection
     {
       //setSelectedNode('');
       handleDelete(node);
@@ -316,7 +353,7 @@ function App() {
   //   //   setSecondLabel(node.value);
 
   // }
-  
+
   function getCandidateNumbers(node) {
     let numbering = { numberingjson }
     //todo: members[0] should be a dropdown box
@@ -432,7 +469,7 @@ function App() {
   let rendered_options = [];
   options.forEach((element, index) => {
     if (element.visible) {
-      let checkbox = <FormControlLabel control={
+      let checkbox = <FormControlLabel key={`${element.id}-form-key`} control={
         <Switch
           id={`${element.id}-checkbox`}
           //checked={checkboxes[x=>x.id === ""].visible} 
@@ -488,8 +525,8 @@ function App() {
           <Grid key="rightContents" item>
             <div className={selectedNodes.length > 0 ? classes.mainBoxVisible : classes.mainBoxInvisible}>
 
-              <Paper id="mainPaper" className={selectedNode ? classes.paper : classes.hidden} style={{display:'flex',flexGrow:1,flexFlow:'wrap'}} elevation={0}>
-                <div className="settings" style={{position:'sticky',display:'flex',left:182}}>
+              <Paper id="mainPaper" className={selectedNode ? classes.paper : classes.hidden} style={{ display: 'flex', flexGrow: 1, flexFlow: 'wrap' }} elevation={0}>
+                <div className="settings" style={{ position: 'sticky', display: 'flex', left: 182 }}>
                   <Box display="flex" alignItems="flex-start" p={0.1} m={0.1}>
                     <Box>
                       <fieldset>
@@ -545,6 +582,7 @@ function App() {
                     </Box>
                   </Box>
                 </div>
+
                 <div className="contents">
                   <img src={`${appname}/img/motif.png`} alt="Motif" style={{ width: 4840, marginLeft: 16 }} className={selectedNode && isEnabled("motif") ? classes.motif : classes.hidden} />
                   <img src={`${appname}/img/structure.png`} alt="Domain Structure"
@@ -554,10 +592,9 @@ function App() {
                         marginLeft: isEnabled("domain") && options.filter(x => x.id === "domain")[0].marginLeft ? options.filter(x => x.id === "domain")[0].marginLeft : 16
                       }}
                     className={selectedNode && isEnabled("domain") ? classes.structure : classes.hidden} />
-                  {
-                    <SortableList items={selectedNodes} onSortEnd={onSortEnd} useDragHandle />
-                  }
+                  <SortableList items={selectedNodes} onSortEnd={onSortEnd} useDragHandle />
                 </div>
+
               </Paper>
             </div>
           </Grid>
