@@ -1,3 +1,4 @@
+import { SERVER_ADDRESS } from "../web.settings.js"
 // Back to top arrow
 $(document).ready(function(){
     $(window).scroll(function () {
@@ -47,8 +48,6 @@ $('.contact-form').find('.form-control').each(function() {
     }
   })
 
-const SERVER_ADDRESS= process.env.SERVER_ADDRESS;
-
 var lastEventListener = null;
 var svgload = function () {
     var wid = $(window).width() - 430;
@@ -58,7 +57,7 @@ var svgload = function () {
     if(wid > 1000){
         wid = 1000;
     }
-    embed = document.createElement('object');
+    let embed = document.createElement('object');
     embed.setAttribute('id', 'gta');
     //embed.setAttribute('width', '900px');
     embed.setAttribute('width', wid);
