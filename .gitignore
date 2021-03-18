@@ -4,3 +4,5 @@
 web-react/package-lock.json
 new_changes.txt
 web/SVG/gta_tree_v3_bkup.svg
+web-react/.env
+web/web.settings.js

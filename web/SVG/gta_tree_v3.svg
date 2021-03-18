@@ -208,14 +208,14 @@
   
  </g>
   <g id="flowmask">
-    <text transform="translate(177.99 442.85)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 1</text>
-    <text transform="translate(49.86 368.54)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 9</text>
-    <text transform="translate(29.78 308.95)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 8</text>
+    <text transform="translate(177.99 442.85)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 2</text>
+    <text transform="translate(49.86 368.54)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 3</text>
+    <text transform="translate(29.78 308.95)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 4</text>
     <text transform="translate(0 160.19)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 7</text>
-    <text transform="translate(13.58 29.77)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 6</text>
-    <text transform="translate(431.03 11.34)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 5</text>
-    <text transform="translate(461.39 133.9)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 4</text>
-    <text transform="translate(510.47 280.04)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 3</text>
-    <text transform="translate(492.79 399.94)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 2</text>
+    <text transform="translate(13.58 29.77)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 9</text>
+    <text transform="translate(431.03 11.34)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 8</text>
+    <text transform="translate(461.39 133.9)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 6</text>
+    <text transform="translate(510.47 280.04)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 5</text>
+    <text transform="translate(492.79 399.94)" style="font-size: 13.660050392150879px;fill: #414042;font-family: HelveticaLTStd-Light, Helvetica LT Std;font-weight: 300">Clade 1</text>
   </g>
 </svg>
