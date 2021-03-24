@@ -581,7 +581,6 @@ function App() {
                   </Box>
                 </div>
 
-                <div className="contents">
                   <img src={`${appname}/img/motif.png`} alt="Motif" style={{ width: 4840, marginLeft: 16 }} className={selectedNode && isEnabled("motif") ? classes.motif : classes.hidden} />
                   <img src={`${appname}/img/structure.png`} alt="Domain Structure"
                     style={
@@ -591,7 +590,6 @@ function App() {
                       }}
                     className={selectedNode && isEnabled("domain") ? classes.structure : classes.hidden} />
                   <SortableList items={selectedNodes} onSortEnd={onSortEnd} useDragHandle />
-                </div>
 
               </Paper>
             </div>
