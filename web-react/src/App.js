@@ -284,7 +284,6 @@ function App() {
     setSelectedNodes(modifiedNodes);
   }
   const SortableItem = SortableElement((item) =>
-    <div>
       <KinWeblogo
         value={item.value}
         highres={switchHighResChecked}
@@ -299,7 +298,6 @@ function App() {
         //ptmBarchartChecked={item.value.ptmBarchartChecked}
         viewMode={viewMode}
       />
-    </div>
   );
   const SortableList = SortableContainer(({ items }) => {
     return (
