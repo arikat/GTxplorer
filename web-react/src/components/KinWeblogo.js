@@ -307,7 +307,7 @@ useEffect(()=>{
     setIsExpanded(!isExpanded);
   };
 
-  let baseUrl = `${window.location.origin.toString()}`;
+  let baseUrl = `https://vulcan.cs.uga.edu/gtxplorer` // `${window.location.origin.toString()}`;
   baseUrl = baseUrl + "/" + appname;
 
   const numberingChanged = event => {
