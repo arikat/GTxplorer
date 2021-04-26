@@ -308,7 +308,7 @@ useEffect(()=>{
   };
 
   let baseUrl = `https://vulcan.cs.uga.edu/gtxplorer` // `${window.location.origin.toString()}`;
-  baseUrl = baseUrl + "/" + appname;
+  //baseUrl = baseUrl + "/" + appname;
 
   const numberingChanged = event => {
     if (props.numbers && event.target) {
@@ -465,7 +465,7 @@ function isInList(elementId,path)
                     id={`${element.name}-${props.value.id}`}
                     // className={ residueChecked ? classes.visible : classes.hidden}
                     className={ element.checked? classes.visible : classes.hidden}
-                    src={`${element.dirpath}/${props.value.path}.${element.extention}`}
+                    src={`${appname}/${element.dirpath}/${props.value.path}.${element.extention}`}
                     height={props.height || "188"}
                     width={props.width || "4840"}
                     ></img>
