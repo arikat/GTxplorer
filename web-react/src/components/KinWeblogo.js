@@ -465,7 +465,7 @@ function isInList(elementId,path)
                     id={`${element.name}-${props.value.id}`}
                     // className={ residueChecked ? classes.visible : classes.hidden}
                     className={ element.checked? classes.visible : classes.hidden}
-                    src={`${appname}/${element.dirpath}/${props.value.path}.${element.extention}`}
+                    src={`${element.dirpath}/${props.value.path}.${element.extention}`}
                     height={props.height || "188"}
                     width={props.width || "4840"}
                     ></img>
