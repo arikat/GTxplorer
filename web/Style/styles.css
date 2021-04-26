@@ -429,7 +429,7 @@ tr:nth-child(even) {
 /* The scrollable part */
 
 .scrollable {
-  max-height: 110px;
+  max-height: 90px;
   overflow-y: auto; 
   display:block;
   /*border-bottom: 1px solid #ddd;*/
