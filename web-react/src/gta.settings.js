@@ -60,17 +60,17 @@ export const settings = {
                 },
                 {
                     name: "Full-length seq",
-                    dir: "FastaFull",
+                    dir: "data/db_files/TempFastaFull",
                     ext: "fasta"
                 },
                 {
                     name: "GT-A domain",
-                    dir: "Fasta",
+                    dir: "data/db_files/TempFasta",
                     ext: "fasta"
                 },
                 {
                     name: "Table",
-                    dir: "tables",
+                    dir: "data/db_files/TempTables",
                     ext: "tsv"
                 },
             ]
