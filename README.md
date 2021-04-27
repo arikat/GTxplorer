@@ -7,7 +7,7 @@ This repo includes the GTXplorer web database files and can be downloaded to dep
 ---
 ## Configurations
 
-To change lables, and visibility of the controls, you may edit the `web-react/src/gta.settings.json` file.
+To change labels, and visibility of the controls, you may edit the `web-react/src/gta.settings.json` file.
 
 ------
 
@@ -58,9 +58,8 @@ To change lables, and visibility of the controls, you may edit the `web-react/sr
 
 ## Tutorial
 
-```md
-[![Alt text]Tutorial video](https://www.youtube.com/watch?v=I36ayulfHjM)
-```
+[![Tutorial video](https://img.youtube.com/vi/I36ayulfHjM/0.jpg)](https://www.youtube.com/watch?v=I36ayulfHjM)
+
 
 
 
