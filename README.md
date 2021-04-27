@@ -4,6 +4,8 @@ Server [![Netlify Status](https://api.netlify.com/api/v1/badges/3189882c-cd2a-48
 # GTXplorer: A portal to navigate and visualize the evolutionary information encoded in fold A glycosyltransferases
 This repo includes the GTXplorer web database files and can be downloaded to deploy a local copy of GTXplorer.
 
+![GTXplorer](landing_page.png)
+
 ---
 ## Configurations
 
