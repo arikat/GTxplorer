@@ -53,25 +53,21 @@ export const settings = {
             type: "dropdown",
             visible: true,
             name: "Nr Sequences",
-            options: [{
-                    name: "Alignment",
-                    dir: "aligned_aln",
-                    ext: "aln"
-                },
+            options: [
                 {
                     name: "Full-length seq",
-                    dir: "data/db_files/TempFastaFull",
-                    ext: "fasta"
+                    dir: "data/db_files/FastaFull",
+                    ext: "_nr.full.fasta"
                 },
                 {
                     name: "GT-A domain",
-                    dir: "data/db_files/TempFasta",
-                    ext: "fasta"
+                    dir: "data/db_files/Fasta",
+                    ext: "_nr.fasta"
                 },
                 {
                     name: "Table",
-                    dir: "data/db_files/TempTables",
-                    ext: "tsv"
+                    dir: "data/db_files/Tables",
+                    ext: "_nr.tsv"
                 },
             ]
         },
