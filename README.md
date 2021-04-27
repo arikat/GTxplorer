@@ -58,9 +58,8 @@ To change labels, and visibility of the controls, you may edit the `web-react/sr
 
 ## Tutorial
 
-```md
 [![Tutorial video](https://img.youtube.com/vi/I36ayulfHjM/0.jpg)](https://www.youtube.com/watch?v=I36ayulfHjM)
-```
+
 
 
 
