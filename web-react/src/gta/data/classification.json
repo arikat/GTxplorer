@@ -638,6 +638,7 @@
                         "id": "id3@GT2-Bre3-1",
                         "type": "subfamily",
                         "value": "GT2-Bre3-1",
+                        "uniprot":"Q03562",
                         "SeqNR": "696",
                         "SeqUniProt": "286",
                         "members": [

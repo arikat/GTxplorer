@@ -38,7 +38,7 @@ const useTreeItemStyles = makeStyles(theme => ({
     },
   },
   expanded: {
-  
+
   },
   label: {
     fontWeight: 'inherit',
@@ -59,15 +59,15 @@ const useTreeItemStyles = makeStyles(theme => ({
   },
   iconContainer:
   {
-    width:'15px',
+    width: '15px',
     flexShrink: 'unset',
-    marginRight:4
+    marginRight: 4
   },
   iconContainerLeaf:
   {
-    width:0,
+    width: 0,
     flexShrink: 'unset',
-    marginRight:2
+    marginRight: 2
   }
 }));
 
@@ -85,7 +85,7 @@ const useStyles = makeStyles(theme => ({
 
 function StyledTreeItem(props) {
   const classes = useTreeItemStyles();
-  const { isDark, nodeType, labelText, labelIcon: LabelIcon, labelIconColor, labelInfo, color, bgColor,hasChildren, ...other } = props;
+  const { isDark, nodeType, labelText, labelIcon: LabelIcon, labelIconColor, labelInfo, color, bgColor, hasChildren, ...other } = props;
 
   return (
     <TreeItem
@@ -95,7 +95,7 @@ function StyledTreeItem(props) {
             {labelText}
           </Typography>
           <Typography variant="caption" color="inherit">
-            {labelInfo} 
+            {labelInfo}
           </Typography>
         </div>
       }
@@ -109,7 +109,7 @@ function StyledTreeItem(props) {
         expanded: classes.expanded,
         group: classes.group,
         label: classes.label,
-        iconContainer: hasChildren? classes.iconContainer:classes.iconContainerLeaf
+        iconContainer: hasChildren ? classes.iconContainer : classes.iconContainerLeaf
       }}
       {...other}
     />
@@ -132,43 +132,43 @@ StyledTreeItem.propTypes = {
 //   },
 // });
 
-Object.flatten = function(data) {
+Object.flatten = function (data) {
   var result = {};
-  function recurse (cur, prop) {
-      if (Object(cur) !== cur) {
-          result[prop] = cur;
-      } else if (Array.isArray(cur)) {
-           for(var i=0, l=cur.length; i<l; i++)
-               recurse(cur[i], prop + "[" + i + "]");
-          if (l == 0)
-              result[prop] = [];
-      } else {
-          var isEmpty = true;
-          for (var p in cur) {
-              isEmpty = false;
-              recurse(cur[p], prop ? prop+"."+p : p);
-          }
-          if (isEmpty && prop)
-              result[prop] = {};
+  function recurse(cur, prop) {
+    if (Object(cur) !== cur) {
+      result[prop] = cur;
+    } else if (Array.isArray(cur)) {
+      for (var i = 0, l = cur.length; i < l; i++)
+        recurse(cur[i], prop + "[" + i + "]");
+      if (l == 0)
+        result[prop] = [];
+    } else {
+      var isEmpty = true;
+      for (var p in cur) {
+        isEmpty = false;
+        recurse(cur[p], prop ? prop + "." + p : p);
       }
+      if (isEmpty && prop)
+        result[prop] = {};
+    }
   }
   recurse(data, "");
   return result;
 }
 function KinTreeView(props) {
 
-  const appname= process.env.REACT_APP_NAME;
+  const appname = process.env.REACT_APP_NAME;
   const settings = require(`../${appname}.settings.js`).settings;
   let tree = require(`../${appname}/data/classification.json`);
   if (appname === "kinase") tree = tree[0].concat(tree[1]);
   const rootid = tree[0]["id"]; //const rootid = appname === "kinase" ? "id@PK":"id@GTA";
-  const originalNodes = tree.map((n)=>{n.checked=false;return n;});
+  const originalNodes = tree.map((n) => { n.checked = false; return n; });
   const nodesCopy = JSON.parse(JSON.stringify(originalNodes));
-  
+
   const classes = useStyles();
-  
+
   //const [nodes, setNodes] = React.useState(props.nodes);
-  const [nodes,setNodes] = React.useState(originalNodes);
+  const [nodes, setNodes] = React.useState(originalNodes);
   const [darkKinase] = React.useState(props.darkKinase);
   const [switchOnlyDark, setSwitchOnlyDark] = React.useState(false);
 
@@ -176,12 +176,12 @@ function KinTreeView(props) {
 
   //selecting root as default selected item
   useEffect(() => {
-    let node = originalNodes.filter(x=> x.id === rootid)[0];
-    node.checked=true;    
-    handleNodeClick(node,true);
-  },[nodes]);
+    let node = originalNodes.filter(x => x.id === rootid)[0];
+    node.checked = true;
+    handleNodeClick(node, true);
+  }, [nodes]);
 
-  function handleNodeClick(node,checked) {
+  function handleNodeClick(node, checked) {
     props.onCheckBoxesChanged(node, checked);
   }
   const handleOnlyDark = () => {
@@ -191,11 +191,16 @@ function KinTreeView(props) {
     return props.selectedNodes.filter(n => n.id == node.id).length > 0;
   }
 
-  function handleFilterChange(e,val) {
+  function handleFilterChange(e, val) {
     let filtered;
     if (val) {
       filtered = nodesCopy.filter(function iter(o) {
-        if (o.value.toLowerCase().includes(val.toLowerCase())) {
+ 
+        if (
+          o.value.toLowerCase().includes(val.toLowerCase()) || 
+          (o.uniprot && o.uniprot.toLowerCase().includes(val.toLowerCase()))
+          ) 
+          {
           return true;
         }
         if (!Array.isArray(o.nodes)) {
@@ -223,58 +228,58 @@ function KinTreeView(props) {
       }
     }
 
-if (nodes)    return nodes.map((node, index) => {
-      return <div key={`node-${index}`} style={{ display: 'flex', alignItems: node.nodes.length>0? 'baseline':'center' }}>
+    if (nodes) return nodes.map((node, index) => {
+      return <div key={`node-${index}`} style={{ display: 'flex', alignItems: node.nodes.length > 0 ? 'baseline' : 'center' }}>
         <Checkbox
           id={`checkbox-${node.id}`}
           size='small'
           color="primary"
           checked={checkInSelectedNodes(node)}
-          onChange={(e) => handleNodeClick(node,e.target.checked)}/>
-          <StyledTreeItem nodeId={node.id} labelText={node.value} isDark={node.isDark} nodeType={node.type} hasChildren={node.nodes.length>0} >
-            {children(node.nodes)}
-          </StyledTreeItem>
+          onChange={(e) => handleNodeClick(node, e.target.checked)} />
+        <StyledTreeItem nodeId={node.id} labelText={node.value} isDark={node.isDark} nodeType={node.type} hasChildren={node.nodes.length > 0} >
+          {children(node.nodes)}
+        </StyledTreeItem>
       </div>
     })
   }
 
-  let showOnlyDark='';
-  if (settings.options.some(x=>x.id === "treeview_only_dark"))
-      showOnlyDark = <FormControlLabel style={{width:'max-content'}} label="Only Dark Kinase" control={<Switch checked={switchOnlyDark} onChange={handleOnlyDark} />} />
-  
-  let autoComplete='';
+  let showOnlyDark = '';
+  if (settings.options.some(x => x.id === "treeview_only_dark"))
+    showOnlyDark = <FormControlLabel style={{ width: 'max-content' }} label="Only Dark Kinase" control={<Switch checked={switchOnlyDark} onChange={handleOnlyDark} />} />
+
+  let autoComplete = '';
   if (appname === 'kinase')
     autoComplete = <Autocomplete
-            size="small"
-            //ref={filterInput}
-            id="input-with-icon-grid" 
-            options={switchOnlyDark?darkKinase:originalNodes}
-            getOptionLabel={option => option.value}
-            onInputChange={handleFilterChange}
-            { ...( !switchOnlyDark && { freeSolo: true } ) } 
-            renderInput={params => (
-            <TextField {...params} label={`${switchOnlyDark? "Select Dark Kinaeses":"Search"}`} variant="outlined" style = {{width:170, marginTop:10}}  />
-        )}
-      />
+      size="small"
+      //ref={filterInput}
+      id="input-with-icon-grid"
+      options={switchOnlyDark ? darkKinase : originalNodes}
+      getOptionLabel={option => option.value}
+      onInputChange={handleFilterChange}
+      {...(!switchOnlyDark && { freeSolo: true })}
+      renderInput={params => (
+        <TextField {...params} label={`${switchOnlyDark ? "Select Dark Kinaeses" : "Search"}`} variant="outlined" style={{ width: 170, marginTop: 10 }} />
+      )}
+    />
   else
     autoComplete = <Autocomplete
-            size="small"
-            //ref={filterInput}
-            id="input-with-icon-grid" 
-            options={['']}
-            onInputChange={handleFilterChange}
-            { ...({ freeSolo: true } ) } 
-            renderInput={params => (
-            <TextField {...params} label="Filter" variant="outlined" style = {{width:170, marginTop:10}}  />
-        )}
-      />
-              
+      size="small"
+      //ref={filterInput}
+      id="input-with-icon-grid"
+      options={['']}
+      onInputChange={handleFilterChange}
+      {...({ freeSolo: true })}
+      renderInput={params => (
+        <TextField {...params} label="Filter" variant="outlined" style={{ width: 170, marginTop: 10 }} />
+      )}
+    />
+
 
   return (
 
     <div>
-        {showOnlyDark}
-        {autoComplete}
+      {showOnlyDark}
+      {autoComplete}
 
       {/* <TextField autoFocus ref={filterInput}
           id="input-with-icon-grid" 
