@@ -190,18 +190,24 @@ function KinTreeView(props) {
   function checkInSelectedNodes(node) {
     return props.selectedNodes.filter(n => n.id == node.id).length > 0;
   }
+  function search(node, searchTerm) {
+    if (node.value.toLowerCase().includes(searchTerm.toLowerCase()))
+      return true;
+   
 
-  function handleFilterChange(e, val) {
+    if (node.members && node.members.filter(item => item.toLowerCase().includes(searchTerm.toLowerCase())).length>0)
+    return true;
+
+      return false;
+  }
+  function handleFilterChange(e, searchTerm) {
     let filtered;
-    if (val) {
+    if (searchTerm) {
       filtered = nodesCopy.filter(function iter(o) {
- 
-        if (
-          o.value.toLowerCase().includes(val.toLowerCase()) || 
-          (o.uniprot && o.uniprot.toLowerCase().includes(val.toLowerCase()))
-          ) 
-          {
+
+        if (search(o, searchTerm)) {
           return true;
+        
         }
         if (!Array.isArray(o.nodes)) {
           return false;
@@ -236,7 +242,7 @@ function KinTreeView(props) {
           color="primary"
           checked={checkInSelectedNodes(node)}
           onChange={(e) => handleNodeClick(node, e.target.checked)} />
-        <StyledTreeItem nodeId={node.id} labelText={node.value} isDark={node.isDark} nodeType={node.type} hasChildren={node.nodes.length > 0} >
+        <StyledTreeItem nodeId={node.id} labelText={node.value} isDark={node.isDark} nodeType={node.type} hasChildren={node.nodes.length > 0} members={node.members}>
           {children(node.nodes)}
         </StyledTreeItem>
       </div>

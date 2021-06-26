@@ -1,8 +1,18 @@
 import csv, json
 
-csvPath = 'src/gta/data/GTA_Tree.v2.csv'
-jsonPath = 'src/gta/data/classification.json'
+csvPath = 'web-react/src/gta/data/GTA_Tree.v2.csv'
+jsonPath = 'web-react/src/gta/data/classification.json'
+uniprotIdsPath = 'web-react/src/gta/data/Uniprot_toSeqID.csv'
+numberingCsvPath = 'web-react/src/gta/data/GTView_Numbering.v2.csv'
+numberingJsonPath = 'web-react/src/gta/data/numbering.json'
 root_name = "GTA"
+
+uniprotIds = []
+with open(uniprotIdsPath) as f:
+    reader = csv.DictReader(f)
+    for line in reader:
+        # line is { 'UniprotId': 'Q9CMP0', 'Member': 'Pm-fcbD' }
+        uniprotIds.append(line)
 
 def getvalue(s):
     return s.split('@')[1]
@@ -11,6 +21,15 @@ def getvalue(s):
 def fixProtein(p):
     #return p.split(" ")[0]
     return p # decided to show name with synonym
+def get_members(member_names):
+    members = []
+    for member in member_names:
+        uniprots = [u for u in uniprotIds if u['Member'] in [val for val in member.rsplit("|")]]
+        if len(uniprots)>1:
+            raise Exception("More than one uniprot for " + member)
+        members.append(member + "!" + (uniprots[0]["UniprotId"] if len(uniprots)>0 else "-"))
+    return members
+
 
 def classification_csv_to_json():
     def create_entity(entity_type,value,row):
@@ -22,7 +41,7 @@ def classification_csv_to_json():
                     'SeqNR':row['SeqNR'],
                     'SeqUniProt':row['SeqUniProt'],
                     'path': row['Weblogo'][:-4], 
-                    'members':row['Members'].split(";"),
+                    'members':get_members(row['Members'].split(";")),
                     'nodes': []}
         elif entity_type == "family":
             entity = {'id':"id" + str(idx) + "@" + value, 
@@ -32,7 +51,7 @@ def classification_csv_to_json():
                     'SeqUniProt':row['SeqUniProt'],
                     #'protein':fixProtein(row['Protein']), 
                     'path': row['Weblogo'][:-4],
-                    'members':row['Members'].split(";"),
+                    'members':get_members(row['Members'].split(";")),
                     'nodes': []}
         elif entity_type == "subfamily":
             entity ={'id':"id" + str(idx) + "@" + value,
@@ -40,7 +59,7 @@ def classification_csv_to_json():
                     'value': value,
                     'SeqNR':row['SeqNR'],
                     'SeqUniProt':row['SeqUniProt'],
-                    'members':row['Members'].split(";"),
+                    'members':get_members(row['Members'].split(";")),
                     'path':row['Weblogo'][:-4],
                     'nodes':[]
                     #'path':"{0}_{1}_{2}".format(clade['value'],family['value'],subfamily),
@@ -122,12 +141,9 @@ def prettyjson(cols,jsonPath):
         f_write.write(all_json[:-2] + "}")
 
 def numbering_csv_to_json():
-    csvPath = 'src/gta/data/GTView_Numbering.v2.csv'
-    jsonPath = 'src/gta/data/numbering.json'
-    cols = dict()
-    
+    cols = dict()  
     #Build Columns
-    with open(csvPath) as f:
+    with open(numberingCsvPath) as f:
         csvreader = csv.DictReader(f)
         row = next(csvreader)
         for col in row:
@@ -135,13 +151,13 @@ def numbering_csv_to_json():
         #cols = cols[1:] 
         del cols['Align_Position'] #Remove the first column (alignment)
 
-    with open(csvPath) as f:
+    with open(numberingCsvPath) as f:
         csvreader = csv.DictReader(f)
         for row in csvreader:
             for el in cols:
                 cols.setdefault(el,[]).append(None if not row[el] else int(row[el]))
-    prettyjson(cols,jsonPath)
-    print("Numbering {0} created.".format(jsonPath))
+    prettyjson(cols,numberingJsonPath)
+    print("Numbering {0} created.".format(numberingJsonPath))
 
 
 if __name__ == "__main__":
