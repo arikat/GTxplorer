@@ -71,6 +71,29 @@ export const settings = {
                 },
             ]
         },
+        {
+            id: "uniprot_seq",
+            type: "dropdown",
+            visible: true,
+            name: "Uniprot Sequences",
+            options: [
+                {
+                    name: "Full-length seq",
+                    dir: "data/db_files/FastaFull",
+                    ext: "_uniprot.full.fasta"
+                },
+                {
+                    name: "GT-A domain",
+                    dir: "data/db_files/Fasta",
+                    ext: "_uniprot.fasta"
+                },
+                {
+                    name: "Table",
+                    dir: "data/db_files/Tables",
+                    ext: "_uniprot.tsv"
+                },
+            ]
+        },
       ,
 
     ]
