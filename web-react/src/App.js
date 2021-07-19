@@ -355,13 +355,14 @@ function App() {
   function getCandidateNumbers(node) {
     let numbering = { numberingjson }
     //todo: members[0] should be a dropdown box
-    if (!node || !node.members || node.members.length == 0 || !(node.members[0] in numbering.numberingjson))
+    if (!node || !node.members || node.members.length == 0 || !(node.members[0].split("!")[0] in numbering.numberingjson))
       return null;
 
     let candidates = []
     node.members.forEach(function (n) {
-      if (numbering.numberingjson.hasOwnProperty(n))
-        candidates.push({ "name": n, "value": numbering.numberingjson[n] });
+      const nodeVal = n.split("!")[0]; //do not consider uniprot id that is after "!"
+      if (numbering.numberingjson.hasOwnProperty(nodeVal))
+        candidates.push({ "name": nodeVal, "value": numbering.numberingjson[nodeVal] });
     });
 
     return candidates;
