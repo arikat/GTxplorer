@@ -141,7 +141,16 @@ Rahil Taujale: rtaujale@uga.edu
 
 If you find this tool helpful, please cite:
 
-Rahil Taujale, Saber Soleymani, Amitabh Priyadarshi, Aarya Venkat, Wayland Yeung, Krys Kochut and Natarajan Kannan. **GTXplorer: A portal to navigate and visualize the evolutionary information encoded in fold A glycosyltransferases.** Preprint.
+Taujale, R., Soleymani, S., Priyadarshi, A., Venkat, A., Yeung, W., Kochut, K.J. and Kannan, N., 2021. GTXplorer: A portal to navigate and visualize the evolutionary information encoded in fold A glycosyltransferases. Glycobiology, 31(11), pp.1472-1477.
+
+------
+
+
+## Paper
+
+If you want to read the original paper:
+
+https://academic.oup.com/glycob/article/31/11/1472/6330892
 
 ------
 
